@@ -1,0 +1,31 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "大巴扎中文图鉴"
+			}
+		},
+		{
+			"path": "pages/vanessa/index",
+			"style": {
+				"navigationBarTitleText": "瓦内莎图鉴"
+			}
+		},
+		{
+			"path": "pages/card-detail/index",
+			"style": {
+				"navigationBarTitleText": "卡牌详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "大巴扎中文图鉴",
+		"navigationBarBackgroundColor": "#0F1118",
+		"backgroundColor": "#0F1118",
+		"h5": {
+			"titleNView": false
+		}
+	}
+}

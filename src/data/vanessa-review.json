@@ -1,0 +1,314 @@
+{
+  "summary": {
+    "total": 139,
+    "needsReview": 31,
+    "missingImages": 8,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "hate-leech",
+      "nameZh": "舱底蠕虫",
+      "nameEn": "Hate Leech",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "flame-signal",
+      "nameZh": "篝火",
+      "nameEn": "Flame Signal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "scimitar-of-the-deep",
+      "nameZh": "深海弯刀",
+      "nameEn": "Scimitar of the Deep",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "vampire-squid",
+      "nameZh": "吸血章鱼",
+      "nameEn": "Vampire Squid",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "flying-fish",
+      "nameZh": "飞鱼",
+      "nameEn": "Flying Fish",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "pontoon-skimmer",
+      "nameZh": "浮筒滑翔艇",
+      "nameEn": "Pontoon Skimmer",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "marlon",
+      "nameZh": "马龙鱼",
+      "nameEn": "Marlon",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "jetbike",
+      "nameZh": "喷射摩托",
+      "nameEn": "Jetbike",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "cyber-sai",
+      "nameZh": "赛博铁尺",
+      "nameEn": "Cyber-Sai",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first 2 times you Crit with this each fight, you take no Damage for 1 second.",
+      "textZh": "The first 2 times you Crit 用 此物 每 战斗, 你不受伤害 持续 1 秒."
+    },
+    {
+      "id": "cyber-sai",
+      "nameZh": "赛博铁尺",
+      "nameEn": "Cyber-Sai",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first 3 times you Crit with this each fight, you take no Damage for 1 second.",
+      "textZh": "The first 3 times you Crit 用 此物 每 战斗, 你不受伤害 持续 1 秒."
+    },
+    {
+      "id": "cyber-sai",
+      "nameZh": "赛博铁尺",
+      "nameEn": "Cyber-Sai",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first 4 times you Crit with this each fight, you take no Damage for 1 second.",
+      "textZh": "The first 4 times you Crit 用 此物 每 战斗, 你不受伤害 持续 1 秒."
+    },
+    {
+      "id": "cyber-sai",
+      "nameZh": "赛博铁尺",
+      "nameEn": "Cyber-Sai",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first 5 times you Crit with this each fight, you take no Damage for 1 second.",
+      "textZh": "The first 5 times you Crit 用 此物 每 战斗, 你不受伤害 持续 1 秒."
+    },
+    {
+      "id": "yeti-crab",
+      "nameZh": "雪怪蟹",
+      "nameEn": "Yeti Crab",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Freeze, adjacent Poison items gain +2 Poison for the fight.",
+      "textZh": "当你冻结, adjacent 毒性 物品 获得 +2 毒性 持续整场战斗."
+    },
+    {
+      "id": "yeti-crab",
+      "nameZh": "雪怪蟹",
+      "nameEn": "Yeti Crab",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Freeze, adjacent Poison items gain +4 Poison for the fight.",
+      "textZh": "当你冻结, adjacent 毒性 物品 获得 +4 毒性 持续整场战斗."
+    },
+    {
+      "id": "yeti-crab",
+      "nameZh": "雪怪蟹",
+      "nameEn": "Yeti Crab",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Freeze, adjacent Poison items gain +6 Poison for the fight.",
+      "textZh": "当你冻结, adjacent 毒性 物品 获得 +6 毒性 持续整场战斗."
+    },
+    {
+      "id": "yeti-crab",
+      "nameZh": "雪怪蟹",
+      "nameEn": "Yeti Crab",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Freeze, adjacent Poison items gain +8 Poison for the fight.",
+      "textZh": "当你冻结, adjacent 毒性 物品 获得 +8 毒性 持续整场战斗."
+    },
+    {
+      "id": "javelin",
+      "nameZh": "标枪",
+      "nameEn": "Javelin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Reloaded, it gains +40 damage for the fight",
+      "textZh": "When 此物 is 装填ed, it 获得s +40 伤害 持续整场战斗"
+    },
+    {
+      "id": "javelin",
+      "nameZh": "标枪",
+      "nameEn": "Javelin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Reloaded, it gains +60 damage for the fight",
+      "textZh": "When 此物 is 装填ed, it 获得s +60 伤害 持续整场战斗"
+    },
+    {
+      "id": "javelin",
+      "nameZh": "标枪",
+      "nameEn": "Javelin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Reloaded, it gains +80 damage for the fight",
+      "textZh": "When 此物 is 装填ed, it 获得s +80 伤害 持续整场战斗"
+    },
+    {
+      "id": "hate-leech",
+      "nameZh": "舱底蠕虫",
+      "nameEn": "Hate Leech",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 1.",
+      "textZh": "毒性 你的self 1."
+    },
+    {
+      "id": "hate-leech",
+      "nameZh": "舱底蠕虫",
+      "nameEn": "Hate Leech",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 1.",
+      "textZh": "毒性 你的self 1."
+    },
+    {
+      "id": "hate-leech",
+      "nameZh": "舱底蠕虫",
+      "nameEn": "Hate Leech",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 1.",
+      "textZh": "毒性 你的self 1."
+    },
+    {
+      "id": "seashadow",
+      "nameZh": "海影宝驹",
+      "nameEn": "Seashadow",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce the Cooldown of your other items by 8% for the fight",
+      "textZh": "Reduce the 冷却 of 你的其他物品 by 8% 持续整场战斗"
+    },
+    {
+      "id": "seashadow",
+      "nameZh": "海影宝驹",
+      "nameEn": "Seashadow",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Increase this item's Cooldown by 4 second(s) for the fight",
+      "textZh": "Increase 此物品冷却 by 4 秒 持续整场战斗"
+    },
+    {
+      "id": "seashadow",
+      "nameZh": "海影宝驹",
+      "nameEn": "Seashadow",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce the Cooldown of your other items by 8% for the fight",
+      "textZh": "Reduce the 冷却 of 你的其他物品 by 8% 持续整场战斗"
+    },
+    {
+      "id": "seashadow",
+      "nameZh": "海影宝驹",
+      "nameEn": "Seashadow",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Increase this item's Cooldown by 3 second(s) for the fight",
+      "textZh": "Increase 此物品冷却 by 3 秒 持续整场战斗"
+    },
+    {
+      "id": "seashadow",
+      "nameZh": "海影宝驹",
+      "nameEn": "Seashadow",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce the Cooldown of your other items by 8% for the fight",
+      "textZh": "Reduce the 冷却 of 你的其他物品 by 8% 持续整场战斗"
+    },
+    {
+      "id": "seashadow",
+      "nameZh": "海影宝驹",
+      "nameEn": "Seashadow",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Increase this item's Cooldown by 2 second(s) for the fight",
+      "textZh": "Increase 此物品冷却 by 2 秒 持续整场战斗"
+    },
+    {
+      "id": "musket",
+      "nameZh": "火枪",
+      "nameEn": "Musket",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn with an adjacent item, Reload this and it gains +25 Damage for the fight.",
+      "textZh": "当你燃烧 用 an adjacent 物品, 装填 此物 并且 it 获得s +25 伤害 持续整场战斗."
+    },
+    {
+      "id": "musket",
+      "nameZh": "火枪",
+      "nameEn": "Musket",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn with an adjacent item, Reload this and it gains +50 Damage for the fight.",
+      "textZh": "当你燃烧 用 an adjacent 物品, 装填 此物 并且 it 获得s +50 伤害 持续整场战斗."
+    },
+    {
+      "id": "musket",
+      "nameZh": "火枪",
+      "nameEn": "Musket",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn with an adjacent item, Reload this and it gains +75 Damage for the fight.",
+      "textZh": "当你燃烧 用 an adjacent 物品, 装填 此物 并且 it 获得s +75 伤害 持续整场战斗."
+    },
+    {
+      "id": "card-table",
+      "nameZh": "牌桌",
+      "nameEn": "Card Table",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Increase this item's Cooldown by 1 second(s) for each non-Friend you have for the fight.",
+      "textZh": "Increase 此物品冷却 by 1 秒 你每拥有一个非随从 持续整场战斗."
+    },
+    {
+      "id": "card-table",
+      "nameZh": "牌桌",
+      "nameEn": "Card Table",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Increase this item's Cooldown by 1 second(s) for each non-Friend you have for the fight.",
+      "textZh": "Increase 此物品冷却 by 1 秒 你每拥有一个非随从 持续整场战斗."
+    },
+    {
+      "id": "card-table",
+      "nameZh": "牌桌",
+      "nameEn": "Card Table",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Increase this item's Cooldown by 1 second(s) for each non-Friend you have for the fight.",
+      "textZh": "Increase 此物品冷却 by 1 秒 你每拥有一个非随从 持续整场战斗."
+    },
+    {
+      "id": "silencer",
+      "nameZh": "消音器",
+      "nameEn": "Silencer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have exactly one Weapon, its Cooldown is reduced by 5%.",
+      "textZh": "若你恰好拥有一件武器, its 冷却 减少 5%."
+    },
+    {
+      "id": "silencer",
+      "nameZh": "消音器",
+      "nameEn": "Silencer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have exactly one Weapon, its Cooldown is reduced by 10%.",
+      "textZh": "若你恰好拥有一件武器, its 冷却 减少 10%."
+    },
+    {
+      "id": "silencer",
+      "nameZh": "消音器",
+      "nameEn": "Silencer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have exactly one Weapon, its Cooldown is reduced by 15%.",
+      "textZh": "若你恰好拥有一件武器, its 冷却 减少 15%."
+    },
+    {
+      "id": "spyglass",
+      "nameZh": "侦察望远镜",
+      "nameEn": "Spyglass",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each fight, increase an enemy item's Cooldown by 3 seconds for the fight.",
+      "textZh": "每场战斗开始时, increase 一件敌方物品的冷却 by 3 秒 持续整场战斗."
+    },
+    {
+      "id": "spyglass",
+      "nameZh": "侦察望远镜",
+      "nameEn": "Spyglass",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each fight, increase an enemy item's Cooldown by 6 seconds for the fight.",
+      "textZh": "每场战斗开始时, increase 一件敌方物品的冷却 by 6 秒 持续整场战斗."
+    }
+  ]
+}
