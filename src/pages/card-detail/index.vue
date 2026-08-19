@@ -2,51 +2,104 @@
   <view class="page">
     <app-breadcrumb :items="crumbs" />
 
-    <view class="header-card" v-if="card">
-      <view class="cover-wrap">
-        <image class="cover" :src="coverUrl" mode="aspectFit"></image>
-      </view>
-      <view class="header-copy">
-        <text class="role">{{ hero.titleZh }}</text>
-        <text class="name">{{ card.nameZh }}</text>
-        <text class="name-en">{{ card.nameEn }}</text>
-
-        <view class="chip-row">
-          <text class="chip">{{ card.tierZh }}</text>
-          <text class="chip">{{ card.sizeZh }}</text>
-          <text class="chip">瓦内莎</text>
+    <view v-if="card" class="header-card">
+      <view class="header-main">
+        <view class="cover-wrap">
+          <image class="cover" :src="coverUrl" mode="aspectFit"></image>
         </view>
+        <view class="header-copy">
+          <text class="role">{{ hero.titleZh }} · {{ hero.nameZh }}</text>
+          <text class="name">{{ card.nameZh }}</text>
+          <text class="name-en">{{ card.nameEn }}</text>
 
-        <view class="chip-row">
-          <text v-for="tag in displayTags" :key="tag" class="chip subtle">{{ tag }}</text>
+          <view class="meta-line">
+            <text class="meta-strong">{{ card.tierZh }}</text>
+            <text class="meta-dot">·</text>
+            <text class="meta-text">尺寸：{{ card.sizeZh }}</text>
+            <text v-if="card.dayZh || card.dayLabel" class="meta-dot">·</text>
+            <text v-if="card.dayZh" class="meta-day">{{ card.dayZh }}</text>
+            <text v-else-if="card.dayLabel" class="meta-day">{{ card.dayLabel }}</text>
+          </view>
+
+          <view class="chip-row">
+            <text v-for="tag in displayTags" :key="tag" class="chip">{{ tag }}</text>
+            <text v-if="card.dayLabel" class="chip day">{{ card.dayLabel }}</text>
+          </view>
+
+          <text v-if="card.imageStatus === 'placeholder'" class="warning">
+            当前封面为占位图，源站缺失原始图片。
+          </text>
         </view>
-
-        <text v-if="card.imageStatus === 'placeholder'" class="warning">
-          当前封面为占位图，源站缺失原始图片。
-        </text>
       </view>
     </view>
 
-    <view class="section-card" v-if="card">
-      <text class="section-title">卡牌功能介绍</text>
-      <view v-if="effectList.length" class="effects-list">
-        <view v-for="effect in effectList" :key="effect.tier" class="effect-block">
-          <text class="effect-tier">{{ effect.tierZh }}</text>
-          <text v-for="(line, lineIndex) in effect.lines" :key="`${effect.tier}-${lineIndex}`" class="effect-line">{{ line }}</text>
-        </view>
-      </view>
-      <text v-else class="empty-text">{{ card.detailNoticeZh || card.detailNotice || '暂无可展示的效果说明。' }}</text>
+    <view v-else class="section-card">
+      <text class="empty-text">未找到对应卡牌。</text>
     </view>
 
-    <view class="section-card" v-if="card">
-      <text class="section-title">获取来源</text>
-      <view v-if="sourceList.length" class="source-list">
-        <view v-for="source in sourceList" :key="`${source.name}-${source.description}`" class="source-item">
-          <text class="source-name">{{ source.name }}</text>
-          <text class="source-desc">{{ source.description }}</text>
+    <view v-if="card" class="section-grid">
+      <view class="section-card">
+        <text class="section-title">各品级效果</text>
+        <view v-if="effectList.length" class="effects-list">
+          <view v-for="effect in effectList" :key="effect.tier" class="effect-block">
+            <text class="effect-tier">{{ effect.tierZh }}</text>
+            <text
+              v-for="(line, lineIndex) in effect.lines"
+              :key="`${effect.tier}-${lineIndex}`"
+              class="effect-line"
+            >{{ line }}</text>
+          </view>
+        </view>
+        <text v-else class="empty-text">{{ card.detailNoticeZh || card.detailNotice || '暂无可展示的效果说明。' }}</text>
+      </view>
+
+      <view class="section-card">
+        <view class="section-title-row">
+          <text class="section-title">获取来源</text>
+          <text class="section-sub">商店 / 事件</text>
+        </view>
+
+        <view v-if="shopList.length" class="source-group">
+          <text class="group-title">商店</text>
+          <view class="source-list">
+            <view v-for="source in shopList" :key="`shop-${source.name}`" class="source-item">
+              <text class="source-name">{{ source.name }}</text>
+              <text class="source-desc">{{ source.description }}</text>
+            </view>
+          </view>
+        </view>
+
+        <view v-if="eventList.length" class="source-group">
+          <text class="group-title">出现于战斗事件</text>
+          <view class="source-list">
+            <view v-for="event in eventList" :key="`event-${event.name}`" class="source-item event">
+              <text class="source-name">{{ event.nameZh || event.name }}</text>
+              <text v-if="event.nameZh && event.nameZh !== event.name" class="source-en">{{ event.name }}</text>
+              <text class="source-desc">{{ event.description || '出现于战斗事件' }}</text>
+            </view>
+          </view>
+        </view>
+
+        <text v-if="!shopList.length && !eventList.length" class="empty-text">暂无来源数据。</text>
+      </view>
+    </view>
+
+    <view v-if="card" class="section-card enchant-section">
+      <text class="section-title">附魔变体</text>
+      <view v-if="enchantList.length" class="enchant-grid">
+        <view v-for="enchant in enchantList" :key="enchant.name" class="enchant-item">
+          <view class="enchant-head">
+            <text class="enchant-name">{{ enchant.nameZh || enchant.name }}</text>
+            <text v-if="enchant.nameZh && enchant.nameZh !== enchant.name" class="enchant-en">{{ enchant.name }}</text>
+          </view>
+          <text
+            v-for="(line, lineIndex) in enchant.lines"
+            :key="`${enchant.name}-${lineIndex}`"
+            class="enchant-line"
+          >{{ line }}</text>
         </view>
       </view>
-      <text v-else class="empty-text">暂无来源数据。</text>
+      <text v-else class="empty-text">暂无附魔变体数据。</text>
     </view>
   </view>
 </template>
@@ -81,7 +134,7 @@ export default {
       if (!this.card) {
         return []
       }
-      return this.card.tagsZh && this.card.tagsZh.length ? this.card.tagsZh : this.card.tags
+      return this.card.tagsZh && this.card.tagsZh.length ? this.card.tagsZh : this.card.tags || []
     },
     effectList() {
       if (!this.card || !this.card.effects) {
@@ -92,13 +145,28 @@ export default {
         lines: effect.linesZh && effect.linesZh.length ? effect.linesZh : effect.lines || [],
       }))
     },
-    sourceList() {
+    shopList() {
       if (!this.card || !this.card.sources) {
         return []
       }
       return this.card.sources.map((source) => ({
         ...source,
         description: source.descriptionZh || source.description || '',
+      }))
+    },
+    eventList() {
+      if (!this.card || !this.card.events) {
+        return []
+      }
+      return this.card.events
+    },
+    enchantList() {
+      if (!this.card || !this.card.enchantments) {
+        return []
+      }
+      return this.card.enchantments.map((enchant) => ({
+        ...enchant,
+        lines: enchant.linesZh && enchant.linesZh.length ? enchant.linesZh : enchant.lines || [],
       }))
     },
   },
@@ -125,6 +193,11 @@ export default {
 
 .header-card {
   overflow: hidden;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
 }
 
 .cover-wrap {
@@ -163,10 +236,44 @@ export default {
 .warning,
 .effect-line,
 .source-desc,
-.empty-text {
+.source-en,
+.enchant-line,
+.enchant-en,
+.empty-text,
+.meta-text,
+.section-sub {
   font-size: 24rpx;
   line-height: 1.7;
   color: #bac4da;
+}
+
+.source-en,
+.enchant-en {
+  font-size: 22rpx;
+  color: #8f9ab3;
+}
+
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8rpx;
+}
+
+.meta-strong {
+  font-size: 26rpx;
+  font-weight: 600;
+  color: #f3cf92;
+}
+
+.meta-dot {
+  color: #6f7891;
+  font-size: 22rpx;
+}
+
+.meta-day {
+  font-size: 24rpx;
+  color: #f5d39a;
 }
 
 .warning {
@@ -187,13 +294,31 @@ export default {
   font-size: 22rpx;
 }
 
-.subtle {
-  color: #cfd6e8;
+.chip.day {
+  background: rgba(245, 188, 89, 0.14);
+  color: #f5d39a;
+}
+
+.section-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+  margin-top: 24rpx;
 }
 
 .section-card {
-  margin-top: 24rpx;
   padding: 28rpx;
+}
+
+.enchant-section {
+  margin-top: 24rpx;
+}
+
+.section-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12rpx;
+  margin-bottom: 18rpx;
 }
 
 .section-title {
@@ -201,6 +326,21 @@ export default {
   margin-bottom: 18rpx;
   font-size: 30rpx;
   font-weight: 700;
+}
+
+.section-title-row .section-title {
+  margin-bottom: 0;
+}
+
+.source-group + .source-group {
+  margin-top: 24rpx;
+}
+
+.group-title {
+  display: block;
+  margin-bottom: 14rpx;
+  font-size: 24rpx;
+  color: #9aa6c0;
 }
 
 .effects-list,
@@ -211,7 +351,8 @@ export default {
 }
 
 .effect-block,
-.source-item {
+.source-item,
+.enchant-item {
   display: flex;
   flex-direction: column;
   gap: 8rpx;
@@ -220,17 +361,60 @@ export default {
   background: #1c2230;
 }
 
+.source-item.event {
+  border: 1rpx solid rgba(245, 188, 89, 0.18);
+}
+
 .effect-tier,
-.source-name {
+.source-name,
+.enchant-name {
   font-size: 26rpx;
   font-weight: 600;
   color: #f3cf92;
 }
 
+.enchant-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10rpx;
+}
+
+.enchant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280rpx, 1fr));
+  gap: 16rpx;
+}
+
 /* #ifdef H5 */
 .cover {
-  max-width: 360px;
-  height: 240px;
+  max-width: 220px;
+  height: 160px;
+}
+
+@media (min-width: 900px) {
+  .header-main {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .cover-wrap {
+    width: 240px;
+    flex-shrink: 0;
+    padding: 24px;
+    align-items: flex-start;
+  }
+
+  .cover {
+    max-width: 100%;
+    height: 180px;
+  }
+
+  .section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24rpx;
+  }
 }
 /* #endif */
 </style>

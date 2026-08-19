@@ -8,7 +8,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from zh_translate import translate_en_to_zh, translate_tags
+from zh_translate import (
+    translate_en_to_zh,
+    translate_enchant_name,
+    translate_event_name,
+    translate_tags,
+)
 
 DATA_PATH = ROOT / "src" / "data" / "vanessa-cards.json"
 REVIEW_PATH = ROOT / "src" / "data" / "vanessa-review.json"
@@ -51,6 +56,7 @@ def main() -> None:
             effect["lines"] = lines_zh
 
         for source in card.get("sources") or []:
+            source.setdefault("type", "shop")
             desc_en = source.get("descriptionEn") or source.get("description") or ""
             zh = cache.get(desc_en) or translate_en_to_zh(desc_en)
             cache[desc_en] = zh
@@ -67,6 +73,34 @@ def main() -> None:
                         "textZh": zh,
                     }
                 )
+
+        for event in card.get("events") or []:
+            event.setdefault("type", "event")
+            event["nameZh"] = translate_event_name(event.get("name") or "")
+            event["descriptionZh"] = "出现于战斗事件"
+            event["description"] = event["descriptionZh"]
+
+        for enchant in card.get("enchantments") or []:
+            enchant["nameZh"] = translate_enchant_name(enchant.get("name") or "")
+            lines_en = enchant.get("linesEn") or []
+            lines_zh = []
+            for line in lines_en:
+                zh = cache.get(line) or translate_en_to_zh(line)
+                cache[line] = zh
+                lines_zh.append(zh)
+                if still_english(zh):
+                    remaining.append(
+                        {
+                            "id": card["id"],
+                            "nameZh": card["nameZh"],
+                            "nameEn": card["nameEn"],
+                            "issue": "enchant_needs_manual_zh",
+                            "textEn": line,
+                            "textZh": zh,
+                        }
+                    )
+            enchant["linesZh"] = lines_zh
+            enchant["lines"] = lines_zh
 
         notice = card.get("detailNotice") or ""
         if notice:

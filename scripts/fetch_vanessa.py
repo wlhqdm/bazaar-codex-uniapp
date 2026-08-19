@@ -9,7 +9,12 @@ from urllib.request import Request, urlopen
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from zh_translate import translate_en_to_zh, translate_tags
+from zh_translate import (
+    translate_en_to_zh,
+    translate_enchant_name,
+    translate_event_name,
+    translate_tags,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,13 +29,17 @@ CARD_PATTERN = re.compile(
     r'<a class="card[^"]*" href="/item/(?P<slug>[^"]+)">'
     r'.*?<img src="(?P<image>[^"]+)" alt="(?P<nameZh>[^"]+)"'
     r'.*?<span class="absolute top-1 left-1 chip text-\[10px\] tier-(?P<tier>[A-Za-z]+) bg-black/60">(?P<tierZh>.*?)</span>'
-    r'.*?<div class="font-medium text-sm leading-tight group-hover:text-amber-300 truncate">(?P<nameZhText>.*?)</div>'
+    r'(?P<headerExtras>.*?)'
+    r'<div class="font-medium text-sm leading-tight group-hover:text-amber-300 truncate">(?P<nameZhText>.*?)</div>'
     r'.*?<div class="text-\[11px\] text-\[var\(--text-dim\)\] truncate">(?P<nameEn>.*?)</div>'
     r'.*?<div class="flex items-center gap-1 flex-wrap mt-1.5">(?P<tags>.*?)</div>'
     r"</div></a>",
     re.S,
 )
 TAG_PATTERN = re.compile(r"<span class=\"chip text-\[10px\]\">(.*?)</span>")
+DAY_BADGE_PATTERN = re.compile(r">D<!-- -->(?P<day>\d+)<!-- -->\+<")
+DAY_SUPPLEMENT_PATTERN = re.compile(r'title="数据补充：来自社区牌组反推"[^>]*>补</span>')
+DETAIL_DAY_PATTERN = re.compile(r"第 <!-- -->(?P<day>\d+)<!-- --> 天起可获得")
 DETAIL_EFFECTS_PATTERN = re.compile(
     r'<section class="card p-5"><h2 class="text-base font-semibold mb-3">.*?</h2><div class="space-y-3">(?P<body>.*?)</div></section>',
     re.S,
@@ -48,7 +57,26 @@ DETAIL_SOURCE_ITEM_PATTERN = re.compile(
     r'<li class="flex items-baseline gap-2"><span class="font-medium text-amber-200 shrink-0">(.*?)</span><span class="text-\[var\(--text-dim\)\] text-xs">(.*?)</span></li>',
     re.S,
 )
+DETAIL_EVENT_PATTERN = re.compile(
+    r'<h3 class="text-sm font-semibold mt-4 mb-2">出现于战斗事件</h3>'
+    r'<ul class="text-sm space-y-1 text-\[var\(--text-dim\)\]">(?P<body>.*?)</ul>',
+    re.S,
+)
+DETAIL_EVENT_ITEM_PATTERN = re.compile(r"<li>(.*?)</li>")
+DETAIL_ENCHANT_PATTERN = re.compile(
+    r'<section class="card p-5 mt-6"><h2 class="text-base font-semibold mb-3">附魔变体</h2>'
+    r'<div class="grid[^"]*">(?P<body>.*?)</div></section>',
+    re.S,
+)
+DETAIL_ENCHANT_BLOCK_PATTERN = re.compile(
+    r'<div class="bg-\[var\(--bg-soft\)\] rounded p-3 border border-\[var\(--border\)\]">'
+    r'<div class="font-medium text-amber-200 mb-1">(?P<name>.*?)</div>'
+    r'<ul class="text-xs space-y-0\.5 text-\[var\(--text\)\]">(?P<items>.*?)</ul></div>',
+    re.S,
+)
+DETAIL_ENCHANT_LINE_PATTERN = re.compile(r"<li>(.*?)</li>")
 DETAIL_TEXT_BLOCK_PATTERN = re.compile(r'<div class="text-sm text-\[var\(--text-dim\)\]">(.*?)</div>')
+SIZE_EN = {"小": "Small", "中": "Medium", "大": "Large"}
 
 TRANSLATE_CACHE_PATH = DATA_DIR / "translation-cache.json"
 
@@ -95,11 +123,45 @@ def svg_placeholder(title: str, subtitle: str) -> str:
 </svg>"""
 
 
+def parse_day_fields(header_html: str, fallback_day: int | None = None) -> dict:
+    day_match = DAY_BADGE_PATTERN.search(header_html or "")
+    if day_match:
+        day = int(day_match.group("day"))
+        return {
+            "day": day,
+            "dayLabel": f"D{day}+",
+            "dayZh": f"第{day}天起可获得",
+            "dayStatus": "official",
+        }
+    if DAY_SUPPLEMENT_PATTERN.search(header_html or ""):
+        return {
+            "day": None,
+            "dayLabel": "补",
+            "dayZh": "数据补充",
+            "dayStatus": "community",
+        }
+    if fallback_day is not None:
+        return {
+            "day": fallback_day,
+            "dayLabel": f"D{fallback_day}+",
+            "dayZh": f"第{fallback_day}天起可获得",
+            "dayStatus": "official",
+        }
+    return {
+        "day": None,
+        "dayLabel": "",
+        "dayZh": "",
+        "dayStatus": "unknown",
+    }
+
+
 def parse_cards(html: str) -> list[dict]:
     cards: list[dict] = []
     for index, match in enumerate(CARD_PATTERN.finditer(html), start=1):
         tags = [clean(tag) for tag in TAG_PATTERN.findall(match.group("tags"))]
         size_zh = tags[0] if tags else ""
+        type_tags = tags[1:] if len(tags) > 1 else []
+        day_fields = parse_day_fields(match.group("headerExtras"))
         cards.append(
             {
                 "id": match.group("slug"),
@@ -113,9 +175,11 @@ def parse_cards(html: str) -> list[dict]:
                 "remoteImage": match.group("image"),
                 "tier": match.group("tier"),
                 "tierZh": clean(match.group("tierZh")),
+                "size": SIZE_EN.get(size_zh, ""),
                 "sizeZh": size_zh,
-                "tags": tags[1:] if len(tags) > 1 else [],
-                "tagsZh": translate_tags(tags[1:] if len(tags) > 1 else []),
+                "tags": type_tags,
+                "tagsZh": translate_tags(type_tags),
+                **day_fields,
                 "sourceStatus": "site_official_zh",
                 "notes": "中文名为公开图鉴站标注的官方简体；效果说明为本站初版中文，后续可手动校对。",
             }
@@ -129,8 +193,15 @@ def parse_detail(card: dict) -> dict:
         "pageUrl": ITEM_URL_TEMPLATE.format(slug=card["slug"]),
         "effects": [],
         "sources": [],
+        "events": [],
+        "enchantments": [],
         "detailNotice": "",
+        "day": None,
     }
+
+    day_match = DETAIL_DAY_PATTERN.search(html)
+    if day_match:
+        detail["day"] = int(day_match.group("day"))
 
     effects_match = DETAIL_EFFECTS_PATTERN.search(html)
     if effects_match:
@@ -161,6 +232,7 @@ def parse_detail(card: dict) -> dict:
         if source_items:
             detail["sources"] = [
                 {
+                    "type": "shop",
                     "name": clean(name),
                     "descriptionEn": clean(description),
                     "descriptionZh": "",  # filled during enrichment
@@ -172,17 +244,52 @@ def parse_detail(card: dict) -> dict:
             if text_match and not detail["detailNotice"]:
                 detail["detailNotice"] = clean(text_match.group(1))
 
+        event_match = DETAIL_EVENT_PATTERN.search(source_body)
+        if event_match:
+            detail["events"] = [
+                {
+                    "type": "event",
+                    "name": clean(name),
+                    "nameZh": clean(name),
+                    "descriptionEn": "Appears in combat event",
+                    "descriptionZh": "出现于战斗事件",
+                }
+                for name in DETAIL_EVENT_ITEM_PATTERN.findall(event_match.group("body"))
+            ]
+
+    enchant_match = DETAIL_ENCHANT_PATTERN.search(html)
+    if enchant_match:
+        for name, items_html in DETAIL_ENCHANT_BLOCK_PATTERN.findall(enchant_match.group("body")):
+            lines_en = [clean(item) for item in DETAIL_ENCHANT_LINE_PATTERN.findall(items_html)]
+            detail["enchantments"].append(
+                {
+                    "name": clean(name),
+                    "nameZh": "",
+                    "linesEn": lines_en,
+                    "linesZh": [],
+                }
+            )
+
     return detail
 
 
 def enrich_cards(cards: list[dict]) -> None:
-    cache: dict[str, str] = {}
+    cache = load_translate_cache()
     for card in cards:
         detail = parse_detail(card)
         card["detailUrl"] = detail["pageUrl"]
         card["effects"] = detail["effects"]
         card["sources"] = detail["sources"]
+        card["events"] = detail["events"]
+        card["enchantments"] = detail["enchantments"]
         card["detailNotice"] = detail["detailNotice"]
+
+        if detail.get("day") is not None and card.get("dayStatus") != "community":
+            day = detail["day"]
+            card["day"] = day
+            card["dayLabel"] = f"D{day}+"
+            card["dayZh"] = f"第{day}天起可获得"
+            card["dayStatus"] = "official"
 
         for effect in card.get("effects", []):
             lines_en = effect.get("linesEn", []) or []
@@ -200,6 +307,22 @@ def enrich_cards(cards: list[dict]) -> None:
             cache[desc_en] = zh
             source["descriptionZh"] = zh
             source["description"] = zh
+
+        for event in card.get("events", []):
+            event["nameZh"] = translate_event_name(event.get("name") or "")
+            event["descriptionZh"] = "出现于战斗事件"
+            event["description"] = event["descriptionZh"]
+
+        for enchant in card.get("enchantments", []):
+            enchant["nameZh"] = translate_enchant_name(enchant.get("name") or "")
+            lines_en = enchant.get("linesEn", []) or []
+            lines_zh = []
+            for line in lines_en:
+                zh = cache.get(line) or translate_en_to_zh(line)
+                cache[line] = zh
+                lines_zh.append(zh)
+            enchant["linesZh"] = lines_zh
+            enchant["lines"] = lines_zh
 
         if card.get("detailNotice"):
             zh = cache.get(card["detailNotice"]) or translate_en_to_zh(card["detailNotice"])

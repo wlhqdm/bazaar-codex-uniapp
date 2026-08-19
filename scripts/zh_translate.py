@@ -4,6 +4,149 @@ import re
 
 
 PHRASES: list[tuple[str, str]] = [
+    ("this item is immune to freeze, slow and destroy.", "此物品免疫冻结、减速与摧毁。"),
+    ("this has double damage bonus and double cooldown reduction.", "此物伤害加成与冷却缩减均翻倍。"),
+    ("this has double crit chance bonus.", "此物暴击几率加成翻倍。"),
+    ("this has double damage bonus.", "此物伤害加成翻倍。"),
+    ("this has double charge amount.", "此物充能数值翻倍。"),
+    ("this has +1 multicast.", "此物获得 +1 多重施放。"),
+    ("this has +50% crit chance.", "此物获得 +50% 暴击几率。"),
+    ("this has double damage.", "此物伤害翻倍。"),
+    ("this has double value.", "此物价值翻倍。"),
+    ("this hastes for twice as long.", "此物施加的迅捷持续时间翻倍。"),
+    ("this slows for twice as long.", "此物施加的减速持续时间翻倍。"),
+    ("this freezes for twice as long.", "此物施加的冻结持续时间翻倍。"),
+    ("adjacent items are affected by freeze and slow for half as long.", "相邻物品受到的冻结与减速持续时间减半。"),
+    ("the weapon to the right of this is affected by freeze and slow for half as long.", "此物右侧武器受到的冻结与减速持续时间减半。"),
+    ("the weapon to the left of this is affected by freeze and slow for half as long.", "此物左侧武器受到的冻结与减速持续时间减半。"),
+    ("your items are affected by freeze and slow for half as long.", "你的物品受到的冻结与减速持续时间减半。"),
+    ("when you crit with an adjacent item, slow 2 item for 1 second(s).", "当你用相邻物品暴击时，减速 2 个物品，持续 1 秒。"),
+    ("when you crit with an adjacent item, freeze 2 item for 0.5 second(s).", "当你用相邻物品暴击时，冻结 2 个物品，持续 0.5 秒。"),
+    ("when you crit with an adjacent item, haste 2 item for 1 second(s).", "当你用相邻物品暴击时，迅捷 2 个物品，持续 1 秒。"),
+    ("when you crit with an adjacent item, slow an item for 2 second(s).", "当你用相邻物品暴击时，减速 1 个物品，持续 2 秒。"),
+    ("when you crit with an adjacent item, freeze an item for 1 second(s).", "当你用相邻物品暴击时，冻结 1 个物品，持续 1 秒。"),
+    ("when you crit with an adjacent item, haste an item for 2 second(s).", "当你用相邻物品暴击时，迅捷 1 个物品，持续 2 秒。"),
+    ("when you crit with an adjacent item, shield 40.", "当你用相邻物品暴击时，获得 40 护盾。"),
+    ("when you crit with an adjacent item, heal 40.", "当你用相邻物品暴击时，治疗 40。"),
+    ("when you crit with an adjacent item, poison 4.", "当你用相邻物品暴击时，施加 4 毒性。"),
+    ("when you crit with an adjacent item, burn 4.", "当你用相邻物品暴击时，施加 4 燃烧。"),
+    ("when you crit with an adjacent item, deal 40 damage.", "当你用相邻物品暴击时，造成 40 伤害。"),
+    ("when you use an adjacent shield item, it gains +12 shield for the fight.", "当你使用相邻护盾物品时，其本场战斗获得 +12 护盾。"),
+    ("when you use an adjacent heal item, it gains +12 heal for the fight.", "当你使用相邻治疗物品时，其本场战斗获得 +12 治疗。"),
+    ("when you use an adjacent poison item, it gains +1 poison for the fight.", "当你使用相邻毒性物品时，其本场战斗获得 +1 毒性。"),
+    ("when you use an adjacent burn item, it gains +1 burn for the fight.", "当你使用相邻燃烧物品时，其本场战斗获得 +1 燃烧。"),
+    ("when you use the ammo item to the right of this, shield 10.", "当你使用此物右侧的弹药物品时，获得 10 护盾。"),
+    ("when you use the ammo item to the right of this, heal 10.", "当你使用此物右侧的弹药物品时，治疗 10。"),
+    ("when you use the ammo item to the right of this, poison 1.", "当你使用此物右侧的弹药物品时，施加 1 毒性。"),
+    ("when you use the ammo item to the right of this, burn 1.", "当你使用此物右侧的弹药物品时，施加 1 燃烧。"),
+    ("when you use the ammo item to the right of this, deal 10 damage.", "当你使用此物右侧的弹药物品时，造成 10 伤害。"),
+    ("the ammo item to the right of this gains +25% crit chance for the fight", "此物右侧的弹药物品本场战斗获得 +25% 暴击几率"),
+    ("adjacent friends have +50% crit chance.", "相邻随从获得 +50% 暴击几率。"),
+    ("shield 10 for each aquatic or toy item you have", "你每拥有一件水生或玩具物品，获得 10 护盾"),
+    ("heal 15 for each aquatic or toy item you have", "你每拥有一件水生或玩具物品，治疗 15"),
+    ("poison 1 for each aquatic or toy item you have", "你每拥有一件水生或玩具物品，施加 1 毒性"),
+    ("burn 1 for each aquatic or toy item you have", "你每拥有一件水生或玩具物品，施加 1 燃烧"),
+    ("deal 10 damage for each aquatic or toy item you have", "你每拥有一件水生或玩具物品，造成 10 伤害"),
+    ("this has double max ammo bonus.", "此物最大弹药加成翻倍。"),
+    ("adjacent ammo items have +25% crit chance.", "相邻弹药物品获得 +25% 暴击几率。"),
+    ("adjacent ammo items have +40% crit chance.", "相邻弹药物品获得 +40% 暴击几率。"),
+    ("adjacent ammo items are affected by freeze and slow for half as long.", "相邻弹药物品受到的冻结与减速持续时间减半。"),
+    ("adjacent weapons have +20 damage.", "相邻武器获得 +20 伤害。"),
+    ("if both adjacent items are aquatic, they have 50% crit chance.", "若两侧相邻物品均为水生，则它们获得 50% 暴击几率。"),
+    ("adjacent aquatic items have +25% crit chance.", "相邻水生物品获得 +25% 暴击几率。"),
+    ("the first time you fall below half health each fight, slow 4 items for 4 second(s).", "每场战斗首次生命降至一半以下时，减速 4 个物品，持续 4 秒。"),
+    ("the first time you fall below half health each fight, freeze 2 items for 4 second(s).", "每场战斗首次生命降至一半以下时，冻结 2 个物品，持续 4 秒。"),
+    ("the first time you fall below half health each fight, haste 4 items for 4 second(s).", "每场战斗首次生命降至一半以下时，迅捷 4 个物品，持续 4 秒。"),
+    ("the first time you fall below half health each fight, heal equal to 10% of your max health.", "每场战斗首次生命降至一半以下时，治疗量等于你最大生命值的 10%。"),
+    ("this has double xp bonus.", "此物经验加成翻倍。"),
+    ("when you use an item from another hero, slow an item for 2 second(s).", "当你使用来自其他英雄的物品时，减速 1 个物品，持续 2 秒。"),
+    ("when you use an item from another hero, freeze an item for 1 second(s).", "当你使用来自其他英雄的物品时，冻结 1 个物品，持续 1 秒。"),
+    ("when you use an item from another hero, haste it for 2 second(s).", "当你使用来自其他英雄的物品时，对其施加迅捷，持续 2 秒。"),
+    ("when you use an item from another hero, shield 20.", "当你使用来自其他英雄的物品时，获得 20 护盾。"),
+    ("when you use an item from another hero, heal 20.", "当你使用来自其他英雄的物品时，治疗 20。"),
+    ("when you use an item from another hero, poison 2.", "当你使用来自其他英雄的物品时，施加 2 毒性。"),
+    ("when you use an item from another hero, burn 2.", "当你使用来自其他英雄的物品时，施加 2 燃烧。"),
+    ("when you use an item from another hero, deal 20 damage.", "当你使用来自其他英雄的物品时，造成 20 伤害。"),
+    ("your items from other heroes are affected by freeze and slow for half as long.", "你来自其他英雄的物品受到的冻结与减速持续时间减半。"),
+    ("this has double bonus damage and double cooldown reduction.", "此物伤害加成与冷却缩减均翻倍。"),
+    ("shield 20 for each non-weapon item you have", "你每拥有一件非武器物品，获得 20 护盾"),
+    ("heal 20 for each non-weapon item you have", "你每拥有一件非武器物品，治疗 20"),
+    ("poison 2 for each non-weapon item you have", "你每拥有一件非武器物品，施加 2 毒性"),
+    ("burn 2 for each non-weapon item you have", "你每拥有一件非武器物品，施加 2 燃烧"),
+    ("deal 20 damage for each non-weapon item you have", "你每拥有一件非武器物品，造成 20 伤害"),
+    ("your non-weapon items gain +30% crit chance for the fight", "本场战斗中，你的非武器物品获得 +30% 暴击几率"),
+    ("your weapons have double crit damage.", "你的武器造成双倍暴击伤害。"),
+    ("if you have two or fewer weapons, they have lifesteal.", "若你拥有两件或更少武器，则它们拥有生命偷取。"),
+    ("your weapons are affected by freeze and slow for half as long.", "你的武器受到的冻结与减速持续时间减半。"),
+    ("enemy items have -50% crit chance.", "敌人物品的暴击几率 -50%。"),
+    ("shield equal to triple this item's damage", "获得护盾，数值为此物品伤害的三倍"),
+    ("heal equal to triple this item's damage", "治疗量等于此物品伤害的三倍"),
+    ("slow all enemy items for 3 second(s)", "减速全部敌人物品，持续 3 秒"),
+    ("freeze all enemy items for 1 second(s)", "冻结全部敌人物品，持续 1 秒"),
+    ("this has double charge.", "此物充能翻倍。"),
+    ("adjacent friends have +1 multicast.", "相邻随从获得 +1 多重施放。"),
+    ("shield 10 for each unique type you have", "你每拥有一种独特类型，获得 10 护盾"),
+    ("heal 10 for each unique type you have", "你每拥有一种独特类型，治疗 10"),
+    ("poison 1 for each unique type you have", "你每拥有一种独特类型，施加 1 毒性"),
+    ("burn 1 for each unique type you have", "你每拥有一种独特类型，施加 1 燃烧"),
+    ("deal 10 damage for each each unique type you have", "你每拥有一种独特类型，造成 10 伤害"),
+    ("your items have +5% crit chance for each unique type you have.", "你每拥有一种独特类型，物品获得 +5% 暴击几率。"),
+    ("the first time you use an item each fight, slow all enemy items for 1 second(s).", "每场战斗首次使用物品时，减速全部敌人物品，持续 1 秒。"),
+    ("the first time you use an item each fight, freeze all enemy items for 0.5 second(s).", "每场战斗首次使用物品时，冻结全部敌人物品，持续 0.5 秒。"),
+    ("the first time you use an item each fight, haste all your items for 1 second(s).", "每场战斗首次使用物品时，迅捷你的全部物品，持续 1 秒。"),
+    ("the first time you use an item each fight, shield equal to 20% of your max health.", "每场战斗首次使用物品时，获得等于最大生命值 20% 的护盾。"),
+    ("the first time you use an item each fight, heal equal to 20% of your max health.", "每场战斗首次使用物品时，治疗量等于最大生命值的 20%。"),
+    ("the first time you use an item each fight, poison equal to 5% of your max health.", "每场战斗首次使用物品时，施加等于最大生命值 5% 的毒性。"),
+    ("the first time you use an item each fight, burn equal to 5% of your max health.", "每场战斗首次使用物品时，施加等于最大生命值 5% 的燃烧。"),
+    ("the first time you use an item each fight, it gains +100% crit chance for the fight.", "每场战斗首次使用物品时，该物品本场战斗获得 +100% 暴击几率。"),
+    ("the first time you use an item each fight, deal damage equal to 20% of your max health.", "每场战斗首次使用物品时，造成等于最大生命值 20% 的伤害。"),
+    ("you can use an item a second time instead.", "你可以改为再使用一次物品。"),
+    ("at the start of each fight, your items become immune to freeze, slow and destroy for 6 seconds.", "每场战斗开始时，你的物品免疫冻结、减速与摧毁，持续 6 秒。"),
+    ("at the start of each fight, your other small items become immune to freeze, slow and destroy for 6 seconds.", "每场战斗开始时，你的其他小型物品免疫冻结、减速与摧毁，持续 6 秒。"),
+    ("at the start of each fight, slow 2 enemy items for 2 second(s).", "每场战斗开始时，减速 2 个敌人物品，持续 2 秒。"),
+    ("this hastes twice.", "此物施加两次迅捷。"),
+    ("this has double multicast bonus.", "此物多重施放加成翻倍。"),
+    ("your aquatic items are affected by freeze and slow for half as long.", "你的水生物品受到的冻结与减速持续时间减半。"),
+    ("the item to the right of this is affected by freeze and slow for half as long.", "此物右侧物品受到的冻结与减速持续时间减半。"),
+    ("this has double damage bonus", "此物伤害加成翻倍"),
+    ("this has half slow duration.", "此物减速持续时间减半。"),
+    ("adjacent shield items have +20 shield.", "相邻护盾物品获得 +20 护盾。"),
+    ("adjacent poison items have +3 poison.", "相邻毒性物品获得 +3 毒性。"),
+    ("adjacent burn items have +2 burn.", "相邻燃烧物品获得 +2 燃烧。"),
+    ("the weapon to the right of this has + damage equal to its crit chance.", "此物右侧武器获得等于其暴击几率的额外伤害。"),
+    ("when you use an ammo item, slow an item for 1 second(s)", "当你使用弹药物品时，减速 1 个物品，持续 1 秒"),
+    ("when yo uuse an ammo item, slow an item for 1 second(s)", "当你使用弹药物品时，减速 1 个物品，持续 1 秒"),
+    ("poison yourself 1.", "对自己施加 1 毒性。"),
+    ("reduce the cooldown of your other items by 8% for the fight", "本场战斗中，你的其他物品冷却缩短 8%"),
+    ("increase this item's cooldown by 1 second(s) for each non-friend you have for the fight.", "本场战斗中，你每拥有一个非随从，此物冷却增加 1 秒。"),
+    ("increase this item's cooldown by 4 second(s) for the fight", "本场战斗中，此物冷却增加 4 秒"),
+    ("increase this item's cooldown by 3 second(s) for the fight", "本场战斗中，此物冷却增加 3 秒"),
+    ("increase this item's cooldown by 2 second(s) for the fight", "本场战斗中，此物冷却增加 2 秒"),
+    ("when you freeze, adjacent poison items gain +2 poison for the fight.", "当你冻结时，相邻毒性物品本场战斗获得 +2 毒性。"),
+    ("when you freeze, adjacent poison items gain +4 poison for the fight.", "当你冻结时，相邻毒性物品本场战斗获得 +4 毒性。"),
+    ("when you freeze, adjacent poison items gain +6 poison for the fight.", "当你冻结时，相邻毒性物品本场战斗获得 +6 毒性。"),
+    ("when you freeze, adjacent poison items gain +8 poison for the fight.", "当你冻结时，相邻毒性物品本场战斗获得 +8 毒性。"),
+    ("when this is reloaded, it gains +40 damage for the fight", "当此物被装填时，本场战斗获得 +40 伤害"),
+    ("when this is reloaded, it gains +60 damage for the fight", "当此物被装填时，本场战斗获得 +60 伤害"),
+    ("when this is reloaded, it gains +80 damage for the fight", "当此物被装填时，本场战斗获得 +80 伤害"),
+    ("when you burn with an adjacent item, reload this and it gains +25 damage for the fight.", "当你用相邻物品施加燃烧时，装填此物，并使其本场战斗获得 +25 伤害。"),
+    ("when you burn with an adjacent item, reload this and it gains +50 damage for the fight.", "当你用相邻物品施加燃烧时，装填此物，并使其本场战斗获得 +50 伤害。"),
+    ("when you burn with an adjacent item, reload this and it gains +75 damage for the fight.", "当你用相邻物品施加燃烧时，装填此物，并使其本场战斗获得 +75 伤害。"),
+    ("...and enchant the item with golden if able.", "……并尽可能为该物品附加金色附魔。"),
+    ("...and enchant the item with heavy if able.", "……并尽可能为该物品附加沉重附魔。"),
+    ("...and enchant the item with icy if able.", "……并尽可能为该物品附加冰冷附魔。"),
+    ("...and enchant the item with turbo if able.", "……并尽可能为该物品附加涡轮附魔。"),
+    ("...and enchant the item with shielded if able.", "……并尽可能为该物品附加护盾附魔。"),
+    ("...and enchant the item with restorative if able.", "……并尽可能为该物品附加恢复附魔。"),
+    ("...and enchant the item with toxic if able.", "……并尽可能为该物品附加剧毒附魔。"),
+    ("...and enchant the item with fiery if able.", "……并尽可能为该物品附加炽热附魔。"),
+    ("...and enchant the item with shiny if able.", "……并尽可能为该物品附加闪亮附魔。"),
+    ("...and enchant the item with deadly if able.", "……并尽可能为该物品附加致命附魔。"),
+    ("...and enchant the item with radiant if able.", "……并尽可能为该物品附加光辉附魔。"),
+    ("...and enchant the item with obsidian if able.", "……并尽可能为该物品附加黑曜石附魔。"),
+    ("slow 2 items for 1 second(s)", "减速 2 个物品，持续 1 秒"),
+    ("haste 2 items for 1 second(s)", "迅捷 2 个物品，持续 1 秒"),
+    ("freeze an item for 1 second(s)", "冻结 1 个物品，持续 1 秒"),
     ("at the start of each day", "每天开始时"),
     ("at the start of each fight", "每场战斗开始时"),
     ("at the start of each hour", "每小时开始时"),
@@ -295,6 +438,66 @@ TAG_ZH = {
     "Trap": "陷阱",
 }
 
+ENCHANT_ZH = {
+    "Golden": "金色",
+    "Heavy": "沉重",
+    "Icy": "冰冷",
+    "Turbo": "涡轮",
+    "Shielded": "护盾",
+    "Restorative": "恢复",
+    "Toxic": "剧毒",
+    "Fiery": "炽热",
+    "Shiny": "闪亮",
+    "Deadly": "致命",
+    "Radiant": "光辉",
+    "Obsidian": "黑曜石",
+}
+
+EVENT_ZH = {
+    "Roaming Isle": "漂流岛",
+    "Tortuga": "托图加",
+    "Treasure Turtle": "宝藏龟",
+    "Wandering Shoal": "游荡浅滩",
+    "Awakened Primordial": "觉醒元初体",
+    "Prince Marianas": "马里亚纳王子",
+    "Elite Duelist": "精英决斗者",
+    "Preening Duelist": "自负决斗者",
+    "Terrorform": "恐化体",
+    "Bloodreef Captain": "血礁船长",
+    "Radiant Corsair": "光辉海盗",
+    "Boss Harrow": "哈罗首领",
+    "Bloodreef Raider": "血礁掠夺者",
+    "Ferros Khan": "费罗斯可汗",
+    "Ventriloquist": "腹语师",
+    "Trash Golem": "垃圾魔像",
+    "Infernal Frigate": "炼狱护卫舰",
+    "Bounty Hunter": "赏金猎人",
+    "Hoverbike Hooligan": "悬浮摩托流氓",
+    "Loan Shark": "放贷鲨鱼",
+    "Morguloth": "莫古洛斯",
+    "Flame Juggler": "火焰杂耍师",
+    "Pyro": "火焰狂热者",
+    "Ghost Pepper": "幽灵辣椒",
+    "Coconut Crab": "椰子蟹",
+    "Kyver Drone": "凯弗无人机",
+    "Eight Arm Davvy": "八臂戴维",
+    "Rex Spex": "雷克斯·斯佩克斯",
+    "Frost Street Challenger": "霜街挑战者",
+    "Tempest Bravo": "风暴勇士",
+    "Bouncertron": "保镖机甲",
+    "Outlands Dervish": "外域苦修者",
+    "Covetous Thief": "贪婪窃贼",
+    "Car Conductor": "列车长",
+    "Cloudtop Admiral": "云顶上将",
+    "Master Alchemist": "炼金大师",
+    "Gibbus": "吉布斯",
+    "Lord of the Wastes": "废土领主",
+    "Mr. Moo": "穆先生",
+    "Annex Trooper": "并吞步兵",
+    "Volkas Enforcer": "沃尔卡斯执行者",
+    "Frost Street Champion": "霜街冠军",
+}
+
 
 def _apply_phrases(text: str) -> str:
     result = text
@@ -308,7 +511,47 @@ def translate_en_to_zh(text: str) -> str:
     if not source:
         return source
 
-    translated = _apply_phrases(source)
+    def _enchant_able(match: re.Match[str]) -> str:
+        name = match.group(1)
+        canonical = next((key for key in ENCHANT_ZH if key.lower() == name.lower()), name)
+        return f"……并尽可能为该物品附加{ENCHANT_ZH.get(canonical, canonical)}附魔。"
+
+    # Resolve patterned sentences before short-word replacement.
+    working = re.sub(
+        r"\.\.\.and enchant the item with ([A-Za-z]+) if able\.",
+        _enchant_able,
+        source,
+        flags=re.I,
+    )
+    working = re.sub(
+        r"the first (\d+) times you crit with this each fight, you take no damage for (\d+(?:\.\d+)?) second(?:s)?\.?",
+        r"每场战斗前 \1 次用此物暴击时，你免疫伤害，持续 \2 秒。",
+        working,
+        flags=re.I,
+    )
+    working = re.sub(
+        r"if you have exactly one weapon, its cooldown is reduced by (\d+(?:\.\d+)?)%\.",
+        r"若你恰好拥有一件武器，其冷却缩短 \1%。",
+        working,
+        flags=re.I,
+    )
+    working = re.sub(
+        r"at the start of each fight, increase an enemy item's cooldown by (\d+) seconds? for the fight\.",
+        r"每场战斗开始时，使一件敌人物品的冷却增加 \1 秒，持续整场战斗。",
+        working,
+        flags=re.I,
+    )
+
+    # Protect remaining enchantment proper nouns so short words like "shield" do not break "Shielded".
+    protected: dict[str, str] = {}
+    for index, name in enumerate(sorted(ENCHANT_ZH.keys(), key=len, reverse=True)):
+        token = f"__ENCHANT_{index}__"
+        pattern = re.compile(rf"\b{re.escape(name)}\b", re.I)
+        if pattern.search(working):
+            working = pattern.sub(token, working)
+            protected[token] = ENCHANT_ZH[name]
+
+    translated = _apply_phrases(working)
     translated = re.sub(
         r"the first (\d+) times you crit with this each fight",
         r"每场战斗前 \1 次用此物暴击时",
@@ -317,6 +560,8 @@ def translate_en_to_zh(text: str) -> str:
     )
     translated = re.sub(r"\bdouble\b", "双倍", translated, flags=re.I)
     translated = re.sub(r"\b(\d+(?:\.\d+)?)%", r"\1%", translated)
+    for token, zh in protected.items():
+        translated = translated.replace(token, zh)
     translated = re.sub(r"\s+", " ", translated).strip()
     translated = translated.replace(" .", "。").replace(" ,", "，")
     translated = re.sub(r"\s+。", "。", translated)
@@ -325,3 +570,11 @@ def translate_en_to_zh(text: str) -> str:
 
 def translate_tags(tags: list[str]) -> list[str]:
     return [TAG_ZH.get(tag, tag) for tag in tags or []]
+
+
+def translate_enchant_name(name: str) -> str:
+    return ENCHANT_ZH.get(name, name)
+
+
+def translate_event_name(name: str) -> str:
+    return EVENT_ZH.get(name, name)

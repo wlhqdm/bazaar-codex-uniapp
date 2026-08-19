@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "fetch:vanessa": "python scripts/fetch_vanessa.py",
+    "enrich:vanessa": "python scripts/enrich_extras.py",
     "translate:zh": "python scripts/apply_zh.py",
     "dev:custom": "uni -p",
     "dev:h5": "uni",
