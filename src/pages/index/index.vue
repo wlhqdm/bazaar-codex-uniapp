@@ -6,21 +6,31 @@
       <text class="eyebrow">The Bazaar 中文图鉴</text>
       <text class="title">大巴扎中文图鉴</text>
       <text class="desc">
-        第一阶段先收录海盗瓦内莎专属卡牌，当前已整理 139 张卡牌中文名与封面资源。
+        收录官网全部角色与中立卡牌，支持按角色浏览列表与详情（效果、来源、附魔）。
       </text>
     </view>
 
     <view class="section">
-      <text class="section-title">角色入口</text>
-      <view class="hero-card" @click="goVanessa">
-        <view class="hero-copy">
-          <text class="hero-role">海盗</text>
-          <text class="hero-name">瓦内莎</text>
-          <text class="hero-name-en">Vanessa</text>
-        </view>
-        <view class="hero-count">
-          <text class="hero-count-number">139</text>
-          <text class="hero-count-label">张卡牌</text>
+      <view class="section-head">
+        <text class="section-title">角色入口</text>
+        <text class="section-count">共 {{ totalCards }} 张</text>
+      </view>
+      <view class="hero-list">
+        <view
+          v-for="item in heroes"
+          :key="item.key"
+          class="hero-card"
+          @click="goHero(item.key)"
+        >
+          <view class="hero-copy">
+            <text class="hero-role">{{ item.titleZh }}</text>
+            <text class="hero-name">{{ item.nameZh }}</text>
+            <text class="hero-name-en">{{ item.nameEn }}</text>
+          </view>
+          <view class="hero-count">
+            <text class="hero-count-number">{{ item.count }}</text>
+            <text class="hero-count-label">张卡牌</text>
+          </view>
         </view>
       </view>
     </view>
@@ -28,13 +38,14 @@
     <view class="section info-card">
       <text class="section-title">数据说明</text>
       <text class="info-text">中文名基于 BazaarWinner 标注的官方简体中文页面整理。</text>
-      <text class="info-text">当前版本聚焦图鉴浏览，后续可继续补充效果、来源、商店与出现天数。</text>
+      <text class="info-text">效果与来源说明为本站初版中文，可继续校对完善。</text>
     </view>
   </view>
 </template>
 
 <script>
 import AppBreadcrumb from '../../components/app-breadcrumb.vue'
+import { heroListPath, listHeroes } from '../../utils/heroes.js'
 
 export default {
   components: {
@@ -43,12 +54,18 @@ export default {
   data() {
     return {
       crumbs: [{ label: '首页' }],
+      heroes: listHeroes(),
     }
   },
+  computed: {
+    totalCards() {
+      return this.heroes.reduce((sum, item) => sum + (item.count || 0), 0)
+    },
+  },
   methods: {
-    goVanessa() {
+    goHero(key) {
       uni.navigateTo({
-        url: '/pages/vanessa/index',
+        url: heroListPath(key),
       })
     },
   },
@@ -86,11 +103,28 @@ export default {
   margin-top: 32rpx;
 }
 
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 18rpx;
+}
+
 .section-title {
   display: block;
-  margin-bottom: 18rpx;
   font-size: 30rpx;
   font-weight: 600;
+}
+
+.section-count {
+  font-size: 22rpx;
+  color: #8f9ab3;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
 }
 
 .hero-card {
@@ -147,6 +181,10 @@ export default {
   border-radius: 28rpx;
   background: #161a24;
   border: 1rpx solid rgba(255, 255, 255, 0.06);
+}
+
+.info-card .section-title {
+  margin-bottom: 18rpx;
 }
 
 .info-text {

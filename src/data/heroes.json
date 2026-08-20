@@ -1,0 +1,77 @@
+{
+  "source": "https://bazaarwinner.com/",
+  "heroes": [
+    {
+      "key": "vanessa",
+      "nameZh": "凡妮莎",
+      "nameEn": "Vanessa",
+      "titleZh": "海盗",
+      "expectedCount": 139,
+      "sourceUrl": "https://bazaarwinner.com/hero/vanessa",
+      "count": 139
+    },
+    {
+      "key": "dooley",
+      "nameZh": "杜利",
+      "nameEn": "Dooley",
+      "titleZh": "机器人",
+      "expectedCount": 138,
+      "sourceUrl": "https://bazaarwinner.com/hero/dooley",
+      "count": 138
+    },
+    {
+      "key": "pygmalien",
+      "nameZh": "皮格马利安",
+      "nameEn": "Pygmalien",
+      "titleZh": "雕塑师",
+      "expectedCount": 151,
+      "sourceUrl": "https://bazaarwinner.com/hero/pygmalien",
+      "count": 151
+    },
+    {
+      "key": "mak",
+      "nameZh": "马克",
+      "nameEn": "Mak",
+      "titleZh": "医生",
+      "expectedCount": 135,
+      "sourceUrl": "https://bazaarwinner.com/hero/mak",
+      "count": 135
+    },
+    {
+      "key": "jules",
+      "nameZh": "朱尔斯",
+      "nameEn": "Jules",
+      "titleZh": "商人",
+      "expectedCount": 116,
+      "sourceUrl": "https://bazaarwinner.com/hero/jules",
+      "count": 116
+    },
+    {
+      "key": "stelle",
+      "nameZh": "斯黛拉",
+      "nameEn": "Stelle",
+      "titleZh": "星河",
+      "expectedCount": 118,
+      "sourceUrl": "https://bazaarwinner.com/hero/stelle",
+      "count": 118
+    },
+    {
+      "key": "karnok",
+      "nameZh": "卡诺克",
+      "nameEn": "Karnok",
+      "titleZh": "猎人",
+      "expectedCount": 103,
+      "sourceUrl": "https://bazaarwinner.com/hero/karnok",
+      "count": 103
+    },
+    {
+      "key": "common",
+      "nameZh": "中立",
+      "nameEn": "Common",
+      "titleZh": "通用",
+      "expectedCount": 143,
+      "sourceUrl": "https://bazaarwinner.com/hero/common",
+      "count": 143
+    }
+  ]
+}

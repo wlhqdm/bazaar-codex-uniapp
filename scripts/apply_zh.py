@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -12,12 +13,13 @@ from zh_translate import (
     translate_en_to_zh,
     translate_enchant_name,
     translate_event_name,
+    translate_shop_name,
     translate_tags,
 )
 
-DATA_PATH = ROOT / "src" / "data" / "vanessa-cards.json"
-REVIEW_PATH = ROOT / "src" / "data" / "vanessa-review.json"
-CACHE_PATH = ROOT / "src" / "data" / "translation-cache.json"
+DATA_DIR = ROOT / "src" / "data"
+HEROES_PATH = DATA_DIR / "heroes.json"
+CACHE_PATH = DATA_DIR / "translation-cache.json"
 
 
 def still_english(text: str) -> bool:
@@ -25,9 +27,15 @@ def still_english(text: str) -> bool:
     return bool(re.search(r"[A-Za-z]{3,}", cleaned))
 
 
-def main() -> None:
-    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
-    cache: dict[str, str] = {}
+def load_hero_keys(selection: str) -> list[str]:
+    heroes = json.loads(HEROES_PATH.read_text(encoding="utf-8"))["heroes"]
+    if selection == "all":
+        return [h["key"] for h in heroes]
+    return [x.strip() for x in selection.split(",") if x.strip()]
+
+
+def apply_one(data_path: Path, review_path: Path, cache: dict[str, str]) -> tuple[int, int]:
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
     remaining: list[dict] = []
 
     for card in payload["cards"]:
@@ -57,6 +65,7 @@ def main() -> None:
 
         for source in card.get("sources") or []:
             source.setdefault("type", "shop")
+            source["nameZh"] = translate_shop_name(source.get("name") or "")
             desc_en = source.get("descriptionEn") or source.get("description") or ""
             zh = cache.get(desc_en) or translate_en_to_zh(desc_en)
             cache[desc_en] = zh
@@ -108,8 +117,7 @@ def main() -> None:
             cache[notice] = zh
             card["detailNoticeZh"] = zh
 
-    DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    data_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     image_issues = [
         {
@@ -131,8 +139,37 @@ def main() -> None:
         },
         "items": image_issues + remaining[:200],
     }
-    REVIEW_PATH.write_text(json.dumps(review, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Translated {len(payload['cards'])} cards. Remaining English-like lines: {len(remaining)}")
+    review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2), encoding="utf-8")
+    return len(payload["cards"]), len(remaining)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Apply Chinese translations to hero card JSON")
+    parser.add_argument("--hero", default="all", help="Hero key, comma-separated, or all")
+    args = parser.parse_args()
+
+    cache: dict[str, str] = {}
+    if CACHE_PATH.exists():
+        try:
+            cache = json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            cache = {}
+
+    total_cards = 0
+    total_remaining = 0
+    for key in load_hero_keys(args.hero):
+        data_path = DATA_DIR / f"{key}-cards.json"
+        if not data_path.exists():
+            print(f"Skip {key}: missing {data_path.name}")
+            continue
+        review_path = DATA_DIR / f"{key}-review.json"
+        cards, remaining = apply_one(data_path, review_path, cache)
+        total_cards += cards
+        total_remaining += remaining
+        print(f"{key}: {cards} cards, remaining English-like: {remaining}")
+
+    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Done. Total cards={total_cards}, remaining={total_remaining}")
 
 
 if __name__ == "__main__":

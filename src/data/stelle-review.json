@@ -1,0 +1,1701 @@
+{
+  "summary": {
+    "total": 118,
+    "needsReview": 720,
+    "missingImages": 13,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "targeting-drone",
+      "nameZh": "定向无人机",
+      "nameEn": "Targeting Drone",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "recycler-bot",
+      "nameZh": "回收机器人",
+      "nameEn": "Recycler Bot",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "salvage-yard",
+      "nameZh": "拆卸场",
+      "nameEn": "Salvage Yard",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "boosted-saucer",
+      "nameZh": "强化飞碟",
+      "nameEn": "Boosted Saucer",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "seeker-probe",
+      "nameZh": "探寻探测器",
+      "nameEn": "Seeker Probe",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "relay-drone",
+      "nameZh": "中继无人机",
+      "nameEn": "Relay Drone",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "inertial-dampener",
+      "nameZh": "惯性阻尼器",
+      "nameEn": "Inertial Dampener",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "experimental-garage",
+      "nameZh": "实验车库",
+      "nameEn": "Experimental Garage",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "binoculars",
+      "nameZh": "望远镜",
+      "nameEn": "Binoculars",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "repair-drone",
+      "nameZh": "维修无人机",
+      "nameEn": "Repair Drone",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "oblivion-vortex",
+      "nameZh": "湮灭漩涡",
+      "nameEn": "Oblivion Vortex",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "cruise-ship",
+      "nameZh": "游轮",
+      "nameEn": "Cruise Ship",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bomb-voyage",
+      "nameZh": "炸裂旅程",
+      "nameEn": "Bomb Voyage",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "security-drone",
+      "nameZh": "安保无人机",
+      "nameEn": "Security Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses an item while this is Flying, Charge this 1 second.",
+      "textZh": "当敌人使用一件物品 while 此物 is Flying, 为此物充能 1 秒."
+    },
+    {
+      "id": "security-drone",
+      "nameZh": "安保无人机",
+      "nameEn": "Security Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses an item while this is Flying, Charge this 1 second.",
+      "textZh": "当敌人使用一件物品 while 此物 is Flying, 为此物充能 1 秒."
+    },
+    {
+      "id": "security-drone",
+      "nameZh": "安保无人机",
+      "nameEn": "Security Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses an item while this is Flying, Charge this 1 second.",
+      "textZh": "当敌人使用一件物品 while 此物 is Flying, 为此物充能 1 秒."
+    },
+    {
+      "id": "security-drone",
+      "nameZh": "安保无人机",
+      "nameEn": "Security Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses an item while this is Flying, Charge this 1 second.",
+      "textZh": "当敌人使用一件物品 while 此物 is Flying, 为此物充能 1 秒."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, destroy this.",
+      "textZh": "If 此物 is Flying, destroy 此物."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is destroyed, deal 40 damage.",
+      "textZh": "When 此物 is destroyed, 造成 40 伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, destroy this.",
+      "textZh": "If 此物 is Flying, destroy 此物."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is destroyed, deal 80 damage.",
+      "textZh": "When 此物 is destroyed, 造成 80 伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, destroy this.",
+      "textZh": "If 此物 is Flying, destroy 此物."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is destroyed, deal 120 damage.",
+      "textZh": "When 此物 is destroyed, 造成 120 伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, destroy this.",
+      "textZh": "If 此物 is Flying, destroy 此物."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is destroyed, deal 160 damage.",
+      "textZh": "When 此物 is destroyed, 造成 160 伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Slow 2 items for 4 second(s).",
+      "textZh": "When 此物 is destroyed, 减速 2 物品 持续 4 秒."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Freeze an item for 4 second(s).",
+      "textZh": "When 此物 is destroyed, 冻结一件物品 持续 4 秒."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Haste 2 items for 4 second(s).",
+      "textZh": "When 此物 is destroyed, 迅捷 2 物品 持续 4 秒."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Shield equal to this item's Damage.",
+      "textZh": "When 此物 is destroyed, 获得护盾，数值等于此物品伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Heal equal to this item's Damage.",
+      "textZh": "When 此物 is destroyed, 治疗量等于 此物品伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Poison equal to 10% of this item's Damage.",
+      "textZh": "When 此物 is destroyed, 毒性 等于 10% of 此物品伤害."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is destroyed, Burn equal to 10% of this item's Damage.",
+      "textZh": "When 此物 is destroyed, 施加燃烧，数值为此物品伤害的 10%."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is Destroyed, your items gain +25% Crit Chance for the fight.",
+      "textZh": "When 此物 is Destroyed, 你的物品 获得 +25% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "boom-boom-bot",
+      "nameZh": "爆炸机器人",
+      "nameEn": "Boom Boom Bot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This item is immune to Freeze and Slow.",
+      "textZh": "此物 物品 is immune to 冻结 并且 减速."
+    },
+    {
+      "id": "box-cutter",
+      "nameZh": "裁纸刀",
+      "nameEn": "Box Cutter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 1 Damage for the fight.",
+      "textZh": "此物 loses 1 伤害 持续整场战斗."
+    },
+    {
+      "id": "box-cutter",
+      "nameZh": "裁纸刀",
+      "nameEn": "Box Cutter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 1 Damage for the fight.",
+      "textZh": "此物 loses 1 伤害 持续整场战斗."
+    },
+    {
+      "id": "box-cutter",
+      "nameZh": "裁纸刀",
+      "nameEn": "Box Cutter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 1 Damage for the fight.",
+      "textZh": "此物 loses 1 伤害 持续整场战斗."
+    },
+    {
+      "id": "box-cutter",
+      "nameZh": "裁纸刀",
+      "nameEn": "Box Cutter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 1 Damage for the fight.",
+      "textZh": "此物 loses 1 伤害 持续整场战斗."
+    },
+    {
+      "id": "red-lantern",
+      "nameZh": "大红灯笼",
+      "nameEn": "Red Lantern",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has double Crit Chance bonus.",
+      "textZh": "While 此物 is Flying, 此物暴击几率加成翻倍。"
+    },
+    {
+      "id": "red-lantern",
+      "nameZh": "大红灯笼",
+      "nameEn": "Red Lantern",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has double Crit Chance bonus.",
+      "textZh": "While 此物 is Flying, 此物暴击几率加成翻倍。"
+    },
+    {
+      "id": "red-lantern",
+      "nameZh": "大红灯笼",
+      "nameEn": "Red Lantern",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has double Crit Chance bonus.",
+      "textZh": "While 此物 is Flying, 此物暴击几率加成翻倍。"
+    },
+    {
+      "id": "red-lantern",
+      "nameZh": "大红灯笼",
+      "nameEn": "Red Lantern",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has double Crit Chance bonus.",
+      "textZh": "While 此物 is Flying, 此物暴击几率加成翻倍。"
+    },
+    {
+      "id": "red-lantern",
+      "nameZh": "大红灯笼",
+      "nameEn": "Red Lantern",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this is affected by Freeze and Slow for half as long.",
+      "textZh": "The 物品 to the left of 此物 is affected by 冻结 并且 减速 持续 half as long."
+    },
+    {
+      "id": "targeting-drone",
+      "nameZh": "定向无人机",
+      "nameEn": "Targeting Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 1 second(s) and give it 5% Crit Chance for the fight.",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 1 秒 并且 give it 5% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "targeting-drone",
+      "nameZh": "定向无人机",
+      "nameEn": "Targeting Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s) and give it 10% Crit Chance for the fight.",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒 并且 give it 10% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "targeting-drone",
+      "nameZh": "定向无人机",
+      "nameEn": "Targeting Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 3 second(s) and give it 15% Crit Chance for the fight.",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 3 秒 并且 give it 15% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "targeting-drone",
+      "nameZh": "定向无人机",
+      "nameEn": "Targeting Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 4 second(s) and give it 20% Crit Chance for the fight.",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 4 秒 并且 give it 20% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "targeting-drone",
+      "nameZh": "定向无人机",
+      "nameEn": "Targeting Drone",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this is affected by Freeze and Slow for half as long.",
+      "textZh": "The 物品 to the left of 此物 is affected by 冻结 并且 减速 持续 half as long."
+    },
+    {
+      "id": "clockwork-disc",
+      "nameZh": "发条圆盘",
+      "nameEn": "Clockwork Disc",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This starts or stops Flying",
+      "textZh": "此物 starts or stops Flying"
+    },
+    {
+      "id": "clockwork-disc",
+      "nameZh": "发条圆盘",
+      "nameEn": "Clockwork Disc",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This starts or stops Flying",
+      "textZh": "此物 starts or stops Flying"
+    },
+    {
+      "id": "clockwork-disc",
+      "nameZh": "发条圆盘",
+      "nameEn": "Clockwork Disc",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This starts or stops Flying",
+      "textZh": "此物 starts or stops Flying"
+    },
+    {
+      "id": "clockwork-disc",
+      "nameZh": "发条圆盘",
+      "nameEn": "Clockwork Disc",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This starts or stops Flying",
+      "textZh": "此物 starts or stops Flying"
+    },
+    {
+      "id": "darts",
+      "nameZh": "飞镖",
+      "nameEn": "Darts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Every 3rd hit Crits.",
+      "textZh": "Every 3rd hit Crits."
+    },
+    {
+      "id": "darts",
+      "nameZh": "飞镖",
+      "nameEn": "Darts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Every 3rd hit Crits.",
+      "textZh": "Every 3rd hit Crits."
+    },
+    {
+      "id": "darts",
+      "nameZh": "飞镖",
+      "nameEn": "Darts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Every 3rd hit Crits.",
+      "textZh": "Every 3rd hit Crits."
+    },
+    {
+      "id": "darts",
+      "nameZh": "飞镖",
+      "nameEn": "Darts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Every 3rd hit Crits.",
+      "textZh": "Every 3rd hit Crits."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Flying item, this starts Flying.",
+      "textZh": "When you use an adjacent Flying 物品, 此物 starts Flying."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, Haste adjacent items for 1 second(s).",
+      "textZh": "When 此物 starts Flying, 使相邻物品获得迅捷 持续 1 秒."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Flying item, this starts Flying.",
+      "textZh": "When you use an adjacent Flying 物品, 此物 starts Flying."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, Haste adjacent items for 2 second(s).",
+      "textZh": "When 此物 starts Flying, 使相邻物品获得迅捷 持续 2 秒."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Flying item, this starts Flying.",
+      "textZh": "When you use an adjacent Flying 物品, 此物 starts Flying."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, Haste adjacent items for 3 second(s).",
+      "textZh": "When 此物 starts Flying, 使相邻物品获得迅捷 持续 3 秒."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Flying item, this starts Flying.",
+      "textZh": "When you use an adjacent Flying 物品, 此物 starts Flying."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, Haste adjacent items for 4 second(s).",
+      "textZh": "When 此物 starts Flying, 使相邻物品获得迅捷 持续 4 秒."
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, Slow 1 item for 1 second(s)",
+      "textZh": "When 此物 starts Flying, 减速 1 物品 持续 1 秒"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, Freeze an item for 0.5 second(s)",
+      "textZh": "When 此物 starts Flying, 冻结一件物品 持续 0.5 秒"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, Shield 25",
+      "textZh": "When 此物 starts Flying, 护盾 25"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, Heal 25",
+      "textZh": "When 此物 starts Flying, 治疗 25"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, Poison 2",
+      "textZh": "When 此物 starts Flying, 毒性 2"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, Burn 2",
+      "textZh": "When 此物 starts Flying, 燃烧 2"
+    },
+    {
+      "id": "squirrel-suit",
+      "nameZh": "飞鼠翼装",
+      "nameEn": "Squirrel Suit",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this starts Flying, deal 25 Damage.",
+      "textZh": "When 此物 starts Flying, 造成 25 伤害."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your leftmost item that isn't Flying starts Flying.",
+      "textZh": "你的 leftmost 物品 that isn't Flying starts Flying."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Shield items have +5 Shield.",
+      "textZh": "你的 Flying 护盾 物品 获得 +5 护盾."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your leftmost item that isn't Flying starts Flying.",
+      "textZh": "你的 leftmost 物品 that isn't Flying starts Flying."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Shield items have +10 Shield.",
+      "textZh": "你的 Flying 护盾 物品 获得 +10 护盾."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your leftmost item that isn't Flying starts Flying.",
+      "textZh": "你的 leftmost 物品 that isn't Flying starts Flying."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Shield items have +15 Shield.",
+      "textZh": "你的 Flying 护盾 物品 获得 +15 护盾."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your leftmost item that isn't Flying starts Flying.",
+      "textZh": "你的 leftmost 物品 that isn't Flying starts Flying."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Shield items have +20 Shield.",
+      "textZh": "你的 Flying 护盾 物品 获得 +20 护盾."
+    },
+    {
+      "id": "flycycle",
+      "nameZh": "飞行单车",
+      "nameEn": "Flycycle",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Flying items have +30% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +30% 暴击几率."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, gain 3 Regen for the fight.",
+      "textZh": "When 你的物品 start Flying, 获得 3 再生 持续整场战斗."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, gain 6 Regen for the fight.",
+      "textZh": "When 你的物品 start Flying, 获得 6 再生 持续整场战斗."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, gain 9 Regen for the fight.",
+      "textZh": "When 你的物品 start Flying, 获得 9 再生 持续整场战斗."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, gain 12 Regen for the fight.",
+      "textZh": "When 你的物品 start Flying, 获得 12 再生 持续整场战斗."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Shield equal to 5 times this item's Regen.",
+      "textZh": "When 你的物品 start Flying, 护盾量等于 5 倍此物品的 再生."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Heal equal to 5 times this item's Regen.",
+      "textZh": "When 你的物品 start Flying, 治疗量等于 5 倍此物品的 再生."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Poison equal to this item's Regen.",
+      "textZh": "When 你的物品 start Flying, 毒性 等于此物 物品's 再生."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Burn equal to this item's Regen",
+      "textZh": "When 你的物品 start Flying, 燃烧 等于此物 物品's 再生"
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Flying items have +40% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +40% 暴击几率."
+    },
+    {
+      "id": "kite",
+      "nameZh": "风筝",
+      "nameEn": "Kite",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, deal Damage equal to 5 times this item's Regen.",
+      "textZh": "When 你的物品 start Flying, 造成伤害，数值等于 5 倍此物品的 再生."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair and Haste the item to the right of this for 2 seconds",
+      "textZh": "Repair 并且 迅捷 此物右侧的物品 持续 2 秒"
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Tool from any Hero.",
+      "textZh": "每天开始时, get a 小型 工具 来自任意英雄."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair and Haste the item to the right of this for 2 seconds",
+      "textZh": "Repair 并且 迅捷 此物右侧的物品 持续 2 秒"
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Tool from any Hero.",
+      "textZh": "每天开始时, get a 小型 工具 来自任意英雄."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair and Haste the item to the right of this for 2 seconds",
+      "textZh": "Repair 并且 迅捷 此物右侧的物品 持续 2 秒"
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Tool from any Hero.",
+      "textZh": "每天开始时, get a 小型 工具 来自任意英雄."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair and Haste the item to the right of this for 2 seconds",
+      "textZh": "Repair 并且 迅捷 此物右侧的物品 持续 2 秒"
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Tool from any Hero.",
+      "textZh": "每天开始时, get a 小型 工具 来自任意英雄."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Golden if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 金色 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Heavy if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 沉重 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Icy if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 冰冷 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Turbo if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 涡轮 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Shielded if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 护盾 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Restorative if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 恢复 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Toxic if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 剧毒 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Fiery if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 炽热 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Shiny if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 闪亮 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Deadly if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 致命 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Radiant if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 光辉 if able."
+    },
+    {
+      "id": "toolbox",
+      "nameZh": "工具箱",
+      "nameEn": "Toolbox",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformation with Obsidian if able.",
+      "textZh": "...并且 Enchant the trans持续mation 用 黑曜石 if able."
+    },
+    {
+      "id": "aviators",
+      "nameZh": "航空护目镜",
+      "nameEn": "Aviators",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn or Destroy an item, Charge this 1 second(s).",
+      "textZh": "当你燃烧 or Destroy an 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "aviators",
+      "nameZh": "航空护目镜",
+      "nameEn": "Aviators",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn or Destroy an item, Charge this 1 second(s).",
+      "textZh": "当你燃烧 or Destroy an 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "aviators",
+      "nameZh": "航空护目镜",
+      "nameEn": "Aviators",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn or Destroy an item, Charge this 1 second(s).",
+      "textZh": "当你燃烧 or Destroy an 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "aviators",
+      "nameZh": "航空护目镜",
+      "nameEn": "Aviators",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Burn or Destroy an item, Charge this 1 second(s).",
+      "textZh": "当你燃烧 or Destroy an 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "recycler-bot",
+      "nameZh": "回收机器人",
+      "nameEn": "Recycler Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair 1 Small items",
+      "textZh": "Repair 1 小型 物品"
+    },
+    {
+      "id": "recycler-bot",
+      "nameZh": "回收机器人",
+      "nameEn": "Recycler Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair 2 Small items",
+      "textZh": "Repair 2 小型 物品"
+    },
+    {
+      "id": "recycler-bot",
+      "nameZh": "回收机器人",
+      "nameEn": "Recycler Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair 3 Small items",
+      "textZh": "Repair 3 小型 物品"
+    },
+    {
+      "id": "recycler-bot",
+      "nameZh": "回收机器人",
+      "nameEn": "Recycler Bot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair 4 Small items",
+      "textZh": "Repair 4 小型 物品"
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this item starts Flying, reload it.",
+      "textZh": "When 此物 物品 starts Flying, 装填 it."
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this item starts Flying, reload it.",
+      "textZh": "When 此物 物品 starts Flying, 装填 it."
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this item starts Flying, reload it.",
+      "textZh": "When 此物 物品 starts Flying, 装填 it."
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This stops Flying",
+      "textZh": "此物 stops Flying"
+    },
+    {
+      "id": "rocket-drone",
+      "nameZh": "火箭无人机",
+      "nameEn": "Rocket Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this item starts Flying, reload it.",
+      "textZh": "When 此物 物品 starts Flying, 装填 it."
+    },
+    {
+      "id": "flame-jet-drone",
+      "nameZh": "火焰喷气无人机",
+      "nameEn": "Flame Jet Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, this gains +4 Burn for the fight.",
+      "textZh": "When 此物 starts Flying, 此物获得 +4 燃烧 持续整场战斗."
+    },
+    {
+      "id": "flame-jet-drone",
+      "nameZh": "火焰喷气无人机",
+      "nameEn": "Flame Jet Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, this gains +8 Burn for the fight.",
+      "textZh": "When 此物 starts Flying, 此物获得 +8 燃烧 持续整场战斗."
+    },
+    {
+      "id": "flame-jet-drone",
+      "nameZh": "火焰喷气无人机",
+      "nameEn": "Flame Jet Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, this gains +12 Burn for the fight.",
+      "textZh": "When 此物 starts Flying, 此物获得 +12 燃烧 持续整场战斗."
+    },
+    {
+      "id": "flame-jet-drone",
+      "nameZh": "火焰喷气无人机",
+      "nameEn": "Flame Jet Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this starts Flying, this gains +16 Burn for the fight.",
+      "textZh": "When 此物 starts Flying, 此物获得 +16 燃烧 持续整场战斗."
+    },
+    {
+      "id": "chicken-cannon",
+      "nameZh": "鸡农炮",
+      "nameEn": "Chicken Cannon",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +Shield equal to this item's Damage for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +获得护盾，数值等于此物品伤害 持续整场战斗"
+    },
+    {
+      "id": "chicken-cannon",
+      "nameZh": "鸡农炮",
+      "nameEn": "Chicken Cannon",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +Shield equal to this item's Damage for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +获得护盾，数值等于此物品伤害 持续整场战斗"
+    },
+    {
+      "id": "chicken-cannon",
+      "nameZh": "鸡农炮",
+      "nameEn": "Chicken Cannon",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +Shield equal to this item's Damage for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +获得护盾，数值等于此物品伤害 持续整场战斗"
+    },
+    {
+      "id": "chicken-cannon",
+      "nameZh": "鸡农炮",
+      "nameEn": "Chicken Cannon",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +Shield equal to this item's Damage for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +获得护盾，数值等于此物品伤害 持续整场战斗"
+    },
+    {
+      "id": "angle-grinder-drone",
+      "nameZh": "角磨无人机",
+      "nameEn": "Angle Grinder Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "A Tool or Drone starts Flying",
+      "textZh": "A 工具 or Drone starts Flying"
+    },
+    {
+      "id": "angle-grinder-drone",
+      "nameZh": "角磨无人机",
+      "nameEn": "Angle Grinder Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "A Tool or Drone starts Flying",
+      "textZh": "A 工具 or Drone starts Flying"
+    },
+    {
+      "id": "angle-grinder-drone",
+      "nameZh": "角磨无人机",
+      "nameEn": "Angle Grinder Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "A Tool or Drone starts Flying",
+      "textZh": "A 工具 or Drone starts Flying"
+    },
+    {
+      "id": "angle-grinder-drone",
+      "nameZh": "角磨无人机",
+      "nameEn": "Angle Grinder Drone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "A Tool or Drone starts Flying",
+      "textZh": "A 工具 or Drone starts Flying"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair a Small item",
+      "textZh": "Repair a 小型 物品"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste all your other Small items for 1 seconds",
+      "textZh": "迅捷 all 你的其他 小型 物品 持续 1 秒"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair a Small item",
+      "textZh": "Repair a 小型 物品"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste all your other Small items for 2 seconds",
+      "textZh": "迅捷 all 你的其他 小型 物品 持续 2 秒"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair a Small item",
+      "textZh": "Repair a 小型 物品"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste all your other Small items for 3 seconds",
+      "textZh": "迅捷 all 你的其他 小型 物品 持续 3 秒"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair a Small item",
+      "textZh": "Repair a 小型 物品"
+    },
+    {
+      "id": "precision-calipers",
+      "nameZh": "精密卡尺",
+      "nameEn": "Precision Calipers",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste all your other Small items for 4 seconds",
+      "textZh": "迅捷 all 你的其他 小型 物品 持续 4 秒"
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This and an adjacent item starts Flying",
+      "textZh": "此物 并且 an adjacent 物品 starts Flying"
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +15 Damage.",
+      "textZh": "你的 Flying 武器 获得 +15 伤害."
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This and an adjacent item starts Flying",
+      "textZh": "此物 并且 an adjacent 物品 starts Flying"
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +25 Damage.",
+      "textZh": "你的 Flying 武器 获得 +25 伤害."
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This and an adjacent item starts Flying",
+      "textZh": "此物 并且 an adjacent 物品 starts Flying"
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +35 Damage.",
+      "textZh": "你的 Flying 武器 获得 +35 伤害."
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This and an adjacent item starts Flying",
+      "textZh": "此物 并且 an adjacent 物品 starts Flying"
+    },
+    {
+      "id": "caracara",
+      "nameZh": "卡拉飞艇",
+      "nameEn": "Caracara",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +45 Damage.",
+      "textZh": "你的 Flying 武器 获得 +45 伤害."
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce this item's Cooldown by 1 second for the fight",
+      "textZh": "Reduce 此物品冷却 by 1 秒 持续整场战斗"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has +1 Multicast.",
+      "textZh": "While 此物 is Flying, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce this item's Cooldown by 1 second for the fight",
+      "textZh": "Reduce 此物品冷却 by 1 秒 持续整场战斗"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has +1 Multicast.",
+      "textZh": "While 此物 is Flying, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce this item's Cooldown by 1 second for the fight",
+      "textZh": "Reduce 此物品冷却 by 1 秒 持续整场战斗"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has +1 Multicast.",
+      "textZh": "While 此物 is Flying, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Reduce this item's Cooldown by 1 second for the fight",
+      "textZh": "Reduce 此物品冷却 by 1 秒 持续整场战斗"
+    },
+    {
+      "id": "aerial-turret",
+      "nameZh": "空中炮塔",
+      "nameEn": "Aerial Turret",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While this is Flying, this has +1 Multicast.",
+      "textZh": "While 此物 is Flying, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 1 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 1 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, Haste the item to the right of this for 1 second(s)",
+      "textZh": "If 此物 is Flying, 迅捷 此物右侧的物品 持续 1 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, Haste the item to the right of this for 2 second(s)",
+      "textZh": "If 此物 is Flying, 迅捷 此物右侧的物品 持续 2 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 3 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 3 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, Haste the item to the right of this for 3 second(s)",
+      "textZh": "If 此物 is Flying, 迅捷 此物右侧的物品 持续 3 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 4 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 4 秒"
+    },
+    {
+      "id": "jetpack",
+      "nameZh": "喷气背包",
+      "nameEn": "Jetpack",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is Flying, Haste the item to the right of this for 4 second(s)",
+      "textZh": "If 此物 is Flying, 迅捷 此物右侧的物品 持续 4 秒"
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An adjacent item starts Flying",
+      "textZh": "An adjacent 物品 starts Flying"
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +5 Damage.",
+      "textZh": "你的 Flying 武器 获得 +5 伤害."
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An adjacent item starts Flying",
+      "textZh": "An adjacent 物品 starts Flying"
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +10 Damage.",
+      "textZh": "你的 Flying 武器 获得 +10 伤害."
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An adjacent item starts Flying",
+      "textZh": "An adjacent 物品 starts Flying"
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +15 Damage.",
+      "textZh": "你的 Flying 武器 获得 +15 伤害."
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An adjacent item starts Flying",
+      "textZh": "An adjacent 物品 starts Flying"
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying Weapons have +20 Damage.",
+      "textZh": "你的 Flying 武器 获得 +20 伤害."
+    },
+    {
+      "id": "ornithopter",
+      "nameZh": "扑翼机",
+      "nameEn": "Ornithopter",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this has +30 Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +30 暴击几率."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, Burn 3.",
+      "textZh": "When 你的物品 start Flying, 燃烧 3."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, Burn 5.",
+      "textZh": "When 你的物品 start Flying, 燃烧 5."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, Burn 7.",
+      "textZh": "When 你的物品 start Flying, 燃烧 7."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "An item starts Flying",
+      "textZh": "An 物品 starts Flying"
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, Burn 9.",
+      "textZh": "When 你的物品 start Flying, 燃烧 9."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Shield equal to 5 times this item's Burn.",
+      "textZh": "When 你的物品 start Flying, 护盾量等于 5 倍此物品的 燃烧."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Heal equal to 5 times this item's Burn.",
+      "textZh": "When 你的物品 start Flying, 治疗量等于 5 倍此物品的 燃烧."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, Poison equal to this item's Burn.",
+      "textZh": "When 你的物品 start Flying, 毒性 等于此物 物品's 燃烧."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Flying items have +40% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +40% 暴击几率."
+    },
+    {
+      "id": "balloon-engine",
+      "nameZh": "气球引擎",
+      "nameEn": "Balloon Engine",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When your items start Flying, deal Damage equal to 5 times this item's Burn.",
+      "textZh": "When 你的物品 start Flying, 造成伤害，数值等于 5 倍此物品的 燃烧."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, this gains 25 Damage for the fight.",
+      "textZh": "When 你的物品 start Flying, 此物获得 25 伤害 持续整场战斗."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items stop Flying, reload this.",
+      "textZh": "When 你的物品 stop Flying, 装填 此物."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, this gains 50 Damage for the fight.",
+      "textZh": "When 你的物品 start Flying, 此物获得 50 伤害 持续整场战斗."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items stop Flying, reload this.",
+      "textZh": "When 你的物品 stop Flying, 装填 此物."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, this gains 75 Damage for the fight.",
+      "textZh": "When 你的物品 start Flying, 此物获得 75 伤害 持续整场战斗."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items stop Flying, reload this.",
+      "textZh": "When 你的物品 stop Flying, 装填 此物."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items start Flying, this gains 100 Damage for the fight.",
+      "textZh": "When 你的物品 start Flying, 此物获得 100 伤害 持续整场战斗."
+    },
+    {
+      "id": "air-pressure-rifle",
+      "nameZh": "气压步枪",
+      "nameEn": "Air-Pressure Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When your items stop Flying, reload this.",
+      "textZh": "When 你的物品 stop Flying, 装填 此物."
+    },
+    {
+      "id": "fire-bomb",
+      "nameZh": "燃烧炸弹",
+      "nameEn": "Fire Bomb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Destroy this for the fight",
+      "textZh": "Destroy 此物 持续整场战斗"
+    },
+    {
+      "id": "fire-bomb",
+      "nameZh": "燃烧炸弹",
+      "nameEn": "Fire Bomb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Destroy this for the fight",
+      "textZh": "Destroy 此物 持续整场战斗"
+    },
+    {
+      "id": "fire-bomb",
+      "nameZh": "燃烧炸弹",
+      "nameEn": "Fire Bomb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Destroy this for the fight",
+      "textZh": "Destroy 此物 持续整场战斗"
+    },
+    {
+      "id": "fire-bomb",
+      "nameZh": "燃烧炸弹",
+      "nameEn": "Fire Bomb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Destroy this for the fight",
+      "textZh": "Destroy 此物 持续整场战斗"
+    },
+    {
+      "id": "fire-bomb",
+      "nameZh": "燃烧炸弹",
+      "nameEn": "Fire Bomb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When this is Destroyed, your items gain +30% Crit Chance for the fight.",
+      "textZh": "When 此物 is Destroyed, 你的物品 获得 +30% 暴击几率 持续整场战斗."
+    }
+  ]
+}

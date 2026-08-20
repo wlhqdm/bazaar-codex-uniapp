@@ -1,0 +1,763 @@
+{
+  "summary": {
+    "total": 103,
+    "needsReview": 4,
+    "missingImages": 103,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "jerky",
+      "nameZh": "肉干",
+      "nameEn": "Jerky",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "security-blanket",
+      "nameZh": "安心毯",
+      "nameEn": "Security Blanket",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bat",
+      "nameZh": "蝙蝠",
+      "nameEn": "Bat",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bear-trap",
+      "nameZh": "捕兽夹",
+      "nameEn": "Bear Trap",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "resistance-bands",
+      "nameZh": "弹力带",
+      "nameEn": "Resistance Bands",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "stretch-pants",
+      "nameZh": "弹力裤",
+      "nameEn": "Stretch Pants",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bandoleer",
+      "nameZh": "弹药带",
+      "nameEn": "Bandoleer",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "unibou",
+      "nameZh": "独角驯",
+      "nameEn": "Unibou",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "flying-squirrel",
+      "nameZh": "飞鼠",
+      "nameEn": "Flying Squirrel",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bagpipes",
+      "nameZh": "风笛",
+      "nameEn": "Bagpipes",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "signal-fire",
+      "nameZh": "烽火台",
+      "nameEn": "Signal Fire",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "runed-amulet",
+      "nameZh": "符文护符",
+      "nameEn": "Runed Amulet",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "runic-claymore",
+      "nameZh": "符文阔剑",
+      "nameEn": "Runic Claymore",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "runed-bracelet",
+      "nameZh": "符文手镯",
+      "nameEn": "Runed Bracelet",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "caustic-solvent",
+      "nameZh": "腐蚀溶剂",
+      "nameEn": "Caustic Solvent",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "vengeful-sigil",
+      "nameZh": "复仇符印",
+      "nameEn": "Vengeful Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "steel-bramble",
+      "nameZh": "钢棘",
+      "nameEn": "Steel Bramble",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "utility-belt",
+      "nameZh": "工具腰带",
+      "nameEn": "Utility Belt",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "black-mamba",
+      "nameZh": "黑曼巴",
+      "nameEn": "Black Mamba",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "outlands-terror",
+      "nameZh": "荒原恐兽",
+      "nameEn": "Outlands Terror",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "torch",
+      "nameZh": "火把",
+      "nameEn": "Torch",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tinderbox",
+      "nameZh": "火绒盒",
+      "nameEn": "Tinderbox",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "ghillie-suit",
+      "nameZh": "吉利服",
+      "nameEn": "Ghillie Suit",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "aurora-vista",
+      "nameZh": "极光之景",
+      "nameEn": "Aurora Vista",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "spiked-wraps",
+      "nameZh": "尖刺臂缠",
+      "nameEn": "Spiked Wraps",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "spiked-collar",
+      "nameZh": "尖刺项圈",
+      "nameEn": "Spiked Collar",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "pauldrons",
+      "nameZh": "肩铠",
+      "nameEn": "Pauldrons",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "lifting-stones",
+      "nameZh": "举重巨石",
+      "nameEn": "Lifting Stones",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "anaconda",
+      "nameZh": "巨蟒",
+      "nameEn": "Anaconda",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "giant-sling",
+      "nameZh": "巨型投石索",
+      "nameEn": "Giant Sling",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "great-eagle",
+      "nameZh": "巨鹰",
+      "nameEn": "Great Eagle",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "karst",
+      "nameZh": "喀斯特",
+      "nameEn": "Karst",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "machete",
+      "nameZh": "砍刀",
+      "nameEn": "Machete",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wolf",
+      "nameZh": "狼",
+      "nameEn": "Wolf",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wolf-mask",
+      "nameZh": "狼面具",
+      "nameEn": "Wolf Mask",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "flame-sigil",
+      "nameZh": "烈焰符印",
+      "nameEn": "Flame Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunting-knife",
+      "nameZh": "猎刀",
+      "nameEn": "Hunting Knife",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunters-pack",
+      "nameZh": "猎人背包",
+      "nameEn": "Hunter's Pack",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunters-blind",
+      "nameZh": "猎人伏击棚",
+      "nameEn": "Hunter's Blind",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunters-journal",
+      "nameZh": "猎人日志",
+      "nameEn": "Hunter's Journal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunters-sled",
+      "nameZh": "猎人雪橇",
+      "nameEn": "Hunter's Sled",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunters-axe",
+      "nameZh": "猎人之斧",
+      "nameEn": "Hunter's Axe",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunters-boots",
+      "nameZh": "猎人之靴",
+      "nameEn": "Hunter's Boots",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hunting-hawk",
+      "nameZh": "猎鹰",
+      "nameEn": "Hunting Hawk",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "trail-markers",
+      "nameZh": "路径标记",
+      "nameEn": "Trail Markers",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "dual-reaver",
+      "nameZh": "掠夺双刃",
+      "nameEn": "Dual Reaver",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tranquilizer-dart",
+      "nameZh": "麻醉镖",
+      "nameEn": "Tranquilizer Dart",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "honey-badger",
+      "nameZh": "蜜獾",
+      "nameEn": "Honey Badger",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tranquil-sigil",
+      "nameZh": "宁静符印",
+      "nameEn": "Tranquil Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "leather-jacket",
+      "nameZh": "皮夹克",
+      "nameEn": "Leather Jacket",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "furs",
+      "nameZh": "皮毛",
+      "nameEn": "Furs",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "boa-constrictor",
+      "nameZh": "蚺蛇",
+      "nameEn": "Boa Constrictor",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bladed-armor",
+      "nameZh": "刃甲",
+      "nameEn": "Bladed Armor",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tri-net",
+      "nameZh": "三叉网",
+      "nameEn": "Tri-Net",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "forest-cloak",
+      "nameZh": "森林斗篷",
+      "nameEn": "Forest Cloak",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "adrenaline-shot",
+      "nameZh": "肾上腺素注射",
+      "nameEn": "Adrenaline Shot",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "rope",
+      "nameZh": "绳索",
+      "nameEn": "Rope",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "yarrow-paste",
+      "nameZh": "蓍草膏药",
+      "nameEn": "Yarrow Paste",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "warding-glyphs",
+      "nameZh": "守护符文",
+      "nameEn": "Warding Glyphs",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "beast-call",
+      "nameZh": "兽笛",
+      "nameEn": "Beast Call",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "beast-tooth",
+      "nameZh": "兽牙",
+      "nameEn": "Beast Tooth",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "dryad",
+      "nameZh": "树精",
+      "nameEn": "Dryad",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tree-club",
+      "nameZh": "树木大棒",
+      "nameEn": "Tree Club",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "enervating-sigil",
+      "nameZh": "衰弱符印",
+      "nameEn": "Enervating Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "double-bladed-knife",
+      "nameZh": "双刃匕首",
+      "nameEn": "Double-Bladed Knife",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "waterskin",
+      "nameZh": "水囊",
+      "nameEn": "Waterskin",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "chains",
+      "nameZh": "锁链",
+      "nameEn": "Chains",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "assault-sigil",
+      "nameZh": "突击符印",
+      "nameEn": "Assault Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "frog-hollow",
+      "nameZh": "蛙鸣洞穴",
+      "nameEn": "Frog Hollow",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wrist-crossbow",
+      "nameZh": "腕弩",
+      "nameEn": "Wrist Crossbow",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "fogshroom",
+      "nameZh": "雾菇",
+      "nameEn": "Fogshroom",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "fairies",
+      "nameZh": "仙灵",
+      "nameEn": "Fairies",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "fairy-circle",
+      "nameZh": "仙女环",
+      "nameEn": "Fairy Circle",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "meat",
+      "nameZh": "鲜肉",
+      "nameEn": "Meat",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "trapvine",
+      "nameZh": "陷阱藤",
+      "nameEn": "Trapvine",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "trapping-pit",
+      "nameZh": "陷坑",
+      "nameEn": "Trapping Pit",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "shotgun",
+      "nameZh": "霰弹枪",
+      "nameEn": "Shotgun",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "flare",
+      "nameZh": "信号弹",
+      "nameEn": "Flare",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "messenger-sparrow",
+      "nameZh": "信使麻雀",
+      "nameEn": "Messenger Sparrow",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "executioners-cleaver",
+      "nameZh": "行刑者的斩肉刀",
+      "nameEn": "Executioner's Cleaver",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bear-mask",
+      "nameZh": "熊面具",
+      "nameEn": "Bear Mask",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bear-claws",
+      "nameZh": "熊爪",
+      "nameEn": "Bear Claws",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "pocket-knife",
+      "nameZh": "袖珍飞刀",
+      "nameEn": "Pocket Knife",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "snow-wisp",
+      "nameZh": "雪魂精灵",
+      "nameEn": "Snow Wisp",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wildroot-amulet",
+      "nameZh": "野根护符",
+      "nameEn": "Wildroot Amulet",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wild-bear",
+      "nameZh": "野熊",
+      "nameEn": "Wild Bear",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wild-boar",
+      "nameZh": "野猪",
+      "nameEn": "Wild Boar",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "boar-mask",
+      "nameZh": "野猪面具",
+      "nameEn": "Boar Mask",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "night-vision",
+      "nameZh": "夜视仪",
+      "nameEn": "Night Vision",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "silver-stake",
+      "nameZh": "银制尖桩",
+      "nameEn": "Silver Stake",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "hidden-lake",
+      "nameZh": "隐秘之湖",
+      "nameEn": "Hidden Lake",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "eagle-sigil",
+      "nameZh": "鹰之符印",
+      "nameEn": "Eagle Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "firefly-lantern",
+      "nameZh": "萤火灯笼",
+      "nameEn": "Firefly Lantern",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "worry-wart",
+      "nameZh": "忧虑疣蛙",
+      "nameEn": "Worry Wart",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "wing-sigil",
+      "nameZh": "羽翼符印",
+      "nameEn": "Wing Sigil",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "log-trap",
+      "nameZh": "原木陷阱",
+      "nameEn": "Log Trap",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "ancient-locket",
+      "nameZh": "远古挂坠",
+      "nameEn": "Ancient Locket",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "battle-axe",
+      "nameZh": "战斧",
+      "nameEn": "Battle Axe",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "warpaint",
+      "nameZh": "战纹涂料",
+      "nameEn": "Warpaint",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "spear",
+      "nameZh": "长矛",
+      "nameEn": "Spear",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tent",
+      "nameZh": "帐篷",
+      "nameEn": "Tent",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "heavy-crossbow",
+      "nameZh": "重弩",
+      "nameEn": "Heavy Crossbow",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "burn-scar",
+      "nameZh": "灼烧疤痕",
+      "nameEn": "Burn Scar",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "jerky",
+      "nameZh": "肉干",
+      "nameEn": "Jerky",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a monster, this gains +1 Max Ammo.",
+      "textZh": "当你赢得一场战斗 a获得st a monster, 此物获得 +1 最大弹药."
+    },
+    {
+      "id": "jerky",
+      "nameZh": "肉干",
+      "nameEn": "Jerky",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a monster, this gains +1 Max Ammo.",
+      "textZh": "当你赢得一场战斗 a获得st a monster, 此物获得 +1 最大弹药."
+    },
+    {
+      "id": "jerky",
+      "nameZh": "肉干",
+      "nameEn": "Jerky",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a monster, this gains +1 Max Ammo.",
+      "textZh": "当你赢得一场战斗 a获得st a monster, 此物获得 +1 最大弹药."
+    },
+    {
+      "id": "jerky",
+      "nameZh": "肉干",
+      "nameEn": "Jerky",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a monster, this gains +1 Max Ammo.",
+      "textZh": "当你赢得一场战斗 a获得st a monster, 此物获得 +1 最大弹药."
+    }
+  ]
+}

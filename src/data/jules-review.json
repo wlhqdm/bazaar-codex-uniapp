@@ -1,0 +1,1645 @@
+{
+  "summary": {
+    "total": 116,
+    "needsReview": 612,
+    "missingImages": 5,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "knife-sharpener",
+      "nameZh": "磨刀器",
+      "nameEn": "Knife Sharpener",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "stand-mixer",
+      "nameZh": "厨师机",
+      "nameEn": "Stand Mixer",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "attachment-set",
+      "nameZh": "挂件组",
+      "nameEn": "Attachment Set",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "massive-cleaver",
+      "nameZh": "巨型菜刀",
+      "nameEn": "Massive Cleaver",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "veggie-garden",
+      "nameZh": "蔬菜种植园",
+      "nameEn": "Veggie Garden",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "banu-leaves",
+      "nameZh": "巴努叶",
+      "nameEn": "Banu Leaves",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Food item, Charge this 1 second(s).",
+      "textZh": "When you use another Food 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "banu-leaves",
+      "nameZh": "巴努叶",
+      "nameEn": "Banu Leaves",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Food item, Charge this 1 second(s).",
+      "textZh": "When you use another Food 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "banu-leaves",
+      "nameZh": "巴努叶",
+      "nameEn": "Banu Leaves",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Food item, Charge this 1 second(s).",
+      "textZh": "When you use another Food 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "banu-leaves",
+      "nameZh": "巴努叶",
+      "nameEn": "Banu Leaves",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Food item, Charge this 1 second(s).",
+      "textZh": "When you use another Food 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Permanently gain +4 Max Health",
+      "textZh": "Permanently 获得 +4 最大生命"
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Permanently gain +6 Max Health",
+      "textZh": "Permanently 获得 +6 最大生命"
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Permanently gain +8 Max Health",
+      "textZh": "Permanently 获得 +8 最大生命"
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Permanently gain +10 Max Health",
+      "textZh": "Permanently 获得 +10 最大生命"
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +10 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +10 护盾."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "cookies",
+      "nameZh": "饼干",
+      "nameEn": "Cookies",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +10 伤害."
+    },
+    {
+      "id": "cookie-cutters",
+      "nameZh": "饼干造型模具",
+      "nameEn": "Cookie Cutters",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Cookie.",
+      "textZh": "每天开始时, get a Cookie."
+    },
+    {
+      "id": "cookie-cutters",
+      "nameZh": "饼干造型模具",
+      "nameEn": "Cookie Cutters",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Cookie.",
+      "textZh": "每天开始时, get a Cookie."
+    },
+    {
+      "id": "cookie-cutters",
+      "nameZh": "饼干造型模具",
+      "nameEn": "Cookie Cutters",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Cookie.",
+      "textZh": "每天开始时, get a Cookie."
+    },
+    {
+      "id": "cookie-cutters",
+      "nameZh": "饼干造型模具",
+      "nameEn": "Cookie Cutters",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Cookie.",
+      "textZh": "每天开始时, get a Cookie."
+    },
+    {
+      "id": "strawberries",
+      "nameZh": "草莓",
+      "nameEn": "Strawberries",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Freeze an item for 1 second(s).",
+      "textZh": "Chilled: 冻结 1 个物品，持续 1 秒."
+    },
+    {
+      "id": "strawberries",
+      "nameZh": "草莓",
+      "nameEn": "Strawberries",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Freeze an item for 1 second(s).",
+      "textZh": "Chilled: 冻结 1 个物品，持续 1 秒."
+    },
+    {
+      "id": "strawberries",
+      "nameZh": "草莓",
+      "nameEn": "Strawberries",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Freeze an item for 1 second(s).",
+      "textZh": "Chilled: 冻结 1 个物品，持续 1 秒."
+    },
+    {
+      "id": "strawberries",
+      "nameZh": "草莓",
+      "nameEn": "Strawberries",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Freeze an item for 1 second(s).",
+      "textZh": "Chilled: 冻结 1 个物品，持续 1 秒."
+    },
+    {
+      "id": "excellent-vintage",
+      "nameZh": "陈年佳酿",
+      "nameEn": "Excellent Vintage",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +1 Multicast",
+      "textZh": "Chilled: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "excellent-vintage",
+      "nameZh": "陈年佳酿",
+      "nameEn": "Excellent Vintage",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +1 Multicast",
+      "textZh": "Chilled: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "excellent-vintage",
+      "nameZh": "陈年佳酿",
+      "nameEn": "Excellent Vintage",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +1 Multicast",
+      "textZh": "Chilled: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "excellent-vintage",
+      "nameZh": "陈年佳酿",
+      "nameEn": "Excellent Vintage",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +1 Multicast",
+      "textZh": "Chilled: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield 10 for each Food you have",
+      "textZh": "护盾 10 每有一个 Food you have"
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a small Food from any hero.",
+      "textZh": "当你购买此物, get a 小型 Food 来自任意英雄."
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield 15 for each Food you have",
+      "textZh": "护盾 15 每有一个 Food you have"
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a small Food from any hero.",
+      "textZh": "当你购买此物, get a 小型 Food 来自任意英雄."
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield 20 for each Food you have",
+      "textZh": "护盾 20 每有一个 Food you have"
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a small Food from any hero.",
+      "textZh": "当你购买此物, get a 小型 Food 来自任意英雄."
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield 25 for each Food you have",
+      "textZh": "护盾 25 每有一个 Food you have"
+    },
+    {
+      "id": "chef-hat",
+      "nameZh": "厨师帽",
+      "nameEn": "Chef Hat",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a small Food from any hero.",
+      "textZh": "当你购买此物, get a 小型 Food 来自任意英雄."
+    },
+    {
+      "id": "knife-set",
+      "nameZh": "刀具组",
+      "nameEn": "Knife Set",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tool, Charge this 1 second(s).",
+      "textZh": "When you use another 工具, 为此物充能 1 秒."
+    },
+    {
+      "id": "knife-set",
+      "nameZh": "刀具组",
+      "nameEn": "Knife Set",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tool, Charge this 1 second(s).",
+      "textZh": "When you use another 工具, 为此物充能 1 秒."
+    },
+    {
+      "id": "knife-set",
+      "nameZh": "刀具组",
+      "nameEn": "Knife Set",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tool, Charge this 1 second(s).",
+      "textZh": "When you use another 工具, 为此物充能 1 秒."
+    },
+    {
+      "id": "knife-set",
+      "nameZh": "刀具组",
+      "nameEn": "Knife Set",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tool, Charge this 1 second(s).",
+      "textZh": "When you use another 工具, 为此物充能 1 秒."
+    },
+    {
+      "id": "rice-cooker",
+      "nameZh": "电饭煲",
+      "nameEn": "Rice Cooker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Heated items for 1 second(s)",
+      "textZh": "迅捷 你的 Heated 物品 持续 1 秒"
+    },
+    {
+      "id": "rice-cooker",
+      "nameZh": "电饭煲",
+      "nameEn": "Rice Cooker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Heated items for 2 second(s)",
+      "textZh": "迅捷 你的 Heated 物品 持续 2 秒"
+    },
+    {
+      "id": "rice-cooker",
+      "nameZh": "电饭煲",
+      "nameEn": "Rice Cooker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Heated items for 3 second(s)",
+      "textZh": "迅捷 你的 Heated 物品 持续 3 秒"
+    },
+    {
+      "id": "rice-cooker",
+      "nameZh": "电饭煲",
+      "nameEn": "Rice Cooker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Heated items for 4 second(s)",
+      "textZh": "迅捷 你的 Heated 物品 持续 4 秒"
+    },
+    {
+      "id": "rice-cooker",
+      "nameZh": "电饭煲",
+      "nameEn": "Rice Cooker",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Heated items have +30% Crit Chance.",
+      "textZh": "你的 Heated 物品 获得 +30% 暴击几率."
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 2",
+      "textZh": "Heated: 燃烧 2"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Gain 2 Regen for the fight",
+      "textZh": "Chilled: 获得 2 再生 持续整场战斗"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have a Medium Tool, this item's cooldown is reduced by 2 seconds.",
+      "textZh": "If you have a 中型 工具, 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 4",
+      "textZh": "Heated: 燃烧 4"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Gain 4 Regen for the fight",
+      "textZh": "Chilled: 获得 4 再生 持续整场战斗"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have a Medium Tool, this item's cooldown is reduced by 2 seconds.",
+      "textZh": "If you have a 中型 工具, 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 6",
+      "textZh": "Heated: 燃烧 6"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Gain 6 Regen for the fight",
+      "textZh": "Chilled: 获得 6 再生 持续整场战斗"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have a Medium Tool, this item's cooldown is reduced by 2 seconds.",
+      "textZh": "If you have a 中型 工具, 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 8",
+      "textZh": "Heated: 燃烧 8"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: Gain 8 Regen for the fight",
+      "textZh": "Chilled: 获得 8 再生 持续整场战斗"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have a Medium Tool, this item's cooldown is reduced by 2 seconds.",
+      "textZh": "If you have a 中型 工具, 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Heated: Shield equal to 5 times this item's Burn",
+      "textZh": "Heated: 护盾量等于 5 倍此物品的 燃烧"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Chilled: Shield equal to 5 times this item's Regen",
+      "textZh": "Chilled: 护盾量等于 5 倍此物品的 再生"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Heated: Heal equal to 5 times this item's Burn",
+      "textZh": "Heated: 治疗量等于 5 倍此物品的 燃烧"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Chilled: Heal equal to 5 times this item's Regen",
+      "textZh": "Chilled: 治疗量等于 5 倍此物品的 再生"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Heated: Poison equal to this item's Burn",
+      "textZh": "Heated: 毒性 等于此物 物品's 燃烧"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Chilled: Poison equal to this item's Regen",
+      "textZh": "Chilled: 毒性 等于此物 物品's 再生"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Heated: Deal Damage equal to 5 times this item's Burn",
+      "textZh": "Heated: 造成伤害，数值等于 5 倍此物品的 燃烧"
+    },
+    {
+      "id": "instant-noodles",
+      "nameZh": "方便面",
+      "nameEn": "Instant Noodles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Chilled: Deal Damage equal to 5 times this item's Regen",
+      "textZh": "Chilled: 造成伤害，数值等于 5 倍此物品的 再生"
+    },
+    {
+      "id": "spatula",
+      "nameZh": "锅铲",
+      "nameEn": "Spatula",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, it gains +10% Crit Chance for the fight.",
+      "textZh": "When you use an adjacent Food, it 获得s +10% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "spatula",
+      "nameZh": "锅铲",
+      "nameEn": "Spatula",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, it gains +15% Crit Chance for the fight.",
+      "textZh": "When you use an adjacent Food, it 获得s +15% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "spatula",
+      "nameZh": "锅铲",
+      "nameEn": "Spatula",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, it gains +20% Crit Chance for the fight.",
+      "textZh": "When you use an adjacent Food, it 获得s +20% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "spatula",
+      "nameZh": "锅铲",
+      "nameEn": "Spatula",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, it gains +25% Crit Chance for the fight.",
+      "textZh": "When you use an adjacent Food, it 获得s +25% 暴击几率 持续整场战斗."
+    },
+    {
+      "id": "seafood-cracker",
+      "nameZh": "海鲜钳",
+      "nameEn": "Seafood Cracker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If an enemy is Shielded, this deals triple Damage.",
+      "textZh": "If an enemy is 护盾, 此物造成 triple 伤害."
+    },
+    {
+      "id": "seafood-cracker",
+      "nameZh": "海鲜钳",
+      "nameEn": "Seafood Cracker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If an enemy is Shielded, this deals triple Damage.",
+      "textZh": "If an enemy is 护盾, 此物造成 triple 伤害."
+    },
+    {
+      "id": "seafood-cracker",
+      "nameZh": "海鲜钳",
+      "nameEn": "Seafood Cracker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If an enemy is Shielded, this deals triple Damage.",
+      "textZh": "If an enemy is 护盾, 此物造成 triple 伤害."
+    },
+    {
+      "id": "seafood-cracker",
+      "nameZh": "海鲜钳",
+      "nameEn": "Seafood Cracker",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If an enemy is Shielded, this deals triple Damage.",
+      "textZh": "If an enemy is 护盾, 此物造成 triple 伤害."
+    },
+    {
+      "id": "cleaver",
+      "nameZh": "华丽菜刀",
+      "nameEn": "Cleaver",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Tool, this gains +5 Damage for the fight.",
+      "textZh": "When you use a 工具, 此物获得 +5 伤害 持续整场战斗."
+    },
+    {
+      "id": "cleaver",
+      "nameZh": "华丽菜刀",
+      "nameEn": "Cleaver",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Tool, this gains +10 Damage for the fight.",
+      "textZh": "When you use a 工具, 此物获得 +10 伤害 持续整场战斗."
+    },
+    {
+      "id": "cleaver",
+      "nameZh": "华丽菜刀",
+      "nameEn": "Cleaver",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Tool, this gains +15 Damage for the fight.",
+      "textZh": "When you use a 工具, 此物获得 +15 伤害 持续整场战斗."
+    },
+    {
+      "id": "cleaver",
+      "nameZh": "华丽菜刀",
+      "nameEn": "Cleaver",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Tool, this gains +20 Damage for the fight.",
+      "textZh": "When you use a 工具, 此物获得 +20 伤害 持续整场战斗."
+    },
+    {
+      "id": "butter",
+      "nameZh": "黄油",
+      "nameEn": "Butter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Tool or Food item, this gains +1 Multicast.",
+      "textZh": "每有一个 adjacent 工具 or Food 物品, 此物获得 +1 多重施放."
+    },
+    {
+      "id": "butter",
+      "nameZh": "黄油",
+      "nameEn": "Butter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Tool or Food item, this gains +1 Multicast.",
+      "textZh": "每有一个 adjacent 工具 or Food 物品, 此物获得 +1 多重施放."
+    },
+    {
+      "id": "butter",
+      "nameZh": "黄油",
+      "nameEn": "Butter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Tool or Food item, this gains +1 Multicast.",
+      "textZh": "每有一个 adjacent 工具 or Food 物品, 此物获得 +1 多重施放."
+    },
+    {
+      "id": "butter",
+      "nameZh": "黄油",
+      "nameEn": "Butter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Tool or Food item, this gains +1 Multicast.",
+      "textZh": "每有一个 adjacent 工具 or Food 物品, 此物获得 +1 多重施放."
+    },
+    {
+      "id": "butter",
+      "nameZh": "黄油",
+      "nameEn": "Butter",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Tools and Food items have +30% Crit Chance.",
+      "textZh": "Adjacent 工具 并且 Food 物品 获得 +30% 暴击几率."
+    },
+    {
+      "id": "scorchpepper",
+      "nameZh": "火焰辣椒",
+      "nameEn": "Scorchpepper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Food to the left of this is Heated.",
+      "textZh": "The Food to the left of 此物 is Heated."
+    },
+    {
+      "id": "scorchpepper",
+      "nameZh": "火焰辣椒",
+      "nameEn": "Scorchpepper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Food to the left of this is Heated.",
+      "textZh": "The Food to the left of 此物 is Heated."
+    },
+    {
+      "id": "scorchpepper",
+      "nameZh": "火焰辣椒",
+      "nameEn": "Scorchpepper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Food to the left of this is Heated.",
+      "textZh": "The Food to the left of 此物 is Heated."
+    },
+    {
+      "id": "scorchpepper",
+      "nameZh": "火焰辣椒",
+      "nameEn": "Scorchpepper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Food to the left of this is Heated.",
+      "textZh": "The Food to the left of 此物 is Heated."
+    },
+    {
+      "id": "skillet",
+      "nameZh": "煎锅",
+      "nameEn": "Skillet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "skillet",
+      "nameZh": "煎锅",
+      "nameEn": "Skillet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "skillet",
+      "nameZh": "煎锅",
+      "nameEn": "Skillet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "skillet",
+      "nameZh": "煎锅",
+      "nameEn": "Skillet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "coffee",
+      "nameZh": "咖啡",
+      "nameEn": "Coffee",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 1 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 1 秒"
+    },
+    {
+      "id": "coffee",
+      "nameZh": "咖啡",
+      "nameEn": "Coffee",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "coffee",
+      "nameZh": "咖啡",
+      "nameEn": "Coffee",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 3 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 3 秒"
+    },
+    {
+      "id": "coffee",
+      "nameZh": "咖啡",
+      "nameEn": "Coffee",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 4 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 4 秒"
+    },
+    {
+      "id": "coffee",
+      "nameZh": "咖啡",
+      "nameEn": "Coffee",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this has +50% Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "coffee",
+      "nameZh": "咖啡",
+      "nameEn": "Coffee",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this is affected by Freeze and Slow for half as long.",
+      "textZh": "The 物品 to the left of 此物 is affected by 冻结 并且 减速 持续 half as long."
+    },
+    {
+      "id": "skewer",
+      "nameZh": "烤串",
+      "nameEn": "Skewer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +100% Crit Chance.",
+      "textZh": "Heated: 此物获得 +100% 暴击几率."
+    },
+    {
+      "id": "skewer",
+      "nameZh": "烤串",
+      "nameEn": "Skewer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +100% Crit Chance.",
+      "textZh": "Heated: 此物获得 +100% 暴击几率."
+    },
+    {
+      "id": "skewer",
+      "nameZh": "烤串",
+      "nameEn": "Skewer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +100% Crit Chance.",
+      "textZh": "Heated: 此物获得 +100% 暴击几率."
+    },
+    {
+      "id": "skewer",
+      "nameZh": "烤串",
+      "nameEn": "Skewer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +100% Crit Chance.",
+      "textZh": "Heated: 此物获得 +100% 暴击几率."
+    },
+    {
+      "id": "baked-potato",
+      "nameZh": "烤土豆",
+      "nameEn": "Baked Potato",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast",
+      "textZh": "Heated: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "baked-potato",
+      "nameZh": "烤土豆",
+      "nameEn": "Baked Potato",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast",
+      "textZh": "Heated: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "baked-potato",
+      "nameZh": "烤土豆",
+      "nameEn": "Baked Potato",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast",
+      "textZh": "Heated: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "baked-potato",
+      "nameZh": "烤土豆",
+      "nameEn": "Baked Potato",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast",
+      "textZh": "Heated: 此物获得 +1 多重施放"
+    },
+    {
+      "id": "hot-sauce",
+      "nameZh": "辣酱",
+      "nameEn": "Hot Sauce",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food or Tool, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food or 工具, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "hot-sauce",
+      "nameZh": "辣酱",
+      "nameEn": "Hot Sauce",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food or Tool, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food or 工具, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "hot-sauce",
+      "nameZh": "辣酱",
+      "nameEn": "Hot Sauce",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food or Tool, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food or 工具, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "hot-sauce",
+      "nameZh": "辣酱",
+      "nameEn": "Hot Sauce",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "For each adjacent Food or Tool, this has +1 Multicast.",
+      "textZh": "每有一个 adjacent Food or 工具, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "blueberry-pie",
+      "nameZh": "蓝莓派",
+      "nameEn": "Blueberry Pie",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to 20% of this item's Shield",
+      "textZh": "Heated: 燃烧 等于 20% of 此物 物品's 护盾"
+    },
+    {
+      "id": "blueberry-pie",
+      "nameZh": "蓝莓派",
+      "nameEn": "Blueberry Pie",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to 20% of this item's Shield",
+      "textZh": "Heated: 燃烧 等于 20% of 此物 物品's 护盾"
+    },
+    {
+      "id": "blueberry-pie",
+      "nameZh": "蓝莓派",
+      "nameEn": "Blueberry Pie",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to 20% of this item's Shield",
+      "textZh": "Heated: 燃烧 等于 20% of 此物 物品's 护盾"
+    },
+    {
+      "id": "blueberry-pie",
+      "nameZh": "蓝莓派",
+      "nameEn": "Blueberry Pie",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to 20% of this item's Shield",
+      "textZh": "Heated: 燃烧 等于 20% of 此物 物品's 护盾"
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生"
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +15% Crit chance.",
+      "textZh": "Chilled: 此物获得 +15% 暴击几率."
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生"
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +30% Crit chance.",
+      "textZh": "Chilled: 此物获得 +30% 暴击几率."
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生"
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +45% Crit chance.",
+      "textZh": "Chilled: 此物获得 +45% 暴击几率."
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生"
+    },
+    {
+      "id": "laulau",
+      "nameZh": "劳劳菜",
+      "nameEn": "LauLau",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This has +60% Crit chance.",
+      "textZh": "Chilled: 此物获得 +60% 暴击几率."
+    },
+    {
+      "id": "cooking-mallet",
+      "nameZh": "料理槌",
+      "nameEn": "Cooking Mallet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 3",
+      "textZh": "Heated: 燃烧 3"
+    },
+    {
+      "id": "cooking-mallet",
+      "nameZh": "料理槌",
+      "nameEn": "Cooking Mallet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 6",
+      "textZh": "Heated: 燃烧 6"
+    },
+    {
+      "id": "cooking-mallet",
+      "nameZh": "料理槌",
+      "nameEn": "Cooking Mallet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 9",
+      "textZh": "Heated: 燃烧 9"
+    },
+    {
+      "id": "cooking-mallet",
+      "nameZh": "料理槌",
+      "nameEn": "Cooking Mallet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn 12",
+      "textZh": "Heated: 燃烧 12"
+    },
+    {
+      "id": "colander",
+      "nameZh": "漏筛",
+      "nameEn": "Colander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, this gains 5 Shield for the fight.",
+      "textZh": "When you use a 小型 物品, 此物获得 5 护盾 持续整场战斗."
+    },
+    {
+      "id": "colander",
+      "nameZh": "漏筛",
+      "nameEn": "Colander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, this gains 10 Shield for the fight.",
+      "textZh": "When you use a 小型 物品, 此物获得 10 护盾 持续整场战斗."
+    },
+    {
+      "id": "colander",
+      "nameZh": "漏筛",
+      "nameEn": "Colander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, this gains 15 Shield for the fight.",
+      "textZh": "When you use a 小型 物品, 此物获得 15 护盾 持续整场战斗."
+    },
+    {
+      "id": "colander",
+      "nameZh": "漏筛",
+      "nameEn": "Colander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, this gains 20 Shield for the fight.",
+      "textZh": "When you use a 小型 物品, 此物获得 20 护盾 持续整场战斗."
+    },
+    {
+      "id": "rice",
+      "nameZh": "米饭",
+      "nameEn": "Rice",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen.",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生."
+    },
+    {
+      "id": "rice",
+      "nameZh": "米饭",
+      "nameEn": "Rice",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen.",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生."
+    },
+    {
+      "id": "rice",
+      "nameZh": "米饭",
+      "nameEn": "Rice",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen.",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生."
+    },
+    {
+      "id": "rice",
+      "nameZh": "米饭",
+      "nameEn": "Rice",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Burn equal to this item's Regen.",
+      "textZh": "Heated: 燃烧 等于此物 物品's 再生."
+    },
+    {
+      "id": "knife-sharpener",
+      "nameZh": "磨刀器",
+      "nameEn": "Knife Sharpener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste another Tool for 1 second(s).",
+      "textZh": "迅捷 another 工具 持续 1 秒."
+    },
+    {
+      "id": "knife-sharpener",
+      "nameZh": "磨刀器",
+      "nameEn": "Knife Sharpener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste another Tool for 1.5 second(s).",
+      "textZh": "迅捷 another 工具 持续 1.5 秒."
+    },
+    {
+      "id": "knife-sharpener",
+      "nameZh": "磨刀器",
+      "nameEn": "Knife Sharpener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste another Tool for 2 second(s).",
+      "textZh": "迅捷 another 工具 持续 2 秒."
+    },
+    {
+      "id": "knife-sharpener",
+      "nameZh": "磨刀器",
+      "nameEn": "Knife Sharpener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste another Tool for 2.5 second(s).",
+      "textZh": "迅捷 another 工具 持续 2.5 秒."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +10 Shield for the fight.",
+      "textZh": "Adjacent 护盾 物品 获得 +10 护盾 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Regen items gain +1 Regen for the fight.",
+      "textZh": "Adjacent 再生 物品 获得 +1 再生 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Slow 1 item(s) for 1 second(s).",
+      "textZh": "Heated: 减速 1 件物品 持续 1 秒."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +20 Shield for the fight.",
+      "textZh": "Adjacent 护盾 物品 获得 +20 护盾 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Regen items gain +2 Regen for the fight.",
+      "textZh": "Adjacent 再生 物品 获得 +2 再生 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Slow 2 item(s) for 1 second(s).",
+      "textZh": "Heated: 减速 2 件物品 持续 1 秒."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +30 Shield for the fight.",
+      "textZh": "Adjacent 护盾 物品 获得 +30 护盾 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Regen items gain +3 Regen for the fight.",
+      "textZh": "Adjacent 再生 物品 获得 +3 再生 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Slow 3 item(s) for 1 second(s).",
+      "textZh": "Heated: 减速 3 件物品 持续 1 秒."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +40 Shield for the fight.",
+      "textZh": "Adjacent 护盾 物品 获得 +40 护盾 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Regen items gain +4 Regen for the fight.",
+      "textZh": "Adjacent 再生 物品 获得 +4 再生 持续整场战斗."
+    },
+    {
+      "id": "pumpkin",
+      "nameZh": "南瓜",
+      "nameEn": "Pumpkin",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: Slow 4 item(s) for 1 second(s).",
+      "textZh": "Heated: 减速 4 件物品 持续 1 秒."
+    },
+    {
+      "id": "santoku",
+      "nameZh": "三德刀",
+      "nameEn": "Santoku",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this has +Crit Chance equal to this item's Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +暴击几率 等于此物 物品's 暴击几率."
+    },
+    {
+      "id": "santoku",
+      "nameZh": "三德刀",
+      "nameEn": "Santoku",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this has +Crit Chance equal to this item's Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +暴击几率 等于此物 物品's 暴击几率."
+    },
+    {
+      "id": "santoku",
+      "nameZh": "三德刀",
+      "nameEn": "Santoku",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this has +Crit Chance equal to this item's Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +暴击几率 等于此物 物品's 暴击几率."
+    },
+    {
+      "id": "santoku",
+      "nameZh": "三德刀",
+      "nameEn": "Santoku",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this has +Crit Chance equal to this item's Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +暴击几率 等于此物 物品's 暴击几率."
+    },
+    {
+      "id": "pancakes",
+      "nameZh": "松饼",
+      "nameEn": "Pancakes",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast.",
+      "textZh": "Heated: 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "pancakes",
+      "nameZh": "松饼",
+      "nameEn": "Pancakes",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast.",
+      "textZh": "Heated: 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "pancakes",
+      "nameZh": "松饼",
+      "nameEn": "Pancakes",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast.",
+      "textZh": "Heated: 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "pancakes",
+      "nameZh": "松饼",
+      "nameEn": "Pancakes",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This has +1 Multicast.",
+      "textZh": "Heated: 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "toaster",
+      "nameZh": "吐司机",
+      "nameEn": "Toaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, this gains +1 Burn for the fight.",
+      "textZh": "When you use an adjacent Food, 此物获得 +1 燃烧 持续整场战斗."
+    },
+    {
+      "id": "toaster",
+      "nameZh": "吐司机",
+      "nameEn": "Toaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, this gains +2 Burn for the fight.",
+      "textZh": "When you use an adjacent Food, 此物获得 +2 燃烧 持续整场战斗."
+    },
+    {
+      "id": "toaster",
+      "nameZh": "吐司机",
+      "nameEn": "Toaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, this gains +3 Burn for the fight.",
+      "textZh": "When you use an adjacent Food, 此物获得 +3 燃烧 持续整场战斗."
+    },
+    {
+      "id": "toaster",
+      "nameZh": "吐司机",
+      "nameEn": "Toaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Food, this gains +4 Burn for the fight.",
+      "textZh": "When you use an adjacent Food, 此物获得 +4 燃烧 持续整场战斗."
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Food for 2 seconds",
+      "textZh": "迅捷 你的 Food 持续 2 秒"
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This item's cooldown is reduced by 2 seconds.",
+      "textZh": "Heated: 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Food for 2 seconds",
+      "textZh": "迅捷 你的 Food 持续 2 秒"
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This item's cooldown is reduced by 2 seconds.",
+      "textZh": "Heated: 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Food for 2 seconds",
+      "textZh": "迅捷 你的 Food 持续 2 秒"
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This item's cooldown is reduced by 2 seconds.",
+      "textZh": "Heated: 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste your Food for 2 seconds",
+      "textZh": "迅捷 你的 Food 持续 2 秒"
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heated: This item's cooldown is reduced by 2 seconds.",
+      "textZh": "Heated: 此物品冷却 减少 2 秒."
+    },
+    {
+      "id": "microwave",
+      "nameZh": "微波炉",
+      "nameEn": "Microwave",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Food items have +40% Crit Chance.",
+      "textZh": "你的 Food 物品 获得 +40% 暴击几率."
+    },
+    {
+      "id": "apron",
+      "nameZh": "围裙",
+      "nameEn": "Apron",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy a Food, this gains +10 Shield",
+      "textZh": "When you buy a Food, 此物获得 +10 护盾"
+    },
+    {
+      "id": "apron",
+      "nameZh": "围裙",
+      "nameEn": "Apron",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy a Food, this gains +20 Shield",
+      "textZh": "When you buy a Food, 此物获得 +20 护盾"
+    },
+    {
+      "id": "apron",
+      "nameZh": "围裙",
+      "nameEn": "Apron",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy a Food, this gains +30 Shield",
+      "textZh": "When you buy a Food, 此物获得 +30 护盾"
+    },
+    {
+      "id": "apron",
+      "nameZh": "围裙",
+      "nameEn": "Apron",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy a Food, this gains +40 Shield",
+      "textZh": "When you buy a Food, 此物获得 +40 护盾"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge a Food 1 second(s)",
+      "textZh": "Charge a Food 1 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This item's cooldown is reduced by 1 second",
+      "textZh": "Chilled: 此物品冷却 减少 1 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge a Food 2 second(s)",
+      "textZh": "Charge a Food 2 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This item's cooldown is reduced by 1 second",
+      "textZh": "Chilled: 此物品冷却 减少 1 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge a Food 3 second(s)",
+      "textZh": "Charge a Food 3 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This item's cooldown is reduced by 1 second",
+      "textZh": "Chilled: 此物品冷却 减少 1 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge a Food 4 second(s)",
+      "textZh": "Charge a Food 4 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: This item's cooldown is reduced by 1 second",
+      "textZh": "Chilled: 此物品冷却 减少 1 秒"
+    },
+    {
+      "id": "decanter",
+      "nameZh": "醒酒器",
+      "nameEn": "Decanter",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Food items have +30% Crit Chance.",
+      "textZh": "你的 Food 物品 获得 +30% 暴击几率."
+    },
+    {
+      "id": "sorbet",
+      "nameZh": "雪葩",
+      "nameEn": "Sorbet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: When you Crit, Charge this 1 second.",
+      "textZh": "Chilled: 当你暴击, 为此物充能 1 秒."
+    },
+    {
+      "id": "sorbet",
+      "nameZh": "雪葩",
+      "nameEn": "Sorbet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: When you Crit, Charge this 1 second.",
+      "textZh": "Chilled: 当你暴击, 为此物充能 1 秒."
+    },
+    {
+      "id": "sorbet",
+      "nameZh": "雪葩",
+      "nameEn": "Sorbet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: When you Crit, Charge this 1 second.",
+      "textZh": "Chilled: 当你暴击, 为此物充能 1 秒."
+    },
+    {
+      "id": "sorbet",
+      "nameZh": "雪葩",
+      "nameEn": "Sorbet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Chilled: When you Crit, Charge this 1 second.",
+      "textZh": "Chilled: 当你暴击, 为此物充能 1 秒."
+    },
+    {
+      "id": "pasta",
+      "nameZh": "意大利面",
+      "nameEn": "Pasta",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Hasted, Charge it 1 second.",
+      "textZh": "当此物获得迅捷时, Charge it 1 秒."
+    },
+    {
+      "id": "pasta",
+      "nameZh": "意大利面",
+      "nameEn": "Pasta",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Hasted, Charge it 1 second.",
+      "textZh": "当此物获得迅捷时, Charge it 1 秒."
+    },
+    {
+      "id": "pasta",
+      "nameZh": "意大利面",
+      "nameEn": "Pasta",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Hasted, Charge it 1 second.",
+      "textZh": "当此物获得迅捷时, Charge it 1 秒."
+    },
+    {
+      "id": "pasta",
+      "nameZh": "意大利面",
+      "nameEn": "Pasta",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is Hasted, Charge it 1 second.",
+      "textZh": "当此物获得迅捷时, Charge it 1 秒."
+    },
+    {
+      "id": "prep-station",
+      "nameZh": "制备工作台",
+      "nameEn": "Prep Station",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Food gain +5 Shield, +1 Burn and +1 Regen for the fight.",
+      "textZh": "你的 Food 获得 +5 护盾, +1 燃烧 并且 +1 再生 持续整场战斗."
+    },
+    {
+      "id": "prep-station",
+      "nameZh": "制备工作台",
+      "nameEn": "Prep Station",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Tool, Charge this 2 seconds.",
+      "textZh": "When you use an adjacent 工具, 为此物充能 2 秒."
+    }
+  ]
+}

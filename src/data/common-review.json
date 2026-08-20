@@ -1,0 +1,1757 @@
+{
+  "summary": {
+    "total": 143,
+    "needsReview": 826,
+    "missingImages": 21,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "mysterious-gift",
+      "nameZh": "神秘礼物",
+      "nameEn": "Mysterious Gift",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "mysterious-crystal",
+      "nameZh": "神秘水晶",
+      "nameEn": "Mysterious Crystal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "abducted-cow",
+      "nameZh": "被绑架的牛",
+      "nameEn": "Abducted Cow",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "bionic-arm",
+      "nameZh": "仿生手臂",
+      "nameEn": "Bionic Arm",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tractor-beam",
+      "nameZh": "牵引光束",
+      "nameEn": "Tractor Beam",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "space-suit",
+      "nameZh": "太空服",
+      "nameEn": "Space Suit",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "portable-shield-generator",
+      "nameZh": "便携护盾发生器",
+      "nameEn": "Portable Shield Generator",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "translation-crystal",
+      "nameZh": "翻译水晶",
+      "nameEn": "Translation Crystal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "disintegration-ray",
+      "nameZh": "分解射线",
+      "nameEn": "Disintegration Ray",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "replicator",
+      "nameZh": "复制器",
+      "nameEn": "Replicator",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "drowsdrop",
+      "nameZh": "昏沉滴露",
+      "nameEn": "Drowsdrop",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "warp-drive",
+      "nameZh": "曲速引擎",
+      "nameEn": "Warp Drive",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "learning-crystal",
+      "nameZh": "学习水晶",
+      "nameEn": "Learning Crystal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "ancient-specimen",
+      "nameZh": "远古标本",
+      "nameEn": "Ancient Specimen",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "moon-orb",
+      "nameZh": "月光宝珠",
+      "nameEn": "Moon Orb",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "echo-crystal",
+      "nameZh": "回声水晶",
+      "nameEn": "Echo Crystal",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "tinfoil-hat",
+      "nameZh": "锡箔帽",
+      "nameEn": "Tinfoil Hat",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "void-disruptor",
+      "nameZh": "虚空干扰器",
+      "nameEn": "Void Disruptor",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "galactic-translator",
+      "nameZh": "银河翻译器",
+      "nameEn": "Galactic Translator",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "crash-site-ticket",
+      "nameZh": "坠落地点探险券",
+      "nameEn": "Crash Site Ticket",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Haste it for 1 second(s). If it is a Weapon, it also gains +3 Damage for the fight.",
+      "textZh": "When you use 此物右侧的物品, 迅捷 it 持续 1 秒. If it is a 武器, it also 获得s +3 伤害 持续整场战斗."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Haste it for 2 second(s). If it is a Weapon, it also gains +5 Damage for the fight.",
+      "textZh": "When you use 此物右侧的物品, 迅捷 it 持续 2 秒. If it is a 武器, it also 获得s +5 伤害 持续整场战斗."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Haste it for 3 second(s). If it is a Weapon, it also gains +7 Damage for the fight.",
+      "textZh": "When you use 此物右侧的物品, 迅捷 it 持续 3 秒. If it is a 武器, it also 获得s +7 伤害 持续整场战斗."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Haste it for 4 second(s). If it is a Weapon, it also gains +9 Damage for the fight.",
+      "textZh": "When you use 此物右侧的物品, 迅捷 it 持续 4 秒. If it is a 武器, it also 获得s +9 伤害 持续整场战斗."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Slow an item for 1 second(s).",
+      "textZh": "When you use 此物右侧的物品, 减速一件物品 持续 1 秒."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Freeze an item for 0.5 second(s).",
+      "textZh": "When you use 此物右侧的物品, 冻结一件物品 持续 0.5 秒."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Shield 20.",
+      "textZh": "When you use 此物右侧的物品, 护盾 20."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Heal 20.",
+      "textZh": "When you use 此物右侧的物品, 治疗 20."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Poison 2.",
+      "textZh": "When you use 此物右侧的物品, 毒性 2."
+    },
+    {
+      "id": "shadowed-cloak",
+      "nameZh": "暗影斗篷",
+      "nameEn": "Shadowed Cloak",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the right of this, Burn 2.",
+      "textZh": "When you use 此物右侧的物品, 燃烧 2."
+    },
+    {
+      "id": "frozen-bludgeon",
+      "nameZh": "冰冻钝器",
+      "nameEn": "Frozen Bludgeon",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "icicle",
+      "nameZh": "冰锥",
+      "nameEn": "Icicle",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent items permanently gain 1% Crit Chance",
+      "textZh": "相邻物品 permanently 获得 1% 暴击几率"
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent items permanently gain 2% Crit Chance",
+      "textZh": "相邻物品 permanently 获得 2% 暴击几率"
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent items permanently gain 3% Crit Chance",
+      "textZh": "相邻物品 permanently 获得 3% 暴击几率"
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent items permanently gain 4% Crit Chance",
+      "textZh": "相邻物品 permanently 获得 4% 暴击几率"
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This permanently loses 1 Max Ammo.",
+      "textZh": "此物 permanently loses 1 最大弹药."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each fight, if this has no Ammo, permanently destroy it.",
+      "textZh": "At the end 每场战斗, if 此物拥有 no 弹药, permanently destroy it."
+    },
+    {
+      "id": "super-syrup",
+      "nameZh": "超级糖浆",
+      "nameEn": "Super Syrup",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your leftmost item's Cooldown by 1%.",
+      "textZh": "When you sell 此物, reduce 你的 leftmost 物品's 冷却 by 1%."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your leftmost item's Cooldown by 2%.",
+      "textZh": "When you sell 此物, reduce 你的 leftmost 物品's 冷却 by 2%."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your leftmost item's Cooldown by 4%.",
+      "textZh": "When you sell 此物, reduce 你的 leftmost 物品's 冷却 by 4%."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your leftmost item's Cooldown by 8%.",
+      "textZh": "When you sell 此物, reduce 你的 leftmost 物品's 冷却 by 8%."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +10 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +10 护盾."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "insect-wing",
+      "nameZh": "虫翅",
+      "nameEn": "Insect Wing",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +10 伤害."
+    },
+    {
+      "id": "catalyst",
+      "nameZh": "催化剂",
+      "nameEn": "Catalyst",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, transform your leftmost item.",
+      "textZh": "When you sell 此物, trans持续m 你的 leftmost 物品."
+    },
+    {
+      "id": "catalyst",
+      "nameZh": "催化剂",
+      "nameEn": "Catalyst",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, transform your leftmost item.",
+      "textZh": "When you sell 此物, trans持续m 你的 leftmost 物品."
+    },
+    {
+      "id": "catalyst",
+      "nameZh": "催化剂",
+      "nameEn": "Catalyst",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, transform your leftmost item.",
+      "textZh": "When you sell 此物, trans持续m 你的 leftmost 物品."
+    },
+    {
+      "id": "catalyst",
+      "nameZh": "催化剂",
+      "nameEn": "Catalyst",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, transform your leftmost item.",
+      "textZh": "When you sell 此物, trans持续m 你的 leftmost 物品."
+    },
+    {
+      "id": "catalyst",
+      "nameZh": "催化剂",
+      "nameEn": "Catalyst",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "marble-scalemail",
+      "nameZh": "大理石鳞甲",
+      "nameEn": "Marble Scalemail",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 3 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 3 护盾."
+    },
+    {
+      "id": "marble-scalemail",
+      "nameZh": "大理石鳞甲",
+      "nameEn": "Marble Scalemail",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 6 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 6 护盾."
+    },
+    {
+      "id": "marble-scalemail",
+      "nameZh": "大理石鳞甲",
+      "nameEn": "Marble Scalemail",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 9 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 9 护盾."
+    },
+    {
+      "id": "marble-scalemail",
+      "nameZh": "大理石鳞甲",
+      "nameEn": "Marble Scalemail",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 12 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 12 护盾."
+    },
+    {
+      "id": "marble-scalemail",
+      "nameZh": "大理石鳞甲",
+      "nameEn": "Marble Scalemail",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "stinger",
+      "nameZh": "毒刺",
+      "nameEn": "Stinger",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "clockwork-blades",
+      "nameZh": "发条刀",
+      "nameEn": "Clockwork Blades",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your items' Cooldowns by 1%.",
+      "textZh": "When you sell 此物, reduce 你的物品' 冷却s by 1%."
+    },
+    {
+      "id": "clockwork-blades",
+      "nameZh": "发条刀",
+      "nameEn": "Clockwork Blades",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your items' Cooldowns by 2%.",
+      "textZh": "When you sell 此物, reduce 你的物品' 冷却s by 2%."
+    },
+    {
+      "id": "clockwork-blades",
+      "nameZh": "发条刀",
+      "nameEn": "Clockwork Blades",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your items' Cooldowns by 3%.",
+      "textZh": "When you sell 此物, reduce 你的物品' 冷却s by 3%."
+    },
+    {
+      "id": "clockwork-blades",
+      "nameZh": "发条刀",
+      "nameEn": "Clockwork Blades",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, reduce your items' Cooldowns by 4%.",
+      "textZh": "When you sell 此物, reduce 你的物品' 冷却s by 4%."
+    },
+    {
+      "id": "clockwork-blades",
+      "nameZh": "发条刀",
+      "nameEn": "Clockwork Blades",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "magnifying-glass",
+      "nameZh": "放大镜",
+      "nameEn": "Magnifying Glass",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +5 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +5 伤害."
+    },
+    {
+      "id": "magnifying-glass",
+      "nameZh": "放大镜",
+      "nameEn": "Magnifying Glass",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +15 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +15 伤害."
+    },
+    {
+      "id": "magnifying-glass",
+      "nameZh": "放大镜",
+      "nameEn": "Magnifying Glass",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +30 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +30 伤害."
+    },
+    {
+      "id": "magnifying-glass",
+      "nameZh": "放大镜",
+      "nameEn": "Magnifying Glass",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +50 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +50 伤害."
+    },
+    {
+      "id": "magnifying-glass",
+      "nameZh": "放大镜",
+      "nameEn": "Magnifying Glass",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +4 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +4 护盾."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +8 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +8 护盾."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +16 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +16 护盾."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +32 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +32 护盾."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Shield bonus.",
+      "textZh": "此物拥有 双倍 护盾 bonus."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "scrap",
+      "nameZh": "废料",
+      "nameEn": "Scrap",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +10 伤害."
+    },
+    {
+      "id": "junkyard-club",
+      "nameZh": "废品场大棒",
+      "nameEn": "Junkyard Club",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 4 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 4 伤害."
+    },
+    {
+      "id": "junkyard-club",
+      "nameZh": "废品场大棒",
+      "nameEn": "Junkyard Club",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 6 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 6 伤害."
+    },
+    {
+      "id": "junkyard-club",
+      "nameZh": "废品场大棒",
+      "nameEn": "Junkyard Club",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 8 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 8 伤害."
+    },
+    {
+      "id": "junkyard-club",
+      "nameZh": "废品场大棒",
+      "nameEn": "Junkyard Club",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 10 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 10 伤害."
+    },
+    {
+      "id": "junkyard-club",
+      "nameZh": "废品场大棒",
+      "nameEn": "Junkyard Club",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair an item",
+      "textZh": "Repair an 物品"
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +5 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +5 治疗."
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair an item",
+      "textZh": "Repair an 物品"
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +15 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +15 治疗."
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair an item",
+      "textZh": "Repair an 物品"
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +30 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +30 治疗."
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Repair an item",
+      "textZh": "Repair an 物品"
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +50 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +50 治疗."
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "junkyard-repairbot",
+      "nameZh": "废品场维修机器人",
+      "nameEn": "Junkyard Repairbot",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "junkyard-lance",
+      "nameZh": "废品场长枪",
+      "nameEn": "Junkyard Lance",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal 15 Damage for each Small item you have (including Stash)",
+      "textZh": "造成 15 伤害 每有一个 小型 物品 you have (including Stash)"
+    },
+    {
+      "id": "junkyard-lance",
+      "nameZh": "废品场长枪",
+      "nameEn": "Junkyard Lance",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal 30 Damage for each Small item you have (including Stash)",
+      "textZh": "造成 30 伤害 每有一个 小型 物品 you have (including Stash)"
+    },
+    {
+      "id": "junkyard-lance",
+      "nameZh": "废品场长枪",
+      "nameEn": "Junkyard Lance",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal 60 Damage for each Small item you have (including Stash)",
+      "textZh": "造成 60 伤害 每有一个 小型 物品 you have (including Stash)"
+    },
+    {
+      "id": "junkyard-lance",
+      "nameZh": "废品场长枪",
+      "nameEn": "Junkyard Lance",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal 100 Damage for each Small item you have (including Stash)",
+      "textZh": "造成 100 伤害 每有一个 小型 物品 you have (including Stash)"
+    },
+    {
+      "id": "junkyard-lance",
+      "nameZh": "废品场长枪",
+      "nameEn": "Junkyard Lance",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "rune-axe",
+      "nameZh": "符文手斧",
+      "nameEn": "Rune Axe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain +1 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 +1 伤害."
+    },
+    {
+      "id": "rune-axe",
+      "nameZh": "符文手斧",
+      "nameEn": "Rune Axe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain +2 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 +2 伤害."
+    },
+    {
+      "id": "rune-axe",
+      "nameZh": "符文手斧",
+      "nameEn": "Rune Axe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain +3 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 +3 伤害."
+    },
+    {
+      "id": "rune-axe",
+      "nameZh": "符文手斧",
+      "nameEn": "Rune Axe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain +4 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 +4 伤害."
+    },
+    {
+      "id": "rune-axe",
+      "nameZh": "符文手斧",
+      "nameEn": "Rune Axe",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 1 Regen.",
+      "textZh": "When you sell 此物, 获得 1 再生."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 2 Regen.",
+      "textZh": "When you sell 此物, 获得 2 再生."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 3 Regen.",
+      "textZh": "When you sell 此物, 获得 3 再生."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 4 Regen.",
+      "textZh": "When you sell 此物, 获得 4 再生."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +10 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +10 护盾."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "citrus",
+      "nameZh": "柑橘",
+      "nameEn": "Citrus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +10 伤害."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, upgrade 1 of your items from other Heroes.",
+      "textZh": "When you sell 此物, upgrade 1 of 你来自其他英雄的物品."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, upgrade 2 of your items from other Heroes.",
+      "textZh": "When you sell 此物, upgrade 2 of 你来自其他英雄的物品."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, upgrade 3 of your items from other Heroes.",
+      "textZh": "When you sell 此物, upgrade 3 of 你来自其他英雄的物品."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, upgrade 4 of your items from other Heroes.",
+      "textZh": "When you sell 此物, upgrade 4 of 你来自其他英雄的物品."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +10 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +10 护盾."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "resonance-crystal",
+      "nameZh": "共振水晶",
+      "nameEn": "Resonance Crystal",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +10 伤害."
+    },
+    {
+      "id": "old-sword",
+      "nameZh": "古董剑",
+      "nameEn": "Old Sword",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +4 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +4 伤害."
+    },
+    {
+      "id": "old-sword",
+      "nameZh": "古董剑",
+      "nameEn": "Old Sword",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +6 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +6 伤害."
+    },
+    {
+      "id": "old-sword",
+      "nameZh": "古董剑",
+      "nameEn": "Old Sword",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +8 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +8 伤害."
+    },
+    {
+      "id": "old-sword",
+      "nameZh": "古董剑",
+      "nameEn": "Old Sword",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 获得s +10 伤害."
+    },
+    {
+      "id": "old-sword",
+      "nameZh": "古董剑",
+      "nameEn": "Old Sword",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "tourist-chariot",
+      "nameZh": "观光缆车",
+      "nameEn": "Tourist Chariot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your items gain +1 value.",
+      "textZh": "When you sell 此物, 你的物品 获得 +1 价值."
+    },
+    {
+      "id": "tourist-chariot",
+      "nameZh": "观光缆车",
+      "nameEn": "Tourist Chariot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your items gain +2 value.",
+      "textZh": "When you sell 此物, 你的物品 获得 +2 价值."
+    },
+    {
+      "id": "tourist-chariot",
+      "nameZh": "观光缆车",
+      "nameEn": "Tourist Chariot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your items gain +3 value.",
+      "textZh": "When you sell 此物, 你的物品 获得 +3 价值."
+    },
+    {
+      "id": "tourist-chariot",
+      "nameZh": "观光缆车",
+      "nameEn": "Tourist Chariot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your items gain +4 value.",
+      "textZh": "When you sell 此物, 你的物品 获得 +4 价值."
+    },
+    {
+      "id": "tourist-chariot",
+      "nameZh": "观光缆车",
+      "nameEn": "Tourist Chariot",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "harkuvian-launcher",
+      "nameZh": "哈库维发射器",
+      "nameEn": "Harkuvian Launcher",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 1 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 1 伤害."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 2 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 2 伤害."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 3 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 3 伤害."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Weapons gain 4 Damage.",
+      "textZh": "When you sell 此物, 你的武器 获得 4 伤害."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +10 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +10 护盾."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "red-gumball",
+      "nameZh": "红色口香糖球",
+      "nameEn": "Red Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "knee-brace",
+      "nameZh": "护膝",
+      "nameEn": "Knee Brace",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each Hero fight, permanently gain 50 Max Health.",
+      "textZh": "At the end of 每 Hero 战斗, permanently 获得 50 最大生命."
+    },
+    {
+      "id": "knee-brace",
+      "nameZh": "护膝",
+      "nameEn": "Knee Brace",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each Hero fight, permanently gain 100 Max Health.",
+      "textZh": "At the end of 每 Hero 战斗, permanently 获得 100 最大生命."
+    },
+    {
+      "id": "knee-brace",
+      "nameZh": "护膝",
+      "nameEn": "Knee Brace",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each Hero fight, permanently gain 150 Max Health.",
+      "textZh": "At the end of 每 Hero 战斗, permanently 获得 150 最大生命."
+    },
+    {
+      "id": "knee-brace",
+      "nameZh": "护膝",
+      "nameEn": "Knee Brace",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the end of each Hero fight, permanently gain 200 Max Health.",
+      "textZh": "At the end of 每 Hero 战斗, permanently 获得 200 最大生命."
+    },
+    {
+      "id": "knee-brace",
+      "nameZh": "护膝",
+      "nameEn": "Knee Brace",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "knee-brace",
+      "nameZh": "护膝",
+      "nameEn": "Knee Brace",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Max Health bonus.",
+      "textZh": "此物拥有 双倍 最大生命 bonus."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 1 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 1 护盾."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 2 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 2 护盾."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 3 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 3 护盾."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your Shield items gain 4 Shield.",
+      "textZh": "When you sell 此物, 你的护盾物品 获得 4 护盾."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +0.2 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +0.2 迅捷 duration."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Shield bonus.",
+      "textZh": "此物拥有 双倍 护盾 bonus."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +10 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +10 治疗."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +1 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +1 毒性."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +1 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +1 燃烧."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 2% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 2% 暴击几率."
+    },
+    {
+      "id": "yellow-gumball",
+      "nameZh": "黄色口香糖球",
+      "nameEn": "Yellow Gumball",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +10 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +10 伤害."
+    },
+    {
+      "id": "rocket-boots",
+      "nameZh": "火箭靴",
+      "nameEn": "Rocket Boots",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +1 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +1 迅捷 duration."
+    },
+    {
+      "id": "rocket-boots",
+      "nameZh": "火箭靴",
+      "nameEn": "Rocket Boots",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +1 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +1 迅捷 duration."
+    },
+    {
+      "id": "rocket-boots",
+      "nameZh": "火箭靴",
+      "nameEn": "Rocket Boots",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +1 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +1 迅捷 duration."
+    },
+    {
+      "id": "rocket-boots",
+      "nameZh": "火箭靴",
+      "nameEn": "Rocket Boots",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +1 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +1 迅捷 duration."
+    },
+    {
+      "id": "rocket-boots",
+      "nameZh": "火箭靴",
+      "nameEn": "Rocket Boots",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "salamander-pup",
+      "nameZh": "火蜥幼兽",
+      "nameEn": "Salamander Pup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +2 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +2 燃烧."
+    },
+    {
+      "id": "salamander-pup",
+      "nameZh": "火蜥幼兽",
+      "nameEn": "Salamander Pup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +4 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +4 燃烧."
+    },
+    {
+      "id": "salamander-pup",
+      "nameZh": "火蜥幼兽",
+      "nameEn": "Salamander Pup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +8 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +8 燃烧."
+    },
+    {
+      "id": "salamander-pup",
+      "nameZh": "火蜥幼兽",
+      "nameEn": "Salamander Pup",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +16 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +16 燃烧."
+    },
+    {
+      "id": "salamander-pup",
+      "nameZh": "火蜥幼兽",
+      "nameEn": "Salamander Pup",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "salamander-pup",
+      "nameZh": "火蜥幼兽",
+      "nameEn": "Salamander Pup",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "spiked-buckler",
+      "nameZh": "尖刺圆盾",
+      "nameEn": "Spiked Buckler",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains +4 Damage if it is a Weapon and +4 Shield if it is a Shield item.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s +4 伤害 if it is a 武器 并且 +4 护盾 if it is a 护盾 物品."
+    },
+    {
+      "id": "spiked-buckler",
+      "nameZh": "尖刺圆盾",
+      "nameEn": "Spiked Buckler",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains +6 Damage if it is a Weapon and +6 Shield if it is a Shield item.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s +6 伤害 if it is a 武器 并且 +6 护盾 if it is a 护盾 物品."
+    },
+    {
+      "id": "spiked-buckler",
+      "nameZh": "尖刺圆盾",
+      "nameEn": "Spiked Buckler",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains +8 Damage if it is a Weapon and +8 Shield if it is a Shield item.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s +8 伤害 if it is a 武器 并且 +8 护盾 if it is a 护盾 物品."
+    },
+    {
+      "id": "spiked-buckler",
+      "nameZh": "尖刺圆盾",
+      "nameEn": "Spiked Buckler",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains +10 Damage if it is a Weapon and +10 Shield if it is a Shield item.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s +10 伤害 if it is a 武器 并且 +10 护盾 if it is a 护盾 物品."
+    },
+    {
+      "id": "spiked-buckler",
+      "nameZh": "尖刺圆盾",
+      "nameEn": "Spiked Buckler",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "makeshift-barricade",
+      "nameZh": "简易路障",
+      "nameEn": "Makeshift Barricade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +1 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +1 减速 duration."
+    },
+    {
+      "id": "makeshift-barricade",
+      "nameZh": "简易路障",
+      "nameEn": "Makeshift Barricade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +1 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +1 减速 duration."
+    },
+    {
+      "id": "makeshift-barricade",
+      "nameZh": "简易路障",
+      "nameEn": "Makeshift Barricade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +1 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +1 减速 duration."
+    },
+    {
+      "id": "makeshift-barricade",
+      "nameZh": "简易路障",
+      "nameEn": "Makeshift Barricade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +1 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +1 减速 duration."
+    },
+    {
+      "id": "makeshift-barricade",
+      "nameZh": "简易路障",
+      "nameEn": "Makeshift Barricade",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Sells for Gold.",
+      "textZh": "Sells 持续 金币."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Sells for Gold.",
+      "textZh": "Sells 持续 金币."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Sells for Gold.",
+      "textZh": "Sells 持续 金币."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Sells for Gold.",
+      "textZh": "Sells 持续 金币."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Bronze-tier Neutral items.",
+      "textZh": "Sells Bronze-tier Neutral 物品."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +0.2 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +0.2 减速 duration."
+    },
+    {
+      "id": "chunk-of-gold",
+      "nameZh": "金块",
+      "nameEn": "Chunk of Gold",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.1 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.1 冻结 duration."
+    }
+  ]
+}

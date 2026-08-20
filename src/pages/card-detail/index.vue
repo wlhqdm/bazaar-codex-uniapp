@@ -63,7 +63,8 @@
           <text class="group-title">商店</text>
           <view class="source-list">
             <view v-for="source in shopList" :key="`shop-${source.name}`" class="source-item">
-              <text class="source-name">{{ source.name }}</text>
+              <text class="source-name">{{ source.nameZh || source.name }}</text>
+              <text v-if="source.nameZh && source.nameZh !== source.name" class="source-en">{{ source.name }}</text>
               <text class="source-desc">{{ source.description }}</text>
             </view>
           </view>
@@ -106,8 +107,8 @@
 
 <script>
 import AppBreadcrumb from '../../components/app-breadcrumb.vue'
-import vanessaData from '../../data/vanessa-cards.json'
 import { assetUrl } from '../../utils/asset.js'
+import { findCard, getHeroMeta, heroListPath } from '../../utils/heroes.js'
 
 export default {
   components: {
@@ -115,7 +116,14 @@ export default {
   },
   data() {
     return {
-      hero: vanessaData.hero,
+      heroKey: 'vanessa',
+      hero: {
+        key: 'vanessa',
+        nameZh: '',
+        nameEn: '',
+        titleZh: '',
+        count: 0,
+      },
       card: null,
     }
   },
@@ -126,7 +134,10 @@ export default {
     crumbs() {
       return [
         { label: '首页', path: '/pages/index/index' },
-        { label: '瓦内莎图鉴', path: '/pages/vanessa/index' },
+        {
+          label: `${this.hero.nameZh || '角色'}图鉴`,
+          path: heroListPath(this.heroKey),
+        },
         { label: this.card ? this.card.nameZh : '卡牌详情' },
       ]
     },
@@ -151,6 +162,7 @@ export default {
       }
       return this.card.sources.map((source) => ({
         ...source,
+        nameZh: source.nameZh || source.name,
         description: source.descriptionZh || source.description || '',
       }))
     },
@@ -171,8 +183,16 @@ export default {
     },
   },
   onLoad(options) {
+    this.heroKey = decodeURIComponent(options.hero || 'vanessa')
     const slug = decodeURIComponent(options.slug || '')
-    this.card = vanessaData.cards.find((item) => item.slug === slug) || null
+    this.hero = getHeroMeta(this.heroKey) || {
+      key: this.heroKey,
+      nameZh: this.heroKey,
+      nameEn: this.heroKey,
+      titleZh: '',
+      count: 0,
+    }
+    this.card = findCard(this.heroKey, slug)
 
     if (this.card) {
       uni.setNavigationBarTitle({

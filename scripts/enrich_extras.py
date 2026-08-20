@@ -1,7 +1,8 @@
-"""Incrementally enrich existing Vanessa card JSON with day / events / enchantments."""
+"""Incrementally enrich existing hero card JSON with day / events / enchantments."""
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -10,8 +11,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from fetch_vanessa import (  # noqa: E402
-    SOURCE_URL,
+from fetch_heroes import (  # noqa: E402
+    get_hero,
+    load_heroes,
     fetch_text,
     parse_cards,
     parse_detail,
@@ -22,10 +24,11 @@ from zh_translate import (  # noqa: E402
     translate_en_to_zh,
     translate_enchant_name,
     translate_event_name,
+    translate_shop_name,
     translate_tags,
 )
 
-DATA_PATH = ROOT / "src" / "data" / "vanessa-cards.json"
+DATA_DIR = ROOT / "src" / "data"
 SIZE_EN = {"小": "Small", "中": "Medium", "大": "Large"}
 
 
@@ -49,6 +52,7 @@ def apply_detail_fields(card: dict, detail: dict, cache: dict[str, str]) -> None
 
     for source in card.get("sources") or []:
         source.setdefault("type", "shop")
+        source["nameZh"] = translate_shop_name(source.get("name") or "")
 
     events = detail.get("events") or []
     for event in events:
@@ -70,15 +74,38 @@ def apply_detail_fields(card: dict, detail: dict, cache: dict[str, str]) -> None
         enchant["lines"] = lines_zh
     card["enchantments"] = enchantments
 
+    if detail.get("effects"):
+        card["effects"] = detail["effects"]
+        for effect in card["effects"]:
+            lines_zh = []
+            for line in effect.get("linesEn") or []:
+                zh = cache.get(line) or translate_en_to_zh(line)
+                cache[line] = zh
+                lines_zh.append(zh)
+            effect["linesZh"] = lines_zh
+            effect["lines"] = lines_zh
 
-def main() -> None:
-    print("Loading existing JSON...", flush=True)
-    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    if detail.get("sources") is not None:
+        card["sources"] = detail["sources"]
+        for source in card["sources"]:
+            source.setdefault("type", "shop")
+            source["nameZh"] = translate_shop_name(source.get("name") or "")
+            desc_en = source.get("descriptionEn") or ""
+            zh = cache.get(desc_en) or translate_en_to_zh(desc_en)
+            cache[desc_en] = zh
+            source["descriptionZh"] = zh
+            source["description"] = zh
+
+
+def enrich_hero(key: str, workers: int = 8) -> None:
+    hero = get_hero(key)
+    data_path = DATA_DIR / f"{key}-cards.json"
+    print(f"=== Enrich {key} ===", flush=True)
+    payload = json.loads(data_path.read_text(encoding="utf-8"))
     existing = {card["slug"]: card for card in payload["cards"]}
 
-    print("Fetching hero list...", flush=True)
-    list_html = fetch_text(SOURCE_URL)
-    list_cards = {card["slug"]: card for card in parse_cards(list_html)}
+    list_html = fetch_text(hero["sourceUrl"])
+    list_cards = {card["slug"]: card for card in parse_cards(list_html, hero)}
     print(f"List cards: {len(list_cards)}", flush=True)
 
     for slug, card in existing.items():
@@ -87,7 +114,6 @@ def main() -> None:
     cache = load_translate_cache()
     slugs = list(existing.keys())
     details: dict[str, dict] = {}
-    workers = 8
 
     print(f"Fetching details with {workers} workers...", flush=True)
     with ThreadPoolExecutor(max_workers=workers) as pool:
@@ -99,11 +125,7 @@ def main() -> None:
                 details[slug] = future.result()
             except Exception as exc:  # noqa: BLE001
                 print(f"Failed {slug}: {exc}", flush=True)
-                details[slug] = {
-                    "day": None,
-                    "events": [],
-                    "enchantments": [],
-                }
+                details[slug] = {"day": None, "events": [], "enchantments": [], "effects": [], "sources": []}
             done += 1
             if done % 20 == 0 or done == len(slugs):
                 print(f"Fetched {done}/{len(slugs)}", flush=True)
@@ -112,14 +134,29 @@ def main() -> None:
         apply_detail_fields(card, details.get(slug) or {}, cache)
 
     save_translate_cache(cache)
-    DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    data_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     with_events = sum(1 for card in payload["cards"] if card.get("events"))
     with_enchants = sum(1 for card in payload["cards"] if card.get("enchantments"))
     with_day = sum(1 for card in payload["cards"] if card.get("dayLabel"))
     print(
-        f"Done. day={with_day}, events={with_events}, enchantments={with_enchants} / {len(payload['cards'])}",
+        f"Done {key}. day={with_day}, events={with_events}, enchantments={with_enchants} / {len(payload['cards'])}",
         flush=True,
     )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--hero", default="all")
+    parser.add_argument("--workers", type=int, default=8)
+    args = parser.parse_args()
+
+    if args.hero == "all":
+        keys = [h["key"] for h in load_heroes()]
+    else:
+        keys = [x.strip() for x in args.hero.split(",") if x.strip()]
+
+    for key in keys:
+        enrich_hero(key, workers=args.workers)
 
 
 if __name__ == "__main__":

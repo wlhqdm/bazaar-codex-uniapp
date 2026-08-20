@@ -7,9 +7,15 @@
 			}
 		},
 		{
+			"path": "pages/hero/index",
+			"style": {
+				"navigationBarTitleText": "角色图鉴"
+			}
+		},
+		{
 			"path": "pages/vanessa/index",
 			"style": {
-				"navigationBarTitleText": "瓦内莎图鉴"
+				"navigationBarTitleText": "凡妮莎图鉴"
 			}
 		},
 		{

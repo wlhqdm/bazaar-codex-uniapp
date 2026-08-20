@@ -1,0 +1,1624 @@
+{
+  "summary": {
+    "total": 151,
+    "needsReview": 805,
+    "missingImages": 2,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "flying-pig",
+      "nameZh": "木桨",
+      "nameEn": "Flying Pig",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "private-jet",
+      "nameZh": "私人喷气机",
+      "nameEn": "Private Jet",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "safe",
+      "nameZh": "保险箱",
+      "nameEn": "Safe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Spare Change.",
+      "textZh": "When you sell 此物, get 3 Spare Change."
+    },
+    {
+      "id": "safe",
+      "nameZh": "保险箱",
+      "nameEn": "Safe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Spare Change.",
+      "textZh": "When you sell 此物, get 3 Spare Change."
+    },
+    {
+      "id": "safe",
+      "nameZh": "保险箱",
+      "nameEn": "Safe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Spare Change.",
+      "textZh": "When you sell 此物, get 3 Spare Change."
+    },
+    {
+      "id": "safe",
+      "nameZh": "保险箱",
+      "nameEn": "Safe",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Spare Change.",
+      "textZh": "When you sell 此物, get 3 Spare Change."
+    },
+    {
+      "id": "safe",
+      "nameZh": "保险箱",
+      "nameEn": "Safe",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "bandages",
+      "nameZh": "绷带",
+      "nameEn": "Bandages",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "pitchfork",
+      "nameZh": "草叉",
+      "nameEn": "Pitchfork",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Truffle for each Property and Tool you have.",
+      "textZh": "每天开始时, get a Truffle 每有一个 地产 并且 工具 you have."
+    },
+    {
+      "id": "pitchfork",
+      "nameZh": "草叉",
+      "nameEn": "Pitchfork",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Truffle for each Property and Tool you have.",
+      "textZh": "每天开始时, get a Truffle 每有一个 地产 并且 工具 you have."
+    },
+    {
+      "id": "pitchfork",
+      "nameZh": "草叉",
+      "nameEn": "Pitchfork",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Truffle for each Property and Tool you have.",
+      "textZh": "每天开始时, get a Truffle 每有一个 地产 并且 工具 you have."
+    },
+    {
+      "id": "pitchfork",
+      "nameZh": "草叉",
+      "nameEn": "Pitchfork",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Truffle for each Property and Tool you have.",
+      "textZh": "每天开始时, get a Truffle 每有一个 地产 并且 工具 you have."
+    },
+    {
+      "id": "orange-piggles-a",
+      "nameZh": "橙色小圆猪 A",
+      "nameEn": "Orange Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Burn items gain +1 Burn for the fight",
+      "textZh": "Adjacent 燃烧 物品 获得 +1 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-a",
+      "nameZh": "橙色小圆猪 A",
+      "nameEn": "Orange Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Burn items gain +2 Burn for the fight",
+      "textZh": "Adjacent 燃烧 物品 获得 +2 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-a",
+      "nameZh": "橙色小圆猪 A",
+      "nameEn": "Orange Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Burn items gain +3 Burn for the fight",
+      "textZh": "Adjacent 燃烧 物品 获得 +3 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-a",
+      "nameZh": "橙色小圆猪 A",
+      "nameEn": "Orange Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Burn items gain +4 Burn for the fight",
+      "textZh": "Adjacent 燃烧 物品 获得 +4 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-a",
+      "nameZh": "橙色小圆猪 A",
+      "nameEn": "Orange Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Burn bonus.",
+      "textZh": "此物拥有 双倍 燃烧 bonus."
+    },
+    {
+      "id": "orange-piggles-a",
+      "nameZh": "橙色小圆猪 A",
+      "nameEn": "Orange Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Burn items have +25% Crit Chance.",
+      "textZh": "Adjacent 燃烧 物品 获得 +25% 暴击几率."
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the left of this gains +1 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the left of 此物获得 +1 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the left of this gains +2 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the left of 此物获得 +2 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the left of this gains +3 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the left of 此物获得 +3 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the left of this gains +4 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the left of 此物获得 +4 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Burn bonus.",
+      "textZh": "此物拥有 双倍 燃烧 bonus."
+    },
+    {
+      "id": "orange-piggles-l",
+      "nameZh": "橙色小圆猪 L",
+      "nameEn": "Orange Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Burn item to the left of this has +50% Crit Chance.",
+      "textZh": "The 燃烧 物品 to the left of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "orange-piggles-r",
+      "nameZh": "橙色小圆猪 R",
+      "nameEn": "Orange Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the right of this gains +1 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the right of 此物获得 +1 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-r",
+      "nameZh": "橙色小圆猪 R",
+      "nameEn": "Orange Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the right of this gains +2 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the right of 此物获得 +2 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-r",
+      "nameZh": "橙色小圆猪 R",
+      "nameEn": "Orange Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the right of this gains +3 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the right of 此物获得 +3 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-r",
+      "nameZh": "橙色小圆猪 R",
+      "nameEn": "Orange Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Burn item to the right of this gains +4 Burn for the fight",
+      "textZh": "The 燃烧 物品 to the right of 此物获得 +4 燃烧 持续整场战斗"
+    },
+    {
+      "id": "orange-piggles-r",
+      "nameZh": "橙色小圆猪 R",
+      "nameEn": "Orange Piggles R",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Burn bonus.",
+      "textZh": "此物拥有 双倍 燃烧 bonus."
+    },
+    {
+      "id": "orange-piggles-r",
+      "nameZh": "橙色小圆猪 R",
+      "nameEn": "Orange Piggles R",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Burn item to the right of this has +50% Crit Chance.",
+      "textZh": "The 燃烧 物品 to the right of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "heirlooms",
+      "nameZh": "传家宝",
+      "nameEn": "Heirlooms",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +10 value in combat.",
+      "textZh": "此物获得 +10 价值 in combat."
+    },
+    {
+      "id": "heirlooms",
+      "nameZh": "传家宝",
+      "nameEn": "Heirlooms",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +20 value in combat.",
+      "textZh": "此物获得 +20 价值 in combat."
+    },
+    {
+      "id": "heirlooms",
+      "nameZh": "传家宝",
+      "nameEn": "Heirlooms",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +30 value in combat.",
+      "textZh": "此物获得 +30 价值 in combat."
+    },
+    {
+      "id": "heirlooms",
+      "nameZh": "传家宝",
+      "nameEn": "Heirlooms",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +40 value in combat.",
+      "textZh": "此物获得 +40 价值 in combat."
+    },
+    {
+      "id": "heirlooms",
+      "nameZh": "传家宝",
+      "nameEn": "Heirlooms",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "slingshot",
+      "nameZh": "弹弓",
+      "nameEn": "Slingshot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +2 Max Ammo for each Toy you have.",
+      "textZh": "此物获得 +2 最大弹药 每有一个 玩具 you have."
+    },
+    {
+      "id": "slingshot",
+      "nameZh": "弹弓",
+      "nameEn": "Slingshot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +2 Max Ammo for each Toy you have.",
+      "textZh": "此物获得 +2 最大弹药 每有一个 玩具 you have."
+    },
+    {
+      "id": "slingshot",
+      "nameZh": "弹弓",
+      "nameEn": "Slingshot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +2 Max Ammo for each Toy you have.",
+      "textZh": "此物获得 +2 最大弹药 每有一个 玩具 you have."
+    },
+    {
+      "id": "slingshot",
+      "nameZh": "弹弓",
+      "nameEn": "Slingshot",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +2 Max Ammo for each Toy you have.",
+      "textZh": "此物获得 +2 最大弹药 每有一个 玩具 you have."
+    },
+    {
+      "id": "slingshot",
+      "nameZh": "弹弓",
+      "nameEn": "Slingshot",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has +Max Ammo equal to your Income.",
+      "textZh": "此物获得 +最大弹药 等于 你的 Income."
+    },
+    {
+      "id": "hatchet",
+      "nameZh": "短柄斧",
+      "nameEn": "Hatchet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Truffle.",
+      "textZh": "当你购买此物, get a Truffle."
+    },
+    {
+      "id": "hatchet",
+      "nameZh": "短柄斧",
+      "nameEn": "Hatchet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Truffle.",
+      "textZh": "当你购买此物, get a Truffle."
+    },
+    {
+      "id": "hatchet",
+      "nameZh": "短柄斧",
+      "nameEn": "Hatchet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Truffle.",
+      "textZh": "当你购买此物, get a Truffle."
+    },
+    {
+      "id": "hatchet",
+      "nameZh": "短柄斧",
+      "nameEn": "Hatchet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Truffle.",
+      "textZh": "当你购买此物, get a Truffle."
+    },
+    {
+      "id": "hatchet",
+      "nameZh": "短柄斧",
+      "nameEn": "Hatchet",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "succulents",
+      "nameZh": "多肉植物",
+      "nameEn": "Succulents",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Max Health items.",
+      "textZh": "Sells 最大生命 物品."
+    },
+    {
+      "id": "succulents",
+      "nameZh": "多肉植物",
+      "nameEn": "Succulents",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain 10 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 10 伤害 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain 10 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 10 治疗 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain 10 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 10 护盾 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain 15 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 15 伤害 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain 15 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 15 治疗 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain 15 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 15 护盾 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain 20 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 20 伤害 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain 20 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 20 治疗 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain 20 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 20 护盾 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain 25 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 25 伤害 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain 25 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 25 治疗 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain 25 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 25 护盾 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Shield bonus.",
+      "textZh": "此物拥有 双倍 护盾 bonus."
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Heal bonus.",
+      "textZh": "此物拥有 双倍 治疗 bonus."
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Poison items gain 2 Poison for the fight",
+      "textZh": "Adjacent 毒性 物品 获得 2 毒性 持续整场战斗"
+    },
+    {
+      "id": "ganjo",
+      "nameZh": "甘卓琴",
+      "nameEn": "Ganjo",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Burn items gain 2 Burn for the fight",
+      "textZh": "Adjacent 燃烧 物品 获得 2 燃烧 持续整场战斗"
+    },
+    {
+      "id": "golf-clubs",
+      "nameZh": "高尔夫球杆",
+      "nameEn": "Golf Clubs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, this gains 10 Damage for the fight.",
+      "textZh": "When you 治疗, 此物获得 10 伤害 持续整场战斗."
+    },
+    {
+      "id": "golf-clubs",
+      "nameZh": "高尔夫球杆",
+      "nameEn": "Golf Clubs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, this gains 20 Damage for the fight.",
+      "textZh": "When you 治疗, 此物获得 20 伤害 持续整场战斗."
+    },
+    {
+      "id": "golf-clubs",
+      "nameZh": "高尔夫球杆",
+      "nameEn": "Golf Clubs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, this gains 30 Damage for the fight.",
+      "textZh": "When you 治疗, 此物获得 30 伤害 持续整场战斗."
+    },
+    {
+      "id": "golf-clubs",
+      "nameZh": "高尔夫球杆",
+      "nameEn": "Golf Clubs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, this gains 40 Damage for the fight.",
+      "textZh": "When you 治疗, 此物获得 40 伤害 持续整场战斗."
+    },
+    {
+      "id": "golf-clubs",
+      "nameZh": "高尔夫球杆",
+      "nameEn": "Golf Clubs",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "premium-orange-piggles",
+      "nameZh": "高级橙色小圆猪",
+      "nameEn": "Premium Orange Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn equal to half this item's value",
+      "textZh": "燃烧 等于 half 此物品价值"
+    },
+    {
+      "id": "premium-orange-piggles",
+      "nameZh": "高级橙色小圆猪",
+      "nameEn": "Premium Orange Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn equal to half this item's value",
+      "textZh": "燃烧 等于 half 此物品价值"
+    },
+    {
+      "id": "premium-orange-piggles",
+      "nameZh": "高级橙色小圆猪",
+      "nameEn": "Premium Orange Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn equal to half this item's value",
+      "textZh": "燃烧 等于 half 此物品价值"
+    },
+    {
+      "id": "premium-orange-piggles",
+      "nameZh": "高级橙色小圆猪",
+      "nameEn": "Premium Orange Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn equal to half this item's value",
+      "textZh": "燃烧 等于 half 此物品价值"
+    },
+    {
+      "id": "premium-red-piggles",
+      "nameZh": "高级红色小圆猪",
+      "nameEn": "Premium Red Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal Damage equal to triple this item's value",
+      "textZh": "造成伤害，数值等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-red-piggles",
+      "nameZh": "高级红色小圆猪",
+      "nameEn": "Premium Red Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal Damage equal to triple this item's value",
+      "textZh": "造成伤害，数值等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-red-piggles",
+      "nameZh": "高级红色小圆猪",
+      "nameEn": "Premium Red Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal Damage equal to triple this item's value",
+      "textZh": "造成伤害，数值等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-red-piggles",
+      "nameZh": "高级红色小圆猪",
+      "nameEn": "Premium Red Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Deal Damage equal to triple this item's value",
+      "textZh": "造成伤害，数值等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-yellow-piggles",
+      "nameZh": "高级黄色小圆猪",
+      "nameEn": "Premium Yellow Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield equal to triple this item's value",
+      "textZh": "护盾量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-yellow-piggles",
+      "nameZh": "高级黄色小圆猪",
+      "nameEn": "Premium Yellow Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield equal to triple this item's value",
+      "textZh": "护盾量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-yellow-piggles",
+      "nameZh": "高级黄色小圆猪",
+      "nameEn": "Premium Yellow Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield equal to triple this item's value",
+      "textZh": "护盾量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-yellow-piggles",
+      "nameZh": "高级黄色小圆猪",
+      "nameEn": "Premium Yellow Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Shield equal to triple this item's value",
+      "textZh": "护盾量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-green-piggles",
+      "nameZh": "高级绿色小圆猪",
+      "nameEn": "Premium Green Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heal equal to triple this item's value",
+      "textZh": "治疗量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-green-piggles",
+      "nameZh": "高级绿色小圆猪",
+      "nameEn": "Premium Green Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heal equal to triple this item's value",
+      "textZh": "治疗量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-green-piggles",
+      "nameZh": "高级绿色小圆猪",
+      "nameEn": "Premium Green Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heal equal to triple this item's value",
+      "textZh": "治疗量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-green-piggles",
+      "nameZh": "高级绿色小圆猪",
+      "nameEn": "Premium Green Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Heal equal to triple this item's value",
+      "textZh": "治疗量等于 triple 此物品价值"
+    },
+    {
+      "id": "premium-green-piggles",
+      "nameZh": "高级绿色小圆猪",
+      "nameEn": "Premium Green Piggles",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "premium-piggles",
+      "nameZh": "高级小圆猪",
+      "nameEn": "Premium Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Premium Piggle.",
+      "textZh": "每天开始时, get a Premium Piggle."
+    },
+    {
+      "id": "premium-piggles",
+      "nameZh": "高级小圆猪",
+      "nameEn": "Premium Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Premium Piggle.",
+      "textZh": "每天开始时, get a Premium Piggle."
+    },
+    {
+      "id": "premium-piggles",
+      "nameZh": "高级小圆猪",
+      "nameEn": "Premium Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Premium Piggle.",
+      "textZh": "每天开始时, get a Premium Piggle."
+    },
+    {
+      "id": "premium-piggles",
+      "nameZh": "高级小圆猪",
+      "nameEn": "Premium Piggles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Premium Piggle.",
+      "textZh": "每天开始时, get a Premium Piggle."
+    },
+    {
+      "id": "premium-piggles",
+      "nameZh": "高级小圆猪",
+      "nameEn": "Premium Piggles",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "briefcase",
+      "nameZh": "公文包",
+      "nameEn": "Briefcase",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 2 Spare Change.",
+      "textZh": "When you sell 此物, get 2 Spare Change."
+    },
+    {
+      "id": "briefcase",
+      "nameZh": "公文包",
+      "nameEn": "Briefcase",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 2 Spare Change.",
+      "textZh": "When you sell 此物, get 2 Spare Change."
+    },
+    {
+      "id": "briefcase",
+      "nameZh": "公文包",
+      "nameEn": "Briefcase",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 2 Spare Change.",
+      "textZh": "When you sell 此物, get 2 Spare Change."
+    },
+    {
+      "id": "briefcase",
+      "nameZh": "公文包",
+      "nameEn": "Briefcase",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 2 Spare Change.",
+      "textZh": "When you sell 此物, get 2 Spare Change."
+    },
+    {
+      "id": "briefcase",
+      "nameZh": "公文包",
+      "nameEn": "Briefcase",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "briefcase",
+      "nameZh": "公文包",
+      "nameEn": "Briefcase",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, fill your board and stash with spare change instead.",
+      "textZh": "When you sell 此物, fill 你的 board 并且 stash 用 spare change instead."
+    },
+    {
+      "id": "hot-stones",
+      "nameZh": "滚烫石块",
+      "nameEn": "Hot Stones",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Max Health items.",
+      "textZh": "Sells 最大生命 物品."
+    },
+    {
+      "id": "hot-stones",
+      "nameZh": "滚烫石块",
+      "nameEn": "Hot Stones",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "bushel",
+      "nameZh": "果篮",
+      "nameEn": "Bushel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second(s).",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "bushel",
+      "nameZh": "果篮",
+      "nameEn": "Bushel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second(s).",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "bushel",
+      "nameZh": "果篮",
+      "nameEn": "Bushel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second(s).",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "bushel",
+      "nameZh": "果篮",
+      "nameEn": "Bushel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second(s).",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "bushel",
+      "nameZh": "果篮",
+      "nameEn": "Bushel",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "luxury-kiuas",
+      "nameZh": "豪华桑拿炉",
+      "nameEn": "Luxury Kiuas",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Property, this item gains 3 value.",
+      "textZh": "When you sell a 地产, 此物 物品 获得s 3 价值."
+    },
+    {
+      "id": "luxury-kiuas",
+      "nameZh": "豪华桑拿炉",
+      "nameEn": "Luxury Kiuas",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Property, this item gains 6 value.",
+      "textZh": "When you sell a 地产, 此物 物品 获得s 6 价值."
+    },
+    {
+      "id": "luxury-kiuas",
+      "nameZh": "豪华桑拿炉",
+      "nameEn": "Luxury Kiuas",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Property, this item gains 9 value.",
+      "textZh": "When you sell a 地产, 此物 物品 获得s 9 价值."
+    },
+    {
+      "id": "luxury-kiuas",
+      "nameZh": "豪华桑拿炉",
+      "nameEn": "Luxury Kiuas",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Property, this item gains 12 value.",
+      "textZh": "When you sell a 地产, 此物 物品 获得s 12 价值."
+    },
+    {
+      "id": "luxury-kiuas",
+      "nameZh": "豪华桑拿炉",
+      "nameEn": "Luxury Kiuas",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "red-piggles-a",
+      "nameZh": "红色小圆猪 邻",
+      "nameEn": "Red Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain +3 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 +3 伤害 持续整场战斗"
+    },
+    {
+      "id": "red-piggles-a",
+      "nameZh": "红色小圆猪 邻",
+      "nameEn": "Red Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain +6 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 +6 伤害 持续整场战斗"
+    },
+    {
+      "id": "red-piggles-a",
+      "nameZh": "红色小圆猪 邻",
+      "nameEn": "Red Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain +9 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 +9 伤害 持续整场战斗"
+    },
+    {
+      "id": "red-piggles-a",
+      "nameZh": "红色小圆猪 邻",
+      "nameEn": "Red Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Weapons gain +12 Damage for the fight",
+      "textZh": "Adjacent 武器 获得 +12 伤害 持续整场战斗"
+    },
+    {
+      "id": "red-piggles-a",
+      "nameZh": "红色小圆猪 邻",
+      "nameEn": "Red Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Weapons have +25% Crit Chance.",
+      "textZh": "Adjacent 武器 获得 +25% 暴击几率."
+    },
+    {
+      "id": "red-piggles-l",
+      "nameZh": "红色小圆猪 左",
+      "nameEn": "Red Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "weights",
+      "nameZh": "壶铃",
+      "nameEn": "Weights",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, Charge this 2 seconds.",
+      "textZh": "When you 治疗, 为此物充能 2 秒."
+    },
+    {
+      "id": "weights",
+      "nameZh": "壶铃",
+      "nameEn": "Weights",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, Charge this 2 seconds.",
+      "textZh": "When you 治疗, 为此物充能 2 秒."
+    },
+    {
+      "id": "weights",
+      "nameZh": "壶铃",
+      "nameEn": "Weights",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, Charge this 2 seconds.",
+      "textZh": "When you 治疗, 为此物充能 2 秒."
+    },
+    {
+      "id": "weights",
+      "nameZh": "壶铃",
+      "nameEn": "Weights",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal, Charge this 2 seconds.",
+      "textZh": "When you 治疗, 为此物充能 2 秒."
+    },
+    {
+      "id": "weights",
+      "nameZh": "壶铃",
+      "nameEn": "Weights",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "weights",
+      "nameZh": "壶铃",
+      "nameEn": "Weights",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Heal items gain +15 Healing for the fight",
+      "textZh": "你的 治疗 物品 获得 +15 治疗ing 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-a",
+      "nameZh": "黄色小圆猪 邻",
+      "nameEn": "Yellow Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +3 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +3 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-a",
+      "nameZh": "黄色小圆猪 邻",
+      "nameEn": "Yellow Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +6 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +6 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-a",
+      "nameZh": "黄色小圆猪 邻",
+      "nameEn": "Yellow Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +9 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +9 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-a",
+      "nameZh": "黄色小圆猪 邻",
+      "nameEn": "Yellow Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Shield items gain +12 Shield for the fight",
+      "textZh": "Adjacent 护盾 物品 获得 +12 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-a",
+      "nameZh": "黄色小圆猪 邻",
+      "nameEn": "Yellow Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Shield bonus.",
+      "textZh": "此物拥有 双倍 护盾 bonus."
+    },
+    {
+      "id": "yellow-piggles-a",
+      "nameZh": "黄色小圆猪 邻",
+      "nameEn": "Yellow Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Shield items have +25% Crit Chance.",
+      "textZh": "Adjacent 护盾 物品 获得 +25% 暴击几率."
+    },
+    {
+      "id": "yellow-piggles-r",
+      "nameZh": "黄色小圆猪 右",
+      "nameEn": "Yellow Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the right of this gains +5 Shield for the fight",
+      "textZh": "The 护盾 物品 to the right of 此物获得 +5 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-r",
+      "nameZh": "黄色小圆猪 右",
+      "nameEn": "Yellow Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the right of this gains +10 Shield for the fight",
+      "textZh": "The 护盾 物品 to the right of 此物获得 +10 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-r",
+      "nameZh": "黄色小圆猪 右",
+      "nameEn": "Yellow Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the right of this gains +15 Shield for the fight",
+      "textZh": "The 护盾 物品 to the right of 此物获得 +15 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-r",
+      "nameZh": "黄色小圆猪 右",
+      "nameEn": "Yellow Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the right of this gains +20 Shield for the fight",
+      "textZh": "The 护盾 物品 to the right of 此物获得 +20 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-r",
+      "nameZh": "黄色小圆猪 右",
+      "nameEn": "Yellow Piggles R",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Shield bonus.",
+      "textZh": "此物拥有 双倍 护盾 bonus."
+    },
+    {
+      "id": "yellow-piggles-r",
+      "nameZh": "黄色小圆猪 右",
+      "nameEn": "Yellow Piggles R",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Shield item to the right of this has +50% Crit Chance.",
+      "textZh": "The 护盾 物品 to the right of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the left of this gains +5 Shield for the fight",
+      "textZh": "The 护盾 物品 to the left of 此物获得 +5 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the left of this gains +10 Shield for the fight",
+      "textZh": "The 护盾 物品 to the left of 此物获得 +10 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the left of this gains +15 Shield for the fight",
+      "textZh": "The 护盾 物品 to the left of 此物获得 +15 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Shield item to the left of this gains +20 Shield for the fight",
+      "textZh": "The 护盾 物品 to the left of 此物获得 +20 护盾 持续整场战斗"
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Shield bonus.",
+      "textZh": "此物拥有 双倍 护盾 bonus."
+    },
+    {
+      "id": "yellow-piggles-l",
+      "nameZh": "黄色小圆猪 左",
+      "nameEn": "Yellow Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Shield item to the left of this has +50% Crit Chance.",
+      "textZh": "The 护盾 物品 to the left of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "rewards-card",
+      "nameZh": "回馈卡",
+      "nameEn": "Rewards Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, this and the item to the left of this gains 1 value.",
+      "textZh": "When you visit a Merchant, 此物 并且 the 物品 to the left of 此物获得 1 价值."
+    },
+    {
+      "id": "rewards-card",
+      "nameZh": "回馈卡",
+      "nameEn": "Rewards Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, this and the item to the left of this gains 2 value.",
+      "textZh": "When you visit a Merchant, 此物 并且 the 物品 to the left of 此物获得 2 价值."
+    },
+    {
+      "id": "rewards-card",
+      "nameZh": "回馈卡",
+      "nameEn": "Rewards Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, this and the item to the left of this gains 3 value.",
+      "textZh": "When you visit a Merchant, 此物 并且 the 物品 to the left of 此物获得 3 价值."
+    },
+    {
+      "id": "rewards-card",
+      "nameZh": "回馈卡",
+      "nameEn": "Rewards Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, this and the item to the left of this gains 4 value.",
+      "textZh": "When you visit a Merchant, 此物 并且 the 物品 to the left of 此物获得 4 价值."
+    },
+    {
+      "id": "rewards-card",
+      "nameZh": "回馈卡",
+      "nameEn": "Rewards Card",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "boomerang",
+      "nameZh": "回旋镖",
+      "nameEn": "Boomerang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a Monster with this, get a Loot item.",
+      "textZh": "当你赢得一场战斗 a获得st a Monster 用 此物, get a Loot 物品."
+    },
+    {
+      "id": "boomerang",
+      "nameZh": "回旋镖",
+      "nameEn": "Boomerang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a Monster with this, get a Loot item.",
+      "textZh": "当你赢得一场战斗 a获得st a Monster 用 此物, get a Loot 物品."
+    },
+    {
+      "id": "boomerang",
+      "nameZh": "回旋镖",
+      "nameEn": "Boomerang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a Monster with this, get a Loot item.",
+      "textZh": "当你赢得一场战斗 a获得st a Monster 用 此物, get a Loot 物品."
+    },
+    {
+      "id": "boomerang",
+      "nameZh": "回旋镖",
+      "nameEn": "Boomerang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you win a fight against a Monster with this, get a Loot item.",
+      "textZh": "当你赢得一场战斗 a获得st a Monster 用 此物, get a Loot 物品."
+    },
+    {
+      "id": "boomerang",
+      "nameZh": "回旋镖",
+      "nameEn": "Boomerang",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "matchbox",
+      "nameZh": "火柴盒",
+      "nameEn": "Matchbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a non-Weapon item, Charge this 1 second(s).",
+      "textZh": "When you use a non-武器 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "matchbox",
+      "nameZh": "火柴盒",
+      "nameEn": "Matchbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a non-Weapon item, Charge this 1 second(s).",
+      "textZh": "When you use a non-武器 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "matchbox",
+      "nameZh": "火柴盒",
+      "nameEn": "Matchbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a non-Weapon item, Charge this 1 second(s).",
+      "textZh": "When you use a non-武器 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "matchbox",
+      "nameZh": "火柴盒",
+      "nameEn": "Matchbox",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a non-Weapon item, Charge this 1 second(s).",
+      "textZh": "When you use a non-武器 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "kukri",
+      "nameZh": "廓尔喀刀",
+      "nameEn": "Kukri",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "pepper-spray",
+      "nameZh": "辣椒喷雾",
+      "nameEn": "Pepper Spray",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, Slow all enemy items for 1 second(s).",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 减速 all enemy 物品 持续 1 秒."
+    },
+    {
+      "id": "pepper-spray",
+      "nameZh": "辣椒喷雾",
+      "nameEn": "Pepper Spray",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, Slow all enemy items for 2 second(s).",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 减速 all enemy 物品 持续 2 秒."
+    },
+    {
+      "id": "pepper-spray",
+      "nameZh": "辣椒喷雾",
+      "nameEn": "Pepper Spray",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, Slow all enemy items for 3 second(s).",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 减速全部敌人物品，持续 3 秒."
+    },
+    {
+      "id": "pepper-spray",
+      "nameZh": "辣椒喷雾",
+      "nameEn": "Pepper Spray",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, Slow all enemy items for 4 second(s).",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 减速 all enemy 物品 持续 4 秒."
+    },
+    {
+      "id": "blue-piggles-l",
+      "nameZh": "蓝色小圆猪 左",
+      "nameEn": "Blue Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this gains 4% Crit Chance for the fight",
+      "textZh": "The 物品 to the left of 此物获得 4% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "blue-piggles-l",
+      "nameZh": "蓝色小圆猪 左",
+      "nameEn": "Blue Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this gains 8% Crit Chance for the fight",
+      "textZh": "The 物品 to the left of 此物获得 8% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "blue-piggles-l",
+      "nameZh": "蓝色小圆猪 左",
+      "nameEn": "Blue Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this gains 12% Crit Chance for the fight",
+      "textZh": "The 物品 to the left of 此物获得 12% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "blue-piggles-l",
+      "nameZh": "蓝色小圆猪 左",
+      "nameEn": "Blue Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this gains 16% Crit Chance for the fight",
+      "textZh": "The 物品 to the left of 此物获得 16% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "blue-piggles-l",
+      "nameZh": "蓝色小圆猪 左",
+      "nameEn": "Blue Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain +3 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 +3 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain +6 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 +6 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain +9 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 +9 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Adjacent Heal items gain +12 Heal for the fight",
+      "textZh": "Adjacent 治疗 物品 获得 +12 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Heal bonus.",
+      "textZh": "此物拥有 双倍 治疗 bonus."
+    },
+    {
+      "id": "green-piggles-a",
+      "nameZh": "绿色小圆猪 邻",
+      "nameEn": "Green Piggles A",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Heal items have +25% Crit Chance.",
+      "textZh": "Adjacent 治疗 物品 获得 +25% 暴击几率."
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the right of this gains +5 Heal for the fight",
+      "textZh": "The 治疗 物品 to the right of 此物获得 +5 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the right of this gains +10 Heal for the fight",
+      "textZh": "The 治疗 物品 to the right of 此物获得 +10 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the right of this gains +15 Heal for the fight",
+      "textZh": "The 治疗 物品 to the right of 此物获得 +15 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the right of this gains +20 Heal for the fight",
+      "textZh": "The 治疗 物品 to the right of 此物获得 +20 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Heal bonus.",
+      "textZh": "此物拥有 双倍 治疗 bonus."
+    },
+    {
+      "id": "green-piggles-r",
+      "nameZh": "绿色小圆猪 右",
+      "nameEn": "Green Piggles R",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Heal item to the right of this has +50% Crit Chance.",
+      "textZh": "The 治疗 物品 to the right of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the left of this gains +5 Heal for the fight",
+      "textZh": "The 治疗 物品 to the left of 此物获得 +5 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the left of this gains +10 Heal for the fight",
+      "textZh": "The 治疗 物品 to the left of 此物获得 +10 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the left of this gains +15 Heal for the fight",
+      "textZh": "The 治疗 物品 to the left of 此物获得 +15 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Heal item to the left of this gains +20 Heal for the fight",
+      "textZh": "The 治疗 物品 to the left of 此物获得 +20 治疗 持续整场战斗"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Haste the item to the left of this for 2 second(s)",
+      "textZh": "迅捷 the 物品 to the left of 此物 持续 2 秒"
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double Heal bonus.",
+      "textZh": "此物拥有 双倍 治疗 bonus."
+    },
+    {
+      "id": "green-piggles-l",
+      "nameZh": "绿色小圆猪 左",
+      "nameEn": "Green Piggles L",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Heal item to the left of this has +50% Crit Chance.",
+      "textZh": "The 治疗 物品 to the left of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "fixer-upper",
+      "nameZh": "毛坯房",
+      "nameEn": "Fixer Upper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, upgrade this.",
+      "textZh": "每天开始时, upgrade 此物."
+    },
+    {
+      "id": "fixer-upper",
+      "nameZh": "毛坯房",
+      "nameEn": "Fixer Upper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, upgrade this.",
+      "textZh": "每天开始时, upgrade 此物."
+    },
+    {
+      "id": "fixer-upper",
+      "nameZh": "毛坯房",
+      "nameEn": "Fixer Upper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, upgrade this.",
+      "textZh": "每天开始时, upgrade 此物."
+    },
+    {
+      "id": "fixer-upper",
+      "nameZh": "毛坯房",
+      "nameEn": "Fixer Upper",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, upgrade this.",
+      "textZh": "每天开始时, upgrade 此物."
+    },
+    {
+      "id": "fixer-upper",
+      "nameZh": "毛坯房",
+      "nameEn": "Fixer Upper",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Property items",
+      "textZh": "Sells 地产 物品"
+    },
+    {
+      "id": "fixer-upper",
+      "nameZh": "毛坯房",
+      "nameEn": "Fixer Upper",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Economic items",
+      "textZh": "Sells Economic 物品"
+    },
+    {
+      "id": "pinata",
+      "nameZh": "皮纳塔",
+      "nameEn": "Pinata",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Chocolate Bars.",
+      "textZh": "When you sell 此物, get 3 Chocolate Bars."
+    },
+    {
+      "id": "pinata",
+      "nameZh": "皮纳塔",
+      "nameEn": "Pinata",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Chocolate Bars.",
+      "textZh": "When you sell 此物, get 3 Chocolate Bars."
+    },
+    {
+      "id": "pinata",
+      "nameZh": "皮纳塔",
+      "nameEn": "Pinata",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Chocolate Bars.",
+      "textZh": "When you sell 此物, get 3 Chocolate Bars."
+    },
+    {
+      "id": "pinata",
+      "nameZh": "皮纳塔",
+      "nameEn": "Pinata",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, get 3 Chocolate Bars.",
+      "textZh": "When you sell 此物, get 3 Chocolate Bars."
+    },
+    {
+      "id": "crook",
+      "nameZh": "曲柄杖",
+      "nameEn": "Crook",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Medium Weapons have +4 Damage for each Medium item you have.",
+      "textZh": "你的 中型 武器 获得 +4 伤害 每有一个 中型 物品 you have."
+    },
+    {
+      "id": "crook",
+      "nameZh": "曲柄杖",
+      "nameEn": "Crook",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Medium Weapons have +8 Damage for each Medium item you have.",
+      "textZh": "你的 中型 武器 获得 +8 伤害 每有一个 中型 物品 you have."
+    },
+    {
+      "id": "crook",
+      "nameZh": "曲柄杖",
+      "nameEn": "Crook",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Medium Weapons have +16 Damage for each Medium item you have.",
+      "textZh": "你的 中型 武器 获得 +16 伤害 每有一个 中型 物品 you have."
+    },
+    {
+      "id": "crook",
+      "nameZh": "曲柄杖",
+      "nameEn": "Crook",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Medium Weapons have +24 Damage for each Medium item you have.",
+      "textZh": "你的 中型 武器 获得 +24 伤害 每有一个 中型 物品 you have."
+    },
+    {
+      "id": "crook",
+      "nameZh": "曲柄杖",
+      "nameEn": "Crook",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your items have +10% Crit Chance for each Medium item you have.",
+      "textZh": "你的物品获得 +10% 暴击几率 每有一个 中型 物品 you have."
+    }
+  ]
+}

@@ -1,0 +1,1631 @@
+{
+  "summary": {
+    "total": 138,
+    "needsReview": 629,
+    "missingImages": 3,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "micro-mach",
+      "nameZh": "微马赫小赛车",
+      "nameEn": "Micro Mach",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "epsilon-ray",
+      "nameZh": "艾普西隆射线",
+      "nameEn": "Epsilon Ray",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "c-o-r-a",
+      "nameZh": "C.O.R.A.",
+      "nameEn": "C.O.R.A.",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 1 for each Virus on your board",
+      "textZh": "毒性 你的self 1 每有一个 Virus on 你的 board"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform another non-Legendary Small item on each Player's board into Virus for the rest of the fight",
+      "textZh": "Trans持续m another non-Legendary 小型 物品 on 每 Player's board into Virus 持续 the rest of the 战斗"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 2 for each Virus on your board",
+      "textZh": "毒性 你的self 2 每有一个 Virus on 你的 board"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform another non-Legendary Small item on each Player's board into Virus for the rest of the fight",
+      "textZh": "Trans持续m another non-Legendary 小型 物品 on 每 Player's board into Virus 持续 the rest of the 战斗"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 3 for each Virus on your board",
+      "textZh": "毒性 你的self 3 每有一个 Virus on 你的 board"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform another non-Legendary Small item on each Player's board into Virus for the rest of the fight",
+      "textZh": "Trans持续m another non-Legendary 小型 物品 on 每 Player's board into Virus 持续 the rest of the 战斗"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison yourself 4 for each Virus on your board",
+      "textZh": "毒性 你的self 4 每有一个 Virus on 你的 board"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform another non-Legendary Small item on each Player's board into Virus for the rest of the fight",
+      "textZh": "Trans持续m another non-Legendary 小型 物品 on 每 Player's board into Virus 持续 the rest of the 战斗"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Freeze one of your items for 0.5 second(s)",
+      "textZh": "冻结 one of 你的物品 持续 0.5 秒"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Haste an enemy item(s) for 3 second(s)",
+      "textZh": "迅捷 an enemy 件物品 持续 3 秒"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Shield an enemy equal to 5 times this item's Poison",
+      "textZh": "护盾 an enemy 等于 5 倍此物品的 毒性"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Heal an enemy equal to 5 times this item's Poison",
+      "textZh": "治疗 an enemy 等于 5 倍此物品的 毒性"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Burn yourself equal to this item's Poison",
+      "textZh": "燃烧 你的self 等于此物 物品's 毒性"
+    },
+    {
+      "id": "virus",
+      "nameZh": "病毒",
+      "nameEn": "Virus",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Deal Damage to yourself equal to 5 times this item's Poison",
+      "textZh": "造成伤害 to 你的self 等于 5 倍此物品的 毒性"
+    },
+    {
+      "id": "cog",
+      "nameZh": "齿轮",
+      "nameEn": "Cog",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "An adjacent item gains 20% Crit Chance for the fight",
+      "textZh": "An adjacent 物品 获得s 20% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the Tech item to the right of this 1 second(s)",
+      "textZh": "Charge the 科技 物品 to the right of 此物 1 秒"
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Small Tech item from any Hero.",
+      "textZh": "当你购买此物, get a 小型 科技 物品 来自任意英雄."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the Tech item to the right of this 1 second(s)",
+      "textZh": "Charge the 科技 物品 to the right of 此物 1 秒"
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Small Tech item from any Hero.",
+      "textZh": "当你购买此物, get a 小型 科技 物品 来自任意英雄."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the Tech item to the right of this 1 second(s)",
+      "textZh": "Charge the 科技 物品 to the right of 此物 1 秒"
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Small Tech item from any Hero.",
+      "textZh": "当你购买此物, get a 小型 科技 物品 来自任意英雄."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the Tech item to the right of this 1 second(s)",
+      "textZh": "Charge the 科技 物品 to the right of 此物 1 秒"
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Small Tech item from any Hero.",
+      "textZh": "当你购买此物, get a 小型 科技 物品 来自任意英雄."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Slow an item for 1 second(s).",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 减速一件物品 持续 1 秒."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Freeze an item for 0.5 second(s).",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 冻结一件物品 持续 0.5 秒."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Haste an item for 1 second(s).",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 使一件物品获得迅捷 持续 1 秒."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Shield 10.",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 护盾 10."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Heal 10.",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 治疗 10."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Poison 1.",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 毒性 1."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, Burn 1.",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 燃烧 1."
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The Tech item to the right of this has +50% Crit Chance.",
+      "textZh": "The 科技 物品 to the right of 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "lightbulb",
+      "nameZh": "灯泡",
+      "nameEn": "Lightbulb",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the Tech item to the right of this, deal 10 Damage.",
+      "textZh": "When you use the 科技 物品 to the right of 此物, 造成 10 伤害."
+    },
+    {
+      "id": "plasma-grenade",
+      "nameZh": "等离子手雷",
+      "nameEn": "Plasma Grenade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn both Players 10",
+      "textZh": "燃烧 both Players 10"
+    },
+    {
+      "id": "plasma-grenade",
+      "nameZh": "等离子手雷",
+      "nameEn": "Plasma Grenade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn both Players 10",
+      "textZh": "燃烧 both Players 10"
+    },
+    {
+      "id": "plasma-grenade",
+      "nameZh": "等离子手雷",
+      "nameEn": "Plasma Grenade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn both Players 10",
+      "textZh": "燃烧 both Players 10"
+    },
+    {
+      "id": "plasma-grenade",
+      "nameZh": "等离子手雷",
+      "nameEn": "Plasma Grenade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn both Players 10",
+      "textZh": "燃烧 both Players 10"
+    },
+    {
+      "id": "plasma-grenade",
+      "nameZh": "等离子手雷",
+      "nameEn": "Plasma Grenade",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Freeze all enemy items for 0.5 second(s)",
+      "textZh": "冻结 all enemy 物品 持续 0.5 秒"
+    },
+    {
+      "id": "battery",
+      "nameZh": "电池",
+      "nameEn": "Battery",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the item to the left of this 1 second(s)",
+      "textZh": "Charge the 物品 to the left of 此物 1 秒"
+    },
+    {
+      "id": "battery",
+      "nameZh": "电池",
+      "nameEn": "Battery",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the item to the left of this 2 second(s)",
+      "textZh": "Charge the 物品 to the left of 此物 2 秒"
+    },
+    {
+      "id": "battery",
+      "nameZh": "电池",
+      "nameEn": "Battery",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the item to the left of this 3 second(s)",
+      "textZh": "Charge the 物品 to the left of 此物 3 秒"
+    },
+    {
+      "id": "battery",
+      "nameZh": "电池",
+      "nameEn": "Battery",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge the item to the left of this 4 second(s)",
+      "textZh": "Charge the 物品 to the left of 此物 4 秒"
+    },
+    {
+      "id": "battery",
+      "nameZh": "电池",
+      "nameEn": "Battery",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this has +30% Crit Chance.",
+      "textZh": "The 物品 to the left of 此物获得 +30% 暴击几率."
+    },
+    {
+      "id": "battery",
+      "nameZh": "电池",
+      "nameEn": "Battery",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left of this is affected by Freeze and Slow for half as long.",
+      "textZh": "The 物品 to the left of 此物 is affected by 冻结 并且 减速 持续 half as long."
+    },
+    {
+      "id": "power-sander",
+      "nameZh": "电动砂光机",
+      "nameEn": "Power Sander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the item to the left of this for 1 second(s)",
+      "textZh": "减速 the 物品 to the left of 此物 持续 1 秒"
+    },
+    {
+      "id": "power-sander",
+      "nameZh": "电动砂光机",
+      "nameEn": "Power Sander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the item to the left of this for 1 second(s)",
+      "textZh": "减速 the 物品 to the left of 此物 持续 1 秒"
+    },
+    {
+      "id": "power-sander",
+      "nameZh": "电动砂光机",
+      "nameEn": "Power Sander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the item to the left of this for 1 second(s)",
+      "textZh": "减速 the 物品 to the left of 此物 持续 1 秒"
+    },
+    {
+      "id": "power-sander",
+      "nameZh": "电动砂光机",
+      "nameEn": "Power Sander",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the item to the left of this for 1 second(s)",
+      "textZh": "减速 the 物品 to the left of 此物 持续 1 秒"
+    },
+    {
+      "id": "arc-blaster",
+      "nameZh": "电弧轰击枪",
+      "nameEn": "Arc Blaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tech, Charge this 1 second(s).",
+      "textZh": "When you use another 科技, 为此物充能 1 秒."
+    },
+    {
+      "id": "arc-blaster",
+      "nameZh": "电弧轰击枪",
+      "nameEn": "Arc Blaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tech, Charge this 1 second(s).",
+      "textZh": "When you use another 科技, 为此物充能 1 秒."
+    },
+    {
+      "id": "arc-blaster",
+      "nameZh": "电弧轰击枪",
+      "nameEn": "Arc Blaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tech, Charge this 1 second(s).",
+      "textZh": "When you use another 科技, 为此物充能 1 秒."
+    },
+    {
+      "id": "arc-blaster",
+      "nameZh": "电弧轰击枪",
+      "nameEn": "Arc Blaster",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Tech, Charge this 1 second(s).",
+      "textZh": "When you use another 科技, 为此物充能 1 秒."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses a Weapon or Burn item, Charge this 1 second.",
+      "textZh": "When an enemy uses a 武器 or 燃烧 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, use this.",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 使用此物."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses a Weapon or Burn item, Charge this 1 second.",
+      "textZh": "When an enemy uses a 武器 or 燃烧 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, use this.",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 使用此物."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses a Weapon or Burn item, Charge this 1 second.",
+      "textZh": "When an enemy uses a 武器 or 燃烧 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, use this.",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 使用此物."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy uses a Weapon or Burn item, Charge this 1 second.",
+      "textZh": "When an enemy uses a 武器 or 燃烧 物品, 为此物充能 1 秒."
+    },
+    {
+      "id": "blast-doors",
+      "nameZh": "防爆门",
+      "nameEn": "Blast Doors",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The first time you fall below half Health each fight, use this.",
+      "textZh": "The first time you fall below half 治疗th 每 战斗, 使用此物."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Shield 10.",
+      "textZh": "When an adjacent 物品 燃烧s, 护盾 10."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy would destroy your items, this is destroyed instead.",
+      "textZh": "When an enemy would destroy 你的物品, 此物 is destroyed instead."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Shield 20.",
+      "textZh": "When an adjacent 物品 燃烧s, 护盾 20."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy would destroy your items, this is destroyed instead.",
+      "textZh": "When an enemy would destroy 你的物品, 此物 is destroyed instead."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Shield 30.",
+      "textZh": "When an adjacent 物品 燃烧s, 护盾 30."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy would destroy your items, this is destroyed instead.",
+      "textZh": "When an enemy would destroy 你的物品, 此物 is destroyed instead."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Shield 40.",
+      "textZh": "When an adjacent 物品 燃烧s, 护盾 40."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy would destroy your items, this is destroyed instead.",
+      "textZh": "When an enemy would destroy 你的物品, 此物 is destroyed instead."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Slow an item for 1 second(s).",
+      "textZh": "When an adjacent 物品 燃烧s, 减速一件物品 持续 1 秒."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Freeze an item for 0.5 second(s).",
+      "textZh": "When an adjacent 物品 燃烧s, 冻结一件物品 持续 0.5 秒."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Haste it for 1 second(s).",
+      "textZh": "When an adjacent 物品 燃烧s, 迅捷 it 持续 1 秒."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Heal equal to this item's Shield.",
+      "textZh": "When an adjacent 物品 燃烧s, 治疗 等于此物 物品's 护盾."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Poison equal to 10% of this item's Shield.",
+      "textZh": "When an adjacent 物品 燃烧s, 毒性 等于 10% of 此物 物品's 护盾."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, Burn equal to 10% of this item's Shield.",
+      "textZh": "When an adjacent 物品 燃烧s, 燃烧 等于 10% of 此物 物品's 护盾."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Adjacent Burn items are affected by Freeze and Slow for half as long.",
+      "textZh": "Adjacent 燃烧 物品 are affected by 冻结 并且 减速 持续 half as long."
+    },
+    {
+      "id": "flares",
+      "nameZh": "干扰箔",
+      "nameEn": "Flares",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When an adjacent item Burns, deal Damage equal to this item's Shield.",
+      "textZh": "When an adjacent 物品 燃烧s, 造成伤害，数值等于 此物 物品's 护盾."
+    },
+    {
+      "id": "hammlet",
+      "nameZh": "哈姆锤特",
+      "nameEn": "Hammlet",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Tool.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 工具."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Tool.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 工具."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Tool.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 工具."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从."
+    },
+    {
+      "id": "soldering-gun",
+      "nameZh": "焊接枪",
+      "nameEn": "Soldering Gun",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Tool.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 工具."
+    },
+    {
+      "id": "mech-moles",
+      "nameZh": "机甲鼹鼠",
+      "nameEn": "Mech-Moles",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "mech-moles",
+      "nameZh": "机甲鼹鼠",
+      "nameEn": "Mech-Moles",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "This has double damage and shield bonus.",
+      "textZh": "此物拥有 双倍 伤害 并且 护盾 bonus."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Tool or Tech item, this gains +10 Max Health gain.",
+      "textZh": "When you sell a 工具 or 科技 物品, 此物获得 +10 最大生命 获得."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 10 Max Health.",
+      "textZh": "When you sell 此物, 获得 10 最大生命."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Tool or Tech item, this gains +20 Max Health gain.",
+      "textZh": "When you sell a 工具 or 科技 物品, 此物获得 +20 最大生命 获得."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 10 Max Health.",
+      "textZh": "When you sell 此物, 获得 10 最大生命."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Tool or Tech item, this gains +30 Max Health gain.",
+      "textZh": "When you sell a 工具 or 科技 物品, 此物获得 +30 最大生命 获得."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 10 Max Health.",
+      "textZh": "When you sell 此物, 获得 10 最大生命."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell a Tool or Tech item, this gains +40 Max Health gain.",
+      "textZh": "When you sell a 工具 or 科技 物品, 此物获得 +40 最大生命 获得."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, gain 10 Max Health.",
+      "textZh": "When you sell 此物, 获得 10 最大生命."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Slow item gains +1 Slow duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 减速它em 获得s +1 减速 duration."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Freeze item gains +0.5 Freeze duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 冻结它em 获得s +0.5 冻结 duration."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Haste item gains +1 Haste duration.",
+      "textZh": "When you sell 此物, 你的 leftmost 迅捷 物品 获得s +1 迅捷 duration."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Shield item gains +30 Shield.",
+      "textZh": "When you sell 此物, 你的 leftmost 护盾 物品 获得s +30 护盾."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Heal item gains +30 Heal.",
+      "textZh": "When you sell 此物, 你的 leftmost 治疗 物品 获得s +30 治疗."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Poison item gains +3 Poison.",
+      "textZh": "When you sell 此物, 你的 leftmost 毒性 物品 获得s +3 毒性."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Burn item gains +3 Burn.",
+      "textZh": "When you sell 此物, 你的 leftmost 燃烧 物品 获得s +3 燃烧."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost item gains 20% Crit Chance.",
+      "textZh": "When you sell 此物, 你的 leftmost 物品 获得s 20% 暴击几率."
+    },
+    {
+      "id": "gearnola-bar",
+      "nameZh": "机能棒",
+      "nameEn": "Gearnola Bar",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you sell this, your leftmost Weapon item gains +30 Damage.",
+      "textZh": "When you sell 此物, 你的 leftmost 武器 物品 获得s +30 伤害."
+    },
+    {
+      "id": "red-f1r3fly",
+      "nameZh": "机械红焰萤",
+      "nameEn": "RED-F1R3FLY",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Hastes or Slows, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 迅捷s or 减速s, 为此物充能 1 秒."
+    },
+    {
+      "id": "red-f1r3fly",
+      "nameZh": "机械红焰萤",
+      "nameEn": "RED-F1R3FLY",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Hastes or Slows, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 迅捷s or 减速s, 为此物充能 1 秒."
+    },
+    {
+      "id": "red-f1r3fly",
+      "nameZh": "机械红焰萤",
+      "nameEn": "RED-F1R3FLY",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Hastes or Slows, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 迅捷s or 减速s, 为此物充能 1 秒."
+    },
+    {
+      "id": "red-f1r3fly",
+      "nameZh": "机械红焰萤",
+      "nameEn": "RED-F1R3FLY",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Hastes or Slows, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 迅捷s or 减速s, 为此物充能 1 秒."
+    },
+    {
+      "id": "red-f1r3fly",
+      "nameZh": "机械红焰萤",
+      "nameEn": "RED-F1R3FLY",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "grn-w4sp",
+      "nameZh": "机械绿马蜂",
+      "nameEn": "GRN-W4SP",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Slows or Freezes, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 减速s or 冻结s, 为此物充能 1 秒."
+    },
+    {
+      "id": "grn-w4sp",
+      "nameZh": "机械绿马蜂",
+      "nameEn": "GRN-W4SP",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Slows or Freezes, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 减速s or 冻结s, 为此物充能 1 秒."
+    },
+    {
+      "id": "grn-w4sp",
+      "nameZh": "机械绿马蜂",
+      "nameEn": "GRN-W4SP",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Slows or Freezes, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 减速s or 冻结s, 为此物充能 1 秒."
+    },
+    {
+      "id": "grn-w4sp",
+      "nameZh": "机械绿马蜂",
+      "nameEn": "GRN-W4SP",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an adjacent item Slows or Freezes, Charge this 1 second(s).",
+      "textZh": "When an adjacent 物品 减速s or 冻结s, 为此物充能 1 秒."
+    },
+    {
+      "id": "grn-w4sp",
+      "nameZh": "机械绿马蜂",
+      "nameEn": "GRN-W4SP",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "first-aiden",
+      "nameZh": "急救艾登",
+      "nameEn": "First Aiden",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "crypto",
+      "nameZh": "加密货币",
+      "nameEn": "Crypto",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each hour, set this item's value to a number between 0 and 5.",
+      "textZh": "每小时开始时, set 此物品价值 to a number between 0 并且 5."
+    },
+    {
+      "id": "crypto",
+      "nameZh": "加密货币",
+      "nameEn": "Crypto",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each hour, set this item's value to a number between 0 and 10.",
+      "textZh": "每小时开始时, set 此物品价值 to a number between 0 并且 10."
+    },
+    {
+      "id": "crypto",
+      "nameZh": "加密货币",
+      "nameEn": "Crypto",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each hour, set this item's value to a number between 0 and 20.",
+      "textZh": "每小时开始时, set 此物品价值 to a number between 0 并且 20."
+    },
+    {
+      "id": "crypto",
+      "nameZh": "加密货币",
+      "nameEn": "Crypto",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each hour, set this item's value to a number between 0 and 40.",
+      "textZh": "每小时开始时, set 此物品价值 to a number between 0 并且 40."
+    },
+    {
+      "id": "barbed-wire",
+      "nameZh": "尖刺铁丝网",
+      "nameEn": "Barbed Wire",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second.",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "barbed-wire",
+      "nameZh": "尖刺铁丝网",
+      "nameEn": "Barbed Wire",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second.",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "barbed-wire",
+      "nameZh": "尖刺铁丝网",
+      "nameEn": "Barbed Wire",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second.",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "barbed-wire",
+      "nameZh": "尖刺铁丝网",
+      "nameEn": "Barbed Wire",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 1 second.",
+      "textZh": "When you 护盾, 为此物充能 1 秒."
+    },
+    {
+      "id": "chris-army-knife",
+      "nameZh": "克里斯军刀",
+      "nameEn": "Chris Army Knife",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "dinosawer",
+      "nameZh": "恐龙小锯",
+      "nameEn": "Dinosawer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is reduced by 3 seconds if you have at least 3 other Dinosaurs, Tools or Relics.",
+      "textZh": "此物品冷却 减少 3 秒 if you have at least 3 other Dinosaurs, 工具 or 遗物s."
+    },
+    {
+      "id": "dinosawer",
+      "nameZh": "恐龙小锯",
+      "nameEn": "Dinosawer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is reduced by 3 seconds if you have at least 3 other Dinosaurs, Tools or Relics.",
+      "textZh": "此物品冷却 减少 3 秒 if you have at least 3 other Dinosaurs, 工具 or 遗物s."
+    },
+    {
+      "id": "dinosawer",
+      "nameZh": "恐龙小锯",
+      "nameEn": "Dinosawer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is reduced by 3 seconds if you have at least 3 other Dinosaurs, Tools or Relics.",
+      "textZh": "此物品冷却 减少 3 秒 if you have at least 3 other Dinosaurs, 工具 or 遗物s."
+    },
+    {
+      "id": "dinosawer",
+      "nameZh": "恐龙小锯",
+      "nameEn": "Dinosawer",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is reduced by 3 seconds if you have at least 3 other Dinosaurs, Tools or Relics.",
+      "textZh": "此物品冷却 减少 3 秒 if you have at least 3 other Dinosaurs, 工具 or 遗物s."
+    },
+    {
+      "id": "dinosawer",
+      "nameZh": "恐龙小锯",
+      "nameEn": "Dinosawer",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "clawrence",
+      "nameZh": "利爪劳伦斯",
+      "nameEn": "Clawrence",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "pulse-rifle",
+      "nameZh": "脉冲步枪",
+      "nameEn": "Pulse Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend. Double this if it is your only Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从. 双倍 此物 if it is 你的 only 随从."
+    },
+    {
+      "id": "pulse-rifle",
+      "nameZh": "脉冲步枪",
+      "nameEn": "Pulse Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend. Double this if it is your only Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从. 双倍 此物 if it is 你的 only 随从."
+    },
+    {
+      "id": "pulse-rifle",
+      "nameZh": "脉冲步枪",
+      "nameEn": "Pulse Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend. Double this if it is your only Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从. 双倍 此物 if it is 你的 only 随从."
+    },
+    {
+      "id": "pulse-rifle",
+      "nameZh": "脉冲步枪",
+      "nameEn": "Pulse Rifle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast if it is adjacent to a Friend. Double this if it is your only Friend.",
+      "textZh": "此物获得 +1 多重施放 if it is adjacent to a 随从. 双倍 此物 if it is 你的 only 随从."
+    },
+    {
+      "id": "memory-card",
+      "nameZh": "内存卡",
+      "nameEn": "Memory Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, Your Core gains +Crit Chance equal to this item's value.",
+      "textZh": "When you sell 此物, 你的 Core 获得s +暴击几率 等于 此物品价值."
+    },
+    {
+      "id": "memory-card",
+      "nameZh": "内存卡",
+      "nameEn": "Memory Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, Your Core gains +Crit Chance equal to this item's value.",
+      "textZh": "When you sell 此物, 你的 Core 获得s +暴击几率 等于 此物品价值."
+    },
+    {
+      "id": "memory-card",
+      "nameZh": "内存卡",
+      "nameEn": "Memory Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, Your Core gains +Crit Chance equal to this item's value.",
+      "textZh": "When you sell 此物, 你的 Core 获得s +暴击几率 等于 此物品价值."
+    },
+    {
+      "id": "memory-card",
+      "nameZh": "内存卡",
+      "nameEn": "Memory Card",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you sell this, Your Core gains +Crit Chance equal to this item's value.",
+      "textZh": "When you sell 此物, 你的 Core 获得s +暴击几率 等于 此物品价值."
+    },
+    {
+      "id": "wallace",
+      "nameZh": "墙莱士",
+      "nameEn": "Wallace",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is your only Tech item, its Cooldown is halved.",
+      "textZh": "If 此物 is 你的 only 科技 物品, its 冷却 减半."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Relic from any hero.",
+      "textZh": "每天开始时, get a 遗物 来自任意英雄."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is your only Tech item, its Cooldown is halved.",
+      "textZh": "If 此物 is 你的 only 科技 物品, its 冷却 减半."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Relic from any hero.",
+      "textZh": "每天开始时, get a 遗物 来自任意英雄."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is your only Tech item, its Cooldown is halved.",
+      "textZh": "If 此物 is 你的 only 科技 物品, its 冷却 减半."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Relic from any hero.",
+      "textZh": "每天开始时, get a 遗物 来自任意英雄."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If this is your only Tech item, its Cooldown is halved.",
+      "textZh": "If 此物 is 你的 only 科技 物品, its 冷却 减半."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Relic from any hero.",
+      "textZh": "每天开始时, get a 遗物 来自任意英雄."
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Shield 10 for each Relic you have",
+      "textZh": "护盾 10 每有一个 遗物 you have"
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Heal 10 for each Relic you have",
+      "textZh": "治疗 10 每有一个 遗物 you have"
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Poison 1 for each Relic you have",
+      "textZh": "毒性 1 每有一个 遗物 you have"
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Burn 1 for each Relic you have",
+      "textZh": "燃烧 1 每有一个 遗物 you have"
+    },
+    {
+      "id": "temporal-navigator",
+      "nameZh": "时空穿梭机",
+      "nameEn": "Temporal Navigator",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Deal 10 Damage for each Relic you have",
+      "textZh": "造成 10 伤害 每有一个 遗物 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn 1 for each Relic or Tool you have",
+      "textZh": "燃烧 1 每有一个 遗物 or 工具 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is increased by 1 second for each Tech item you have",
+      "textZh": "此物品冷却 is increased by 1 秒 每有一个 科技 物品 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn 2 for each Relic or Tool you have",
+      "textZh": "燃烧 2 每有一个 遗物 or 工具 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is increased by 1 second for each Tech item you have",
+      "textZh": "此物品冷却 is increased by 1 秒 每有一个 科技 物品 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn 3 for each Relic or Tool you have",
+      "textZh": "燃烧 3 每有一个 遗物 or 工具 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is increased by 1 second for each Tech item you have",
+      "textZh": "此物品冷却 is increased by 1 秒 每有一个 科技 物品 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Burn 4 for each Relic or Tool you have",
+      "textZh": "燃烧 4 每有一个 遗物 or 工具 you have"
+    },
+    {
+      "id": "flint-stones",
+      "nameZh": "燧石",
+      "nameEn": "Flint Stones",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This item's Cooldown is increased by 1 second for each Tech item you have",
+      "textZh": "此物品冷却 is increased by 1 秒 每有一个 科技 物品 you have"
+    },
+    {
+      "id": "char-cole",
+      "nameZh": "炭火科尔",
+      "nameEn": "Char Cole",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge your non-Tech items 1 second",
+      "textZh": "Charge 你的 non-科技 物品 1 秒"
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Tech, Charge this 2 seconds.",
+      "textZh": "When you use an adjacent 科技, 为此物充能 2 秒."
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge your non-Tech items 1 second",
+      "textZh": "Charge 你的 non-科技 物品 1 秒"
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Tech, Charge this 2 seconds.",
+      "textZh": "When you use an adjacent 科技, 为此物充能 2 秒."
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge your non-Tech items 1 second",
+      "textZh": "Charge 你的 non-科技 物品 1 秒"
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Tech, Charge this 2 seconds.",
+      "textZh": "When you use an adjacent 科技, 为此物充能 2 秒."
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Charge your non-Tech items 1 second",
+      "textZh": "Charge 你的 non-科技 物品 1 秒"
+    },
+    {
+      "id": "tesla-coil",
+      "nameZh": "特斯拉线圈",
+      "nameEn": "Tesla Coil",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Tech, Charge this 2 seconds.",
+      "textZh": "When you use an adjacent 科技, 为此物充能 2 秒."
+    },
+    {
+      "id": "harmadillo",
+      "nameZh": "铁甲犰狳",
+      "nameEn": "Harmadillo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 2 second(s).",
+      "textZh": "When you 护盾, 为此物充能 2 秒."
+    },
+    {
+      "id": "harmadillo",
+      "nameZh": "铁甲犰狳",
+      "nameEn": "Harmadillo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 2 second(s).",
+      "textZh": "When you 护盾, 为此物充能 2 秒."
+    },
+    {
+      "id": "harmadillo",
+      "nameZh": "铁甲犰狳",
+      "nameEn": "Harmadillo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 2 second(s).",
+      "textZh": "When you 护盾, 为此物充能 2 秒."
+    },
+    {
+      "id": "harmadillo",
+      "nameZh": "铁甲犰狳",
+      "nameEn": "Harmadillo",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Shield, Charge this 2 second(s).",
+      "textZh": "When you 护盾, 为此物充能 2 秒."
+    },
+    {
+      "id": "harmadillo",
+      "nameZh": "铁甲犰狳",
+      "nameEn": "Harmadillo",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the Friend to the right of this for 1 second(s)",
+      "textZh": "迅捷 the 随从 to the right of 此物 持续 1 秒"
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Friend from any Hero.",
+      "textZh": "每天开始时, get a 小型 随从 来自任意英雄."
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the Friend to the right of this for 2 second(s)",
+      "textZh": "迅捷 the 随从 to the right of 此物 持续 2 秒"
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Friend from any Hero.",
+      "textZh": "每天开始时, get a 小型 随从 来自任意英雄."
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the Friend to the right of this for 3 second(s)",
+      "textZh": "迅捷 the 随从 to the right of 此物 持续 3 秒"
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Friend from any Hero.",
+      "textZh": "每天开始时, get a 小型 随从 来自任意英雄."
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Haste the Friend to the right of this for 4 second(s)",
+      "textZh": "迅捷 the 随从 to the right of 此物 持续 4 秒"
+    },
+    {
+      "id": "sat-comm",
+      "nameZh": "通讯卫星",
+      "nameEn": "Sat-Comm",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Small Friend from any Hero.",
+      "textZh": "每天开始时, get a 小型 随从 来自任意英雄."
+    },
+    {
+      "id": "copper-ed",
+      "nameZh": "铜蛇艾德",
+      "nameEn": "Copper Ed",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "micro-dave",
+      "nameZh": "微波戴夫",
+      "nameEn": "Micro Dave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item or Core, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品 or Core, 为此物充能 2 秒."
+    },
+    {
+      "id": "micro-dave",
+      "nameZh": "微波戴夫",
+      "nameEn": "Micro Dave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item or Core, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品 or Core, 为此物充能 2 秒."
+    },
+    {
+      "id": "micro-dave",
+      "nameZh": "微波戴夫",
+      "nameEn": "Micro Dave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item or Core, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品 or Core, 为此物充能 2 秒."
+    },
+    {
+      "id": "micro-dave",
+      "nameZh": "微波戴夫",
+      "nameEn": "Micro Dave",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item or Core, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品 or Core, 为此物充能 2 秒."
+    },
+    {
+      "id": "micro-dave",
+      "nameZh": "微波戴夫",
+      "nameEn": "Micro Dave",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Friend items",
+      "textZh": "Sells 随从 物品"
+    },
+    {
+      "id": "micro-mach",
+      "nameZh": "微马赫小赛车",
+      "nameEn": "Micro Mach",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "An adjacent item gains 10% Crit Chance for the fight",
+      "textZh": "An adjacent 物品 获得s 10% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "levitation-pad",
+      "nameZh": "悬浮垫",
+      "nameEn": "Levitation Pad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this is Hasted for 1 second(s) and starts Flying",
+      "textZh": "The 物品 to the left of 此物获得迅捷 持续 1 秒 并且 starts Flying"
+    },
+    {
+      "id": "levitation-pad",
+      "nameZh": "悬浮垫",
+      "nameEn": "Levitation Pad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this is Hasted for 2 second(s) and starts Flying",
+      "textZh": "The 物品 to the left of 此物获得迅捷 持续 2 秒 并且 starts Flying"
+    },
+    {
+      "id": "levitation-pad",
+      "nameZh": "悬浮垫",
+      "nameEn": "Levitation Pad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this is Hasted for 3 second(s) and starts Flying",
+      "textZh": "The 物品 to the left of 此物获得迅捷 持续 3 秒 并且 starts Flying"
+    },
+    {
+      "id": "levitation-pad",
+      "nameZh": "悬浮垫",
+      "nameEn": "Levitation Pad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The item to the left of this is Hasted for 4 second(s) and starts Flying",
+      "textZh": "The 物品 to the left of 此物获得迅捷 持续 4 秒 并且 starts Flying"
+    },
+    {
+      "id": "cool-leds",
+      "nameZh": "炫光 LED",
+      "nameEn": "Cool LEDs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Core, Charge this 1 second(s).",
+      "textZh": "When you use a Core, 为此物充能 1 秒."
+    },
+    {
+      "id": "cool-leds",
+      "nameZh": "炫光 LED",
+      "nameEn": "Cool LEDs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Core, Charge this 1 second(s).",
+      "textZh": "When you use a Core, 为此物充能 1 秒."
+    },
+    {
+      "id": "cool-leds",
+      "nameZh": "炫光 LED",
+      "nameEn": "Cool LEDs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Core, Charge this 1 second(s).",
+      "textZh": "When you use a Core, 为此物充能 1 秒."
+    },
+    {
+      "id": "cool-leds",
+      "nameZh": "炫光 LED",
+      "nameEn": "Cool LEDs",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Core, Charge this 1 second(s).",
+      "textZh": "When you use a Core, 为此物充能 1 秒."
+    },
+    {
+      "id": "cool-leds",
+      "nameZh": "炫光 LED",
+      "nameEn": "Cool LEDs",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "Your Cores have +50% Crit Chance.",
+      "textZh": "你的 Cores 获得 +50% 暴击几率."
+    },
+    {
+      "id": "bomb-squad",
+      "nameZh": "炸弹小队",
+      "nameEn": "Bomb Squad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Friend, Haste this 2 second(s).",
+      "textZh": "When you use an adjacent 随从, 迅捷 此物 2 秒."
+    },
+    {
+      "id": "bomb-squad",
+      "nameZh": "炸弹小队",
+      "nameEn": "Bomb Squad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Friend, Haste this 2 second(s).",
+      "textZh": "When you use an adjacent 随从, 迅捷 此物 2 秒."
+    },
+    {
+      "id": "bomb-squad",
+      "nameZh": "炸弹小队",
+      "nameEn": "Bomb Squad",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Friend, Haste this 2 second(s).",
+      "textZh": "When you use an adjacent 随从, 迅捷 此物 2 秒."
+    }
+  ]
+}

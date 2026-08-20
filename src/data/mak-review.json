@@ -1,0 +1,1631 @@
+{
+  "summary": {
+    "total": 135,
+    "needsReview": 703,
+    "missingImages": 3,
+    "basis": "效果与来源为规则词典初版中文；仍含英文片段的条目已列入待复核。"
+  },
+  "items": [
+    {
+      "id": "book-of-secrets",
+      "nameZh": "奥秘之书",
+      "nameEn": "Book of Secrets",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "spider-fern",
+      "nameZh": "蕨叶蜘蛛",
+      "nameEn": "Spider Fern",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "broken-bottle",
+      "nameZh": "碎瓶",
+      "nameEn": "Broken Bottle",
+      "issue": "image_missing_from_source",
+      "resolution": "generated_placeholder"
+    },
+    {
+      "id": "quill-and-ink",
+      "nameZh": "笔与墨",
+      "nameEn": "Quill and Ink",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have no other Weapons, this has +1 Multicast.",
+      "textZh": "If you have no other 武器, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "quill-and-ink",
+      "nameZh": "笔与墨",
+      "nameEn": "Quill and Ink",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have no other Weapons, this has +1 Multicast.",
+      "textZh": "If you have no other 武器, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "quill-and-ink",
+      "nameZh": "笔与墨",
+      "nameEn": "Quill and Ink",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have no other Weapons, this has +1 Multicast.",
+      "textZh": "If you have no other 武器, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "quill-and-ink",
+      "nameZh": "笔与墨",
+      "nameEn": "Quill and Ink",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "If you have no other Weapons, this has +1 Multicast.",
+      "textZh": "If you have no other 武器, 此物获得 +1 多重施放。"
+    },
+    {
+      "id": "quill-and-ink",
+      "nameZh": "笔与墨",
+      "nameEn": "Quill and Ink",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "rainbow-potion",
+      "nameZh": "彩虹药水",
+      "nameEn": "Rainbow Potion",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "letter-opener",
+      "nameZh": "拆信刀",
+      "nameEn": "Letter Opener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 25% Crit Chance for the fight",
+      "textZh": "此物 loses 25% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "letter-opener",
+      "nameZh": "拆信刀",
+      "nameEn": "Letter Opener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 25% Crit Chance for the fight",
+      "textZh": "此物 loses 25% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "letter-opener",
+      "nameZh": "拆信刀",
+      "nameEn": "Letter Opener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 25% Crit Chance for the fight",
+      "textZh": "此物 loses 25% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "letter-opener",
+      "nameZh": "拆信刀",
+      "nameEn": "Letter Opener",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This loses 25% Crit Chance for the fight",
+      "textZh": "此物 loses 25% 暴击几率 持续整场战斗"
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform into 2 Small Potions for the fight",
+      "textZh": "Trans持续m into 2 小型 Potions 持续整场战斗"
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform into 2 Small Potions for the fight",
+      "textZh": "Trans持续m into 2 小型 Potions 持续整场战斗"
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform into 2 Small Potions for the fight",
+      "textZh": "Trans持续m into 2 小型 Potions 持续整场战斗"
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Transform into 2 Small Potions for the fight",
+      "textZh": "Trans持续m into 2 小型 Potions 持续整场战斗"
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Golden if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 金色 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Heavy if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 沉重 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Icy if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 冰冷 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Turbo if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 涡轮 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Shielded if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 护盾 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Restorative if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 恢复 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Toxic if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 剧毒 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Fiery if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 炽热 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Shiny if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 闪亮 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Deadly if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 致命 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Radiant if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 光辉 if able."
+    },
+    {
+      "id": "potion-potion",
+      "nameZh": "产药药水",
+      "nameEn": "Potion Potion",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "...and Enchant the transformations with Obsidian if able.",
+      "textZh": "...并且 Enchant the trans持续mations 用 黑曜石 if able."
+    },
+    {
+      "id": "barbed-claws",
+      "nameZh": "倒刺利爪",
+      "nameEn": "Barbed Claws",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each Poisoned Player.",
+      "textZh": "此物获得 +1 多重施放 每有一个 毒性ed Player."
+    },
+    {
+      "id": "barbed-claws",
+      "nameZh": "倒刺利爪",
+      "nameEn": "Barbed Claws",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each Poisoned Player.",
+      "textZh": "此物获得 +1 多重施放 每有一个 毒性ed Player."
+    },
+    {
+      "id": "barbed-claws",
+      "nameZh": "倒刺利爪",
+      "nameEn": "Barbed Claws",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each Poisoned Player.",
+      "textZh": "此物获得 +1 多重施放 每有一个 毒性ed Player."
+    },
+    {
+      "id": "barbed-claws",
+      "nameZh": "倒刺利爪",
+      "nameEn": "Barbed Claws",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each Poisoned Player.",
+      "textZh": "此物获得 +1 多重施放 每有一个 毒性ed Player."
+    },
+    {
+      "id": "floor-spike",
+      "nameZh": "地刺陷阱",
+      "nameEn": "Floor Spike",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When ANY Player uses a Weapon, Charge this 1 second(s).",
+      "textZh": "When ANY Player uses a 武器, 为此物充能 1 秒."
+    },
+    {
+      "id": "floor-spike",
+      "nameZh": "地刺陷阱",
+      "nameEn": "Floor Spike",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When ANY Player uses a Weapon, Charge this 1 second(s).",
+      "textZh": "When ANY Player uses a 武器, 为此物充能 1 秒."
+    },
+    {
+      "id": "floor-spike",
+      "nameZh": "地刺陷阱",
+      "nameEn": "Floor Spike",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When ANY Player uses a Weapon, Charge this 1 second(s).",
+      "textZh": "When ANY Player uses a 武器, 为此物充能 1 秒."
+    },
+    {
+      "id": "floor-spike",
+      "nameZh": "地刺陷阱",
+      "nameEn": "Floor Spike",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When ANY Player uses a Weapon, Charge this 1 second(s).",
+      "textZh": "When ANY Player uses a 武器, 为此物充能 1 秒."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal or gain Regen, this gains +2 Poison for the fight.",
+      "textZh": "When you 治疗 or 获得 再生, 此物获得 +2 毒性 持续整场战斗."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal or gain Regen, this gains +4 Poison for the fight.",
+      "textZh": "When you 治疗 or 获得 再生, 此物获得 +4 毒性 持续整场战斗."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal or gain Regen, this gains +6 Poison for the fight.",
+      "textZh": "When you 治疗 or 获得 再生, 此物获得 +6 毒性 持续整场战斗."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Heal or gain Regen, this gains +8 Poison for the fight.",
+      "textZh": "When you 治疗 or 获得 再生, 此物获得 +8 毒性 持续整场战斗."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "nightshade",
+      "nameZh": "颠茄",
+      "nameEn": "Nightshade",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "hemlock",
+      "nameZh": "毒芹",
+      "nameEn": "Hemlock",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "hemlock",
+      "nameZh": "毒芹",
+      "nameEn": "Hemlock",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "hemlock",
+      "nameZh": "毒芹",
+      "nameEn": "Hemlock",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "hemlock",
+      "nameZh": "毒芹",
+      "nameEn": "Hemlock",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Toxic if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 剧毒 if able."
+    },
+    {
+      "id": "venomander",
+      "nameZh": "毒蜥",
+      "nameEn": "Venomander",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Poison 2.",
+      "textZh": "When you use the 物品 to the left of 此物, 毒性 2."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Poison 3.",
+      "textZh": "When you use the 物品 to the left of 此物, 毒性 3."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Poison 4.",
+      "textZh": "When you use the 物品 to the left of 此物, 毒性 4."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Poison 5.",
+      "textZh": "When you use the 物品 to the left of 此物, 毒性 5."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Slow an item for 1 second(s).",
+      "textZh": "When you use the 物品 to the left of 此物, 减速一件物品 持续 1 秒."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Freeze an item for 0.5 second(s).",
+      "textZh": "When you use the 物品 to the left of 此物, 冻结一件物品 持续 0.5 秒."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Haste an item for 1 second(s).",
+      "textZh": "When you use the 物品 to the left of 此物, 使一件物品获得迅捷 持续 1 秒."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Shield equal to 5 times this item's Poison.",
+      "textZh": "When you use the 物品 to the left of 此物, 护盾量等于 5 倍此物品的 毒性."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Heal equal to 5 times this item's Poison.",
+      "textZh": "When you use the 物品 to the left of 此物, 治疗量等于 5 倍此物品的 毒性."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Burn equal to this item's Poison.",
+      "textZh": "When you use the 物品 to the left of 此物, 燃烧 等于此物 物品's 毒性."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, Poison 2.",
+      "textZh": "When you use the 物品 to the left of 此物, 毒性 2."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "The item to the left has +30% Crit Chance.",
+      "textZh": "The 物品 to the left 获得 +30% 暴击几率."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "the item to the left of this is affected by Freeze and Slow for half as long.",
+      "textZh": "the 物品 to the left of 此物 is affected by 冻结 并且 减速 持续 half as long."
+    },
+    {
+      "id": "venom",
+      "nameZh": "毒液",
+      "nameEn": "Venom",
+      "issue": "enchant_needs_manual_zh",
+      "textEn": "When you use the item to the left of this, deal Damage equal to 5 times this item's Poison.",
+      "textZh": "When you use the 物品 to the left of 此物, 造成伤害，数值等于 5 倍此物品的 毒性."
+    },
+    {
+      "id": "venomous-dose",
+      "nameZh": "毒液注射",
+      "nameEn": "Venomous Dose",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison both Players 2",
+      "textZh": "毒性 both Players 2"
+    },
+    {
+      "id": "venomous-dose",
+      "nameZh": "毒液注射",
+      "nameEn": "Venomous Dose",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison both Players 4",
+      "textZh": "毒性 both Players 4"
+    },
+    {
+      "id": "venomous-dose",
+      "nameZh": "毒液注射",
+      "nameEn": "Venomous Dose",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison both Players 6",
+      "textZh": "毒性 both Players 6"
+    },
+    {
+      "id": "venomous-dose",
+      "nameZh": "毒液注射",
+      "nameEn": "Venomous Dose",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Poison both Players 8",
+      "textZh": "毒性 both Players 8"
+    },
+    {
+      "id": "venomous-dose",
+      "nameZh": "毒液注射",
+      "nameEn": "Venomous Dose",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +3 Burn.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +3 燃烧."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +5 Burn.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +5 燃烧."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +7 Burn.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +7 燃烧."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +9 Burn.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +9 燃烧."
+    },
+    {
+      "id": "calcinator",
+      "nameZh": "煅烧釜",
+      "nameEn": "Calcinator",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "crocodile-tears",
+      "nameZh": "鳄鱼眼泪",
+      "nameEn": "Crocodile Tears",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy takes Damage, this gains +8 Damage for the fight.",
+      "textZh": "When an enemy takes 伤害, 此物获得 +8 伤害 持续整场战斗."
+    },
+    {
+      "id": "crocodile-tears",
+      "nameZh": "鳄鱼眼泪",
+      "nameEn": "Crocodile Tears",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy takes Damage, this gains +16 Damage for the fight.",
+      "textZh": "When an enemy takes 伤害, 此物获得 +16 伤害 持续整场战斗."
+    },
+    {
+      "id": "crocodile-tears",
+      "nameZh": "鳄鱼眼泪",
+      "nameEn": "Crocodile Tears",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy takes Damage, this gains +24 Damage for the fight.",
+      "textZh": "When an enemy takes 伤害, 此物获得 +24 伤害 持续整场战斗."
+    },
+    {
+      "id": "crocodile-tears",
+      "nameZh": "鳄鱼眼泪",
+      "nameEn": "Crocodile Tears",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When an enemy takes Damage, this gains +32 Damage for the fight.",
+      "textZh": "When an enemy takes 伤害, 此物获得 +32 伤害 持续整场战斗."
+    },
+    {
+      "id": "crocodile-tears",
+      "nameZh": "鳄鱼眼泪",
+      "nameEn": "Crocodile Tears",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "mothmeal",
+      "nameZh": "飞蛾粉末",
+      "nameEn": "Mothmeal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Heavy if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 沉重 if able."
+    },
+    {
+      "id": "mothmeal",
+      "nameZh": "飞蛾粉末",
+      "nameEn": "Mothmeal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Heavy if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 沉重 if able."
+    },
+    {
+      "id": "mothmeal",
+      "nameZh": "飞蛾粉末",
+      "nameEn": "Mothmeal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Heavy if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 沉重 if able."
+    },
+    {
+      "id": "mothmeal",
+      "nameZh": "飞蛾粉末",
+      "nameEn": "Mothmeal",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Heavy if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 沉重 if able."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, destroy the item to the left of this to increase this item's Regen by its Value.",
+      "textZh": "When you visit a Merchant, destroy the 物品 to the left of 此物 to 提高此物品的 再生 by its 价值."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you destroy an item, gain 2 Gold.",
+      "textZh": "When you destroy an 物品, 获得 2 金币."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, destroy the item to the left of this to increase this item's Regen by its Value.",
+      "textZh": "When you visit a Merchant, destroy the 物品 to the left of 此物 to 提高此物品的 再生 by its 价值."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you destroy an item, gain 4 Gold.",
+      "textZh": "When you destroy an 物品, 获得 4 金币."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, destroy the item to the left of this to increase this item's Regen by its Value.",
+      "textZh": "When you visit a Merchant, destroy the 物品 to the left of 此物 to 提高此物品的 再生 by its 价值."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you destroy an item, gain 6 Gold.",
+      "textZh": "When you destroy an 物品, 获得 6 金币."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you visit a Merchant, destroy the item to the left of this to increase this item's Regen by its Value.",
+      "textZh": "When you visit a Merchant, destroy the 物品 to the left of 此物 to 提高此物品的 再生 by its 价值."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you destroy an item, gain 8 Gold.",
+      "textZh": "When you destroy an 物品, 获得 8 金币."
+    },
+    {
+      "id": "peacewrought",
+      "nameZh": "和平铸箱",
+      "nameEn": "Peacewrought",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "black-rose",
+      "nameZh": "黑玫瑰",
+      "nameEn": "Black Rose",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "shard-of-obsidian",
+      "nameZh": "黑曜石碎片",
+      "nameEn": "Shard of Obsidian",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Obsidian if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 黑曜石 if able."
+    },
+    {
+      "id": "shard-of-obsidian",
+      "nameZh": "黑曜石碎片",
+      "nameEn": "Shard of Obsidian",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Obsidian if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 黑曜石 if able."
+    },
+    {
+      "id": "shard-of-obsidian",
+      "nameZh": "黑曜石碎片",
+      "nameEn": "Shard of Obsidian",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Obsidian if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 黑曜石 if able."
+    },
+    {
+      "id": "shard-of-obsidian",
+      "nameZh": "黑曜石碎片",
+      "nameEn": "Shard of Obsidian",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Obsidian if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 黑曜石 if able."
+    },
+    {
+      "id": "sleeping-potion",
+      "nameZh": "昏睡药水",
+      "nameEn": "Sleeping Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the Slowest enemy item for 3 second(s)",
+      "textZh": "减速 the 减速est enemy 物品 持续 3 秒"
+    },
+    {
+      "id": "sleeping-potion",
+      "nameZh": "昏睡药水",
+      "nameEn": "Sleeping Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the Slowest enemy item for 4 second(s)",
+      "textZh": "减速 the 减速est enemy 物品 持续 4 秒"
+    },
+    {
+      "id": "sleeping-potion",
+      "nameZh": "昏睡药水",
+      "nameEn": "Sleeping Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the Slowest enemy item for 5 second(s)",
+      "textZh": "减速 the 减速est enemy 物品 持续 5 秒"
+    },
+    {
+      "id": "sleeping-potion",
+      "nameZh": "昏睡药水",
+      "nameEn": "Sleeping Potion",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Slow the Slowest enemy item for 6 second(s)",
+      "textZh": "减速 the 减速est enemy 物品 持续 6 秒"
+    },
+    {
+      "id": "sleeping-potion",
+      "nameZh": "昏睡药水",
+      "nameEn": "Sleeping Potion",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "fire-potion",
+      "nameZh": "火焰药水",
+      "nameEn": "Fire Potion",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "sword-cane",
+      "nameZh": "剑杖",
+      "nameEn": "Sword Cane",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "noxious-potion",
+      "nameZh": "剧毒药水",
+      "nameEn": "Noxious Potion",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "blank-slate",
+      "nameZh": "空白石碑",
+      "nameEn": "Blank Slate",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Relic, Charge this 1 second(s)",
+      "textZh": "When you use an adjacent 遗物, 为此物充能 1 秒"
+    },
+    {
+      "id": "blank-slate",
+      "nameZh": "空白石碑",
+      "nameEn": "Blank Slate",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Relic, Charge this 1 second(s)",
+      "textZh": "When you use an adjacent 遗物, 为此物充能 1 秒"
+    },
+    {
+      "id": "blank-slate",
+      "nameZh": "空白石碑",
+      "nameEn": "Blank Slate",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Relic, Charge this 1 second(s)",
+      "textZh": "When you use an adjacent 遗物, 为此物充能 1 秒"
+    },
+    {
+      "id": "blank-slate",
+      "nameZh": "空白石碑",
+      "nameEn": "Blank Slate",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use an adjacent Relic, Charge this 1 second(s)",
+      "textZh": "When you use an adjacent 遗物, 为此物充能 1 秒"
+    },
+    {
+      "id": "candles",
+      "nameZh": "蜡烛",
+      "nameEn": "Candles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品, 为此物充能 2 秒."
+    },
+    {
+      "id": "candles",
+      "nameZh": "蜡烛",
+      "nameEn": "Candles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品, 为此物充能 2 秒."
+    },
+    {
+      "id": "candles",
+      "nameZh": "蜡烛",
+      "nameEn": "Candles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品, 为此物充能 2 秒."
+    },
+    {
+      "id": "candles",
+      "nameZh": "蜡烛",
+      "nameEn": "Candles",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use a Small item, Charge this 2 second(s).",
+      "textZh": "When you use a 小型 物品, 为此物充能 2 秒."
+    },
+    {
+      "id": "ionized-lightning",
+      "nameZh": "离子闪电",
+      "nameEn": "Ionized Lightning",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Deadly if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 致命 if able."
+    },
+    {
+      "id": "ionized-lightning",
+      "nameZh": "离子闪电",
+      "nameEn": "Ionized Lightning",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Deadly if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 致命 if able."
+    },
+    {
+      "id": "ionized-lightning",
+      "nameZh": "离子闪电",
+      "nameEn": "Ionized Lightning",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Deadly if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 致命 if able."
+    },
+    {
+      "id": "ionized-lightning",
+      "nameZh": "离子闪电",
+      "nameEn": "Ionized Lightning",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Deadly if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 致命 if able."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each adjacent Potion or Reagent.",
+      "textZh": "此物获得 +1 多重施放 每有一个 adjacent Potion or Reagent."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each adjacent Potion or Reagent.",
+      "textZh": "此物获得 +1 多重施放 每有一个 adjacent Potion or Reagent."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each adjacent Potion or Reagent.",
+      "textZh": "此物获得 +1 多重施放 每有一个 adjacent Potion or Reagent."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "This has +1 Multicast for each adjacent Potion or Reagent.",
+      "textZh": "此物获得 +1 多重施放 每有一个 adjacent Potion or Reagent."
+    },
+    {
+      "id": "aludel",
+      "nameZh": "炼金梨缶",
+      "nameEn": "Aludel",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "sulphur",
+      "nameZh": "硫磺",
+      "nameEn": "Sulphur",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Fiery if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 炽热 if able."
+    },
+    {
+      "id": "sulphur",
+      "nameZh": "硫磺",
+      "nameEn": "Sulphur",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Fiery if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 炽热 if able."
+    },
+    {
+      "id": "sulphur",
+      "nameZh": "硫磺",
+      "nameEn": "Sulphur",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Fiery if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 炽热 if able."
+    },
+    {
+      "id": "sulphur",
+      "nameZh": "硫磺",
+      "nameEn": "Sulphur",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Fiery if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 炽热 if able."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, an item starts Flying.",
+      "textZh": "当你暴击, an 物品 starts Flying."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying items have +20% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +20% 暴击几率."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, an item starts Flying.",
+      "textZh": "当你暴击, an 物品 starts Flying."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying items have +30% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +30% 暴击几率."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, an item starts Flying.",
+      "textZh": "当你暴击, an 物品 starts Flying."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying items have +40% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +40% 暴击几率."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, an item starts Flying.",
+      "textZh": "当你暴击, an 物品 starts Flying."
+    },
+    {
+      "id": "orly",
+      "nameZh": "猫头鹰奥利",
+      "nameEn": "Orly",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "Your Flying items have +50% Crit Chance.",
+      "textZh": "你的 Flying 物品 获得 +50% 暴击几率."
+    },
+    {
+      "id": "myrrh",
+      "nameZh": "没药",
+      "nameEn": "Myrrh",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Restorative if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 恢复 if able."
+    },
+    {
+      "id": "myrrh",
+      "nameZh": "没药",
+      "nameEn": "Myrrh",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Restorative if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 恢复 if able."
+    },
+    {
+      "id": "myrrh",
+      "nameZh": "没药",
+      "nameEn": "Myrrh",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Restorative if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 恢复 if able."
+    },
+    {
+      "id": "myrrh",
+      "nameZh": "没药",
+      "nameEn": "Myrrh",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this is transformed, Enchant it with Restorative if able.",
+      "textZh": "When 此物 is trans持续med, Enchant it 用 恢复 if able."
+    },
+    {
+      "id": "myrrh",
+      "nameZh": "没药",
+      "nameEn": "Myrrh",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "magic-carpet",
+      "nameZh": "魔法飞毯",
+      "nameEn": "Magic Carpet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, reduce this item's Cooldown by 1 second(s) for the fight and this starts Flying.",
+      "textZh": "当你暴击, reduce 此物品冷却 by 1 秒 持续整场战斗 并且 此物 starts Flying."
+    },
+    {
+      "id": "magic-carpet",
+      "nameZh": "魔法飞毯",
+      "nameEn": "Magic Carpet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, reduce this item's Cooldown by 1 second(s) for the fight and this starts Flying.",
+      "textZh": "当你暴击, reduce 此物品冷却 by 1 秒 持续整场战斗 并且 此物 starts Flying."
+    },
+    {
+      "id": "magic-carpet",
+      "nameZh": "魔法飞毯",
+      "nameEn": "Magic Carpet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, reduce this item's Cooldown by 1 second(s) for the fight and this starts Flying.",
+      "textZh": "当你暴击, reduce 此物品冷却 by 1 秒 持续整场战斗 并且 此物 starts Flying."
+    },
+    {
+      "id": "magic-carpet",
+      "nameZh": "魔法飞毯",
+      "nameEn": "Magic Carpet",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Crit, reduce this item's Cooldown by 1 second(s) for the fight and this starts Flying.",
+      "textZh": "当你暴击, reduce 此物品冷却 by 1 秒 持续整场战斗 并且 此物 starts Flying."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +2 Regen.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +2 再生."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +3 Regen.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +3 再生."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +4 Regen.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +4 再生."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +5 Regen.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +5 再生."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you buy this, get a Catalyst.",
+      "textZh": "当你购买此物, get a Catalyst."
+    },
+    {
+      "id": "philosophers-stone",
+      "nameZh": "魔法石",
+      "nameEn": "Philosopher's Stone",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "bottled-lightning",
+      "nameZh": "瓶装闪电",
+      "nameEn": "Bottled Lightning",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Potions",
+      "textZh": "Sells Potions"
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +3 Poison.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +3 毒性."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +5 Poison.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +5 毒性."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +7 Poison.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +7 毒性."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you transform a Reagent, this permanently gains +9 Poison.",
+      "textZh": "When you trans持续m a Reagent, 此物 永久获得 +9 毒性."
+    },
+    {
+      "id": "retort",
+      "nameZh": "曲颈甑",
+      "nameEn": "Retort",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, spend 2 Gold to get a Chunk of Lead.",
+      "textZh": "每天开始时, spend 2 金币 to get a Chunk of Lead."
+    },
+    {
+      "id": "basilisk-fang",
+      "nameZh": "蛇怪之牙",
+      "nameEn": "Basilisk Fang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While your enemy is Poisoned, this has +25% Crit Chance.",
+      "textZh": "While 你的 enemy is 毒性ed, 此物获得 +25% 暴击几率."
+    },
+    {
+      "id": "basilisk-fang",
+      "nameZh": "蛇怪之牙",
+      "nameEn": "Basilisk Fang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While your enemy is Poisoned, this has +50% Crit Chance.",
+      "textZh": "While 你的 enemy is 毒性ed, 此物获得 +50% 暴击几率。"
+    },
+    {
+      "id": "basilisk-fang",
+      "nameZh": "蛇怪之牙",
+      "nameEn": "Basilisk Fang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While your enemy is Poisoned, this has +75% Crit Chance.",
+      "textZh": "While 你的 enemy is 毒性ed, 此物获得 +75% 暴击几率."
+    },
+    {
+      "id": "basilisk-fang",
+      "nameZh": "蛇怪之牙",
+      "nameEn": "Basilisk Fang",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "While your enemy is Poisoned, this has +100% Crit Chance.",
+      "textZh": "While 你的 enemy is 毒性ed, 此物获得 +100% 暴击几率."
+    },
+    {
+      "id": "life-conduit",
+      "nameZh": "生命导体",
+      "nameEn": "Life Conduit",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "tazidian-dagger",
+      "nameZh": "塔兹迪亚匕首",
+      "nameEn": "Tazidian Dagger",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Potion to the left of this has +1 Ammo.",
+      "textZh": "The Potion to the left of 此物获得 +1 弹药."
+    },
+    {
+      "id": "tazidian-dagger",
+      "nameZh": "塔兹迪亚匕首",
+      "nameEn": "Tazidian Dagger",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Potion to the left of this has +2 Ammo.",
+      "textZh": "The Potion to the left of 此物获得 +2 弹药."
+    },
+    {
+      "id": "tazidian-dagger",
+      "nameZh": "塔兹迪亚匕首",
+      "nameEn": "Tazidian Dagger",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Potion to the left of this has +3 Ammo.",
+      "textZh": "The Potion to the left of 此物获得 +3 弹药."
+    },
+    {
+      "id": "tazidian-dagger",
+      "nameZh": "塔兹迪亚匕首",
+      "nameEn": "Tazidian Dagger",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Potion to the left of this has +4 Ammo.",
+      "textZh": "The Potion to the left of 此物获得 +4 弹药."
+    },
+    {
+      "id": "covetous-raven",
+      "nameZh": "贪婪渡鸦",
+      "nameEn": "Covetous Raven",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Relic or Enchanted item, Charge this 2 second(s) and this starts Flying.",
+      "textZh": "When you use another 遗物 or Enchanted 物品, 为此物充能 2 秒 并且 此物 starts Flying."
+    },
+    {
+      "id": "covetous-raven",
+      "nameZh": "贪婪渡鸦",
+      "nameEn": "Covetous Raven",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Relic or Enchanted item, Charge this 2 second(s) and this starts Flying.",
+      "textZh": "When you use another 遗物 or Enchanted 物品, 为此物充能 2 秒 并且 此物 starts Flying."
+    },
+    {
+      "id": "covetous-raven",
+      "nameZh": "贪婪渡鸦",
+      "nameEn": "Covetous Raven",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Relic or Enchanted item, Charge this 2 second(s) and this starts Flying.",
+      "textZh": "When you use another 遗物 or Enchanted 物品, 为此物充能 2 秒 并且 此物 starts Flying."
+    },
+    {
+      "id": "covetous-raven",
+      "nameZh": "贪婪渡鸦",
+      "nameEn": "Covetous Raven",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you use another Relic or Enchanted item, Charge this 2 second(s) and this starts Flying.",
+      "textZh": "When you use another 遗物 or Enchanted 物品, 为此物充能 2 秒 并且 此物 starts Flying."
+    },
+    {
+      "id": "thurible",
+      "nameZh": "香炉",
+      "nameEn": "Thurible",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "smelling-salts",
+      "nameZh": "嗅盐",
+      "nameEn": "Smelling Salts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this or an adjacent item Slows, Haste the item to the left of this for 1 second(s).",
+      "textZh": "When 此物 or an adjacent 物品 减速s, 迅捷 the 物品 to the left of 此物 持续 1 秒."
+    },
+    {
+      "id": "smelling-salts",
+      "nameZh": "嗅盐",
+      "nameEn": "Smelling Salts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this or an adjacent item Slows, Haste the item to the left of this for 2 second(s).",
+      "textZh": "When 此物 or an adjacent 物品 减速s, 迅捷 the 物品 to the left of 此物 持续 2 秒."
+    },
+    {
+      "id": "smelling-salts",
+      "nameZh": "嗅盐",
+      "nameEn": "Smelling Salts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this or an adjacent item Slows, Haste the item to the left of this for 3 second(s).",
+      "textZh": "When 此物 or an adjacent 物品 减速s, 迅捷 the 物品 to the left of 此物 持续 3 秒."
+    },
+    {
+      "id": "smelling-salts",
+      "nameZh": "嗅盐",
+      "nameEn": "Smelling Salts",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When this or an adjacent item Slows, Haste the item to the left of this for 4 second(s).",
+      "textZh": "When 此物 or an adjacent 物品 减速s, 迅捷 the 物品 to the left of 此物 持续 4 秒."
+    },
+    {
+      "id": "incense",
+      "nameZh": "熏香",
+      "nameEn": "Incense",
+      "issue": "source_needs_manual_zh",
+      "textEn": "Sells Heal and Regen items",
+      "textZh": "Sells 治疗 并且 再生 物品"
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Weapon to the right of this has Lifesteal.",
+      "textZh": "此物右侧的武器 has 生命偷取."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Weapon to the right of this has Lifesteal.",
+      "textZh": "此物右侧的武器 has 生命偷取."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Weapon to the right of this has Lifesteal.",
+      "textZh": "此物右侧的武器 has 生命偷取."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "The Weapon to the right of this has Lifesteal.",
+      "textZh": "此物右侧的武器 has 生命偷取."
+    },
+    {
+      "id": "mortar-pestle",
+      "nameZh": "研钵与研杵",
+      "nameEn": "Mortar & Pestle",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "At the start of each day, get a Catalyst.",
+      "textZh": "每天开始时, get a Catalyst."
+    },
+    {
+      "id": "fireflies",
+      "nameZh": "萤火虫",
+      "nameEn": "Fireflies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Slow, this gains +2 Burn for the fight and starts Flying.",
+      "textZh": "当你减速, 此物获得 +2 燃烧 持续整场战斗 并且 starts Flying."
+    },
+    {
+      "id": "fireflies",
+      "nameZh": "萤火虫",
+      "nameEn": "Fireflies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Slow, this gains +3 Burn for the fight and starts Flying.",
+      "textZh": "当你减速, 此物获得 +3 燃烧 持续整场战斗 并且 starts Flying."
+    },
+    {
+      "id": "fireflies",
+      "nameZh": "萤火虫",
+      "nameEn": "Fireflies",
+      "issue": "effect_needs_manual_zh",
+      "textEn": "When you Slow, this gains +4 Burn for the fight and starts Flying.",
+      "textZh": "当你减速, 此物获得 +4 燃烧 持续整场战斗 并且 starts Flying."
+    }
+  ]
+}
