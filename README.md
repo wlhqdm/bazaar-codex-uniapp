@@ -6,7 +6,7 @@ The Bazaar（大巴扎）中文图鉴，基于 uni-app Vue3。收录官网全部
 
 GitHub Pages：
 
-https://wlhqdm.github.io/bazaar-codex-uniapp/
+https://wlhqdm.github.io/bazaar-codex/
 
 ## 本地开发
 
